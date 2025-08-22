@@ -1,7 +1,7 @@
 # Empirical Roofline Tool for I/O (ERT4IO)
 To better understand the I/O of emerging workloads and to provide a more comprehensive characterization of HPC systems and implement a consistent scoring model in the future, we have adopted the classic Roofline model for I/O workload analysis. Our model provides a basic understanding of how close observed I/O performance is to peak performance and can also be used to identify performance bottlenecks.
 
-ERT4IO is a python script to plot the I/O Roofline graph for applications and benchmarks. It is based on the parsed text file from darshan outputs. Through the integration of pydarshan .darshan files can be used directly.
+ERT4IO is a python script to plot the I/O Roofline graph for IOR benchmark results from darshan logs with POSIX and MPI-IO APIs. It is based on the parsed text file from darshan outputs. Through the integration of pydarshan .darshan files can be used directly.
 
 
 ## The I/O Roofline Model
@@ -30,9 +30,30 @@ If you use ERT4IO or our I/O Roofline model in your research, we would appreciat
 Zhu, Zhaobin, Niklas Bartelheimer, and Sarah Neuwirth. "An Empirical Roofline Model for Extreme-Scale I/O Workload Analysis." 2023 IEEE International Parallel and Distributed Processing Symposium Workshops (IPDPSW). IEEE, 2023.
 
 ## Usage
+
+### AWS Data Roofline Plotting (Main Script)
+For generating roofline plots specifically for AWS data analysis (as used in the paper), use the dedicated roofline plotting script:
+
+```sh
+python3 roofline.py
+```
+
+This script generates comprehensive roofline plots comparing different AWS storage interfaces:
+- NFS-mounted Storage Gateway (POSIX)
+- SDK-based transfers (native-s3) 
+- Data migration through Storage Gateway (Copy)
+
+The script produces two output files:
+- `roofline_read_all.png` - Read performance roofline plot
+- `roofline_write_all.png` - Write performance roofline plot
+
+### IOR Benchmark Analysis
+For plotting IOR benchmark results from darshan logs with POSIX and MPI-IO APIs:
+
 ```sh
 python3 ERT4IO.py -p <"darshan_outputs_dir"> -d <is_darshan_output>
 ```
+
 ## Examples
 To run the demo without any parameters:
 ```sh
