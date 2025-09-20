@@ -310,8 +310,18 @@ def get_peak_aws(data, is_upload=True, nodes=2):
     # print("SUMMARY OF ALL BENCHMARK RESULTS")
     # print("="*100)
     
+    # Handle empty data
+    if not data:
+        print("Warning: No AWS data available, using default peak values")
+        return Peak(iops=1293116, bw=100, task_per_node=1, transfer_size=1048576, interface="S3 (Default)")
+    
     # Convert to DataFrame for easier analysis
     df = pd.DataFrame(data)
+    
+    # Check if required columns exist
+    if 'has_upload_stats' not in df.columns or 'has_download_stats' not in df.columns:
+        print("Warning: AWS data missing required columns, using default peak values")
+        return Peak(iops=1293116, bw=100, task_per_node=1, transfer_size=1048576, interface="S3 (Default)")
     
     # Separate data by operation type
     upload_df = df[df['has_upload_stats'] == True].copy()
@@ -592,7 +602,7 @@ def get_peaks_100(ts=1048576):
 
 
 def get_cp_100(ts=1048576):
-    base_root = './'
+    base_root = './results_100mb_per_task'
 
     configs_cp = {
         '1': "1n_gateway_cp_results_100bs",
@@ -652,7 +662,7 @@ if __name__ == '__main__':
 
                 print(f"Processing for {node} nodes, ts={ts}, is_read={is_read}")
                 ior_100_ts_1mb = get_peaks_100(ts=ts)
-                aws_100_ts_1mb = collect_all_data("./aws_s3_100mb_per_task_results", ts=ts)
+                aws_100_ts_1mb = collect_all_data("./results_100mb_per_task", ts=ts)
                 cp_100_ts_1mb = get_cp_100(ts=ts)
                 
                 
