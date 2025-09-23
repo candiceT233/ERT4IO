@@ -1,0 +1,3199 @@
+=== S3 MPI BENCHMARK LOG ===
+Configuration: 4 nodes, 32 tasks/node, DEFAULT transfer size
+Total tasks: 128
+File size: 100 MB
+Transfer size: DEFAULT (-1 KB)
+Number of trials: 3
+Started at: Wed Jul 30 15:09:40 PDT 2025
+
+Using region: us-west-2
+Transfer method: AWS default upload (part size: -1)
+Temp directory: /tmp/s3_benchmark_$
+Number of trials: 3
+Using AWS SDK default upload behavior
+Generating test files (100 MB each)...
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+File size per process: 100 MB
+Operations per process: AWS SDK managed (unknown)
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+
+============================================================
+STARTING UPLOAD TESTS TO S3
+============================================================
+
+========================================
+UPLOAD TRIAL 1/3
+========================================
+Upload file size: 100 MB
+Rank 27: Starting AWS default upload
+Upload file size: 100 MB
+Rank 25: Starting AWS default upload
+Upload file size: 100 MB
+Rank 23: Starting AWS default upload
+Upload file size: 100 MB
+Rank 21: Starting AWS default upload
+Upload file size: 100 MB
+Rank 29: Starting AWS default upload
+Upload file size: 100 MB
+Rank 31: Starting AWS default upload
+Upload file size: 100 MB
+Rank 85: Starting AWS default upload
+Upload file size: 100 MB
+Rank 87: Starting AWS default upload
+Upload file size: 100 MB
+Rank 9: Starting AWS default upload
+Upload file size: 100 MB
+Rank 11: Starting AWS default upload
+Upload file size: 100 MB
+Rank 7: Starting AWS default upload
+Upload file size: 100 MB
+Rank 5: Starting AWS default upload
+Upload file size: 100 MB
+Rank 15: Starting AWS default upload
+Upload file size: 100 MB
+Rank 13: Starting AWS default upload
+Upload file size: 100 MB
+Rank 91: Starting AWS default upload
+Upload file size: 100 MB
+Rank 19: Starting AWS default upload
+Upload file size: 100 MB
+Rank 17: Starting AWS default upload
+Upload file size: 100 MB
+Rank 89: Starting AWS default upload
+Upload file size: 100 MB
+Rank 93: Starting AWS default upload
+Upload file size: 100 MB
+Rank 57: Starting AWS default upload
+Upload file size: 100 MB
+Rank 95: Starting AWS default upload
+Upload file size: 100 MB
+Rank 59: Starting AWS default upload
+Upload file size: 100 MB
+Rank 69: Starting AWS default upload
+Upload file size: 100 MB
+Rank 53: Starting AWS default upload
+Upload file size: 100 MB
+Rank 3: Starting AWS default upload
+Upload file size: 100 MB
+Rank 71: Starting AWS default upload
+Upload file size: 100 MB
+Rank 55: Starting AWS default upload
+Upload file size: 100 MB
+Rank 1: Starting AWS default upload
+Upload file size: 100 MB
+Rank 77: Starting AWS default upload
+Upload file size: 100 MB
+Rank 63: Starting AWS default upload
+Upload file size: 100 MB
+Rank 75: Starting AWS default upload
+Upload file size: 100 MB
+Rank 61: Starting AWS default upload
+Upload file size: 100 MB
+Rank 73: Starting AWS default upload
+Upload file size: 100 MB
+Rank 47: Starting AWS default upload
+Upload file size: 100 MB
+Rank 117: Starting AWS default upload
+Upload file size: 100 MB
+Rank 79: Starting AWS default upload
+Upload file size: 100 MB
+Rank 83: Starting AWS default upload
+Upload file size: 100 MB
+Rank 41: Starting AWS default upload
+Upload file size: 100 MB
+Rank 81: Starting AWS default upload
+Upload file size: 100 MB
+Rank 37: Starting AWS default upload
+Upload file size: 100 MB
+Rank 67: Starting AWS default upload
+Upload file size: 100 MB
+Rank 39: Starting AWS default upload
+Upload file size: 100 MB
+Rank 119: Starting AWS default upload
+Upload file size: 100 MB
+Rank 65: Starting AWS default upload
+Upload file size: 100 MB
+Rank 45: Starting AWS default upload
+Upload file size: 100 MB
+Rank 127: Starting AWS default upload
+Upload file size: 100 MB
+Rank 43: Starting AWS default upload
+Upload file size: 100 MB
+Rank 121: Starting AWS default upload
+Upload file size: 100 MB
+Rank 51: Starting AWS default upload
+Upload file size: 100 MB
+Rank 123: Starting AWS default upload
+Upload file size: 100 MB
+Rank 49: Starting AWS default upload
+Upload file size: 100 MB
+Rank 125: Starting AWS default upload
+Upload file size: 100 MB
+Rank 35: Starting AWS default upload
+Upload file size: 100 MB
+Rank 105: Starting AWS default upload
+Upload file size: 100 MB
+Rank 33: Starting AWS default upload
+Upload file size: 100 MB
+Rank 109: Starting AWS default upload
+Upload file size: 100 MB
+Rank 101: Starting AWS default upload
+Upload file size: 100 MB
+Rank 115: Starting AWS default upload
+Upload file size: 100 MB
+Rank 107: Starting AWS default upload
+Upload file size: 100 MB
+Rank 111: Starting AWS default upload
+Upload file size: 100 MB
+Rank 103: Starting AWS default upload
+Upload file size: 100 MB
+Rank 26: Starting AWS default upload
+Upload file size: 100 MB
+Rank 20: Starting AWS default upload
+Upload file size: 100 MB
+Rank 22: Starting AWS default upload
+Upload file size: 100 MB
+Rank 24: Starting AWS default upload
+Upload file size: 100 MB
+Rank 30: Starting AWS default upload
+Upload file size: 100 MB
+Rank 113: Starting AWS default upload
+Upload file size: 100 MB
+Rank 28: Starting AWS default upload
+Upload file size: 100 MB
+Rank 86: Starting AWS default upload
+Upload file size: 100 MB
+Rank 97: Starting AWS default upload
+Upload file size: 100 MB
+Rank 8: Starting AWS default upload
+Upload file size: 100 MB
+Rank 6: Starting AWS default upload
+Upload file size: 100 MB
+Rank 4: Starting AWS default upload
+Upload file size: 100 MB
+Rank 12: Starting AWS default upload
+Upload file size: 100 MB
+Rank 10: Starting AWS default upload
+Upload file size: 100 MB
+Rank 14: Starting AWS default upload
+Upload file size: 100 MB
+Rank 52: Starting AWS default upload
+Upload file size: 100 MB
+Rank 99: Starting AWS default upload
+Upload file size: 100 MB
+Rank 16: Starting AWS default upload
+Upload file size: 100 MB
+Rank 18: Starting AWS default upload
+Upload file size: 100 MB
+Rank 90: Starting AWS default upload
+Upload file size: 100 MB
+Rank 122: Starting AWS default upload
+Upload file size: 100 MB
+Rank 88: Starting AWS default upload
+Upload file size: 100 MB
+Rank 54: Starting AWS default upload
+Upload file size: 100 MB
+Rank 118: Starting AWS default upload
+Upload file size: 100 MB
+Rank 58: Starting AWS default upload
+Upload file size: 100 MB
+Rank 116: Starting AWS default upload
+Upload file size: 100 MB
+Rank 0: Starting AWS default upload
+Upload file size: 100 MB
+Rank 2: Starting AWS default upload
+Upload file size: 100 MB
+Rank 84: Starting AWS default upload
+Upload file size: 100 MB
+Rank 62: Starting AWS default upload
+Upload file size: 100 MB
+Rank 120: Starting AWS default upload
+Upload file size: 100 MB
+Rank 94: Starting AWS default upload
+Upload file size: 100 MB
+Rank 56: Starting AWS default upload
+Upload file size: 100 MB
+Rank 126: Starting AWS default upload
+Upload file size: 100 MB
+Rank 92: Starting AWS default upload
+Upload file size: 100 MB
+Rank 60: Starting AWS default upload
+Upload file size: 100 MB
+Rank 124: Starting AWS default upload
+Upload file size: 100 MB
+Rank 78: Starting AWS default upload
+Upload file size: 100 MB
+Rank 38: Starting AWS default upload
+Upload file size: 100 MB
+Rank 100: Starting AWS default upload
+Upload file size: 100 MB
+Rank 68: Starting AWS default upload
+Upload file size: 100 MB
+Rank 40: Starting AWS default upload
+Upload file size: 100 MB
+Rank 110: Starting AWS default upload
+Upload file size: 100 MB
+Rank 72: Starting AWS default upload
+Upload file size: 100 MB
+Rank 42: Starting AWS default upload
+Upload file size: 100 MB
+Rank 108: Starting AWS default upload
+Upload file size: 100 MB
+Rank 80: Starting AWS default upload
+Upload file size: 100 MB
+Rank 36: Starting AWS default upload
+Upload file size: 100 MB
+Rank 102: Starting AWS default upload
+Upload file size: 100 MB
+Rank 70: Starting AWS default upload
+Upload file size: 100 MB
+Rank 46: Starting AWS default upload
+Upload file size: 100 MB
+Rank 106: Starting AWS default upload
+Upload file size: 100 MB
+Rank 76: Starting AWS default upload
+Upload file size: 100 MB
+Rank 44: Starting AWS default upload
+Upload file size: 100 MB
+Rank 104: Starting AWS default upload
+Upload file size: 100 MB
+Rank 82: Starting AWS default upload
+Upload file size: 100 MB
+Rank 48: Starting AWS default upload
+Upload file size: 100 MB
+Rank 112: Starting AWS default upload
+Upload file size: 100 MB
+Rank 74: Starting AWS default upload
+Upload file size: 100 MB
+Rank 50: Starting AWS default upload
+Upload file size: 100 MB
+Rank 114: Starting AWS default upload
+Upload file size: 100 MB
+Rank 64: Starting AWS default upload
+Upload file size: 100 MB
+Rank 32: Starting AWS default upload
+Upload file size: 100 MB
+Rank 96: Starting AWS default upload
+Upload file size: 100 MB
+Rank 66: Starting AWS default upload
+Upload file size: 100 MB
+Rank 34: Starting AWS default upload
+Upload file size: 100 MB
+Rank 98: Starting AWS default upload
+Rank 4: upload successful (1.00242 MB/s, AWS default) [AWS SDK default behavior]
+Rank 65: upload successful (0.99713 MB/s, AWS default) [AWS SDK default behavior]
+Rank 8: upload successful (0.990211 MB/s, AWS default) [AWS SDK default behavior]
+Rank 42: upload successful (0.987895 MB/s, AWS default) [AWS SDK default behavior]
+Rank 45: upload successful (0.987119 MB/s, AWS default) [AWS SDK default behavior]
+Rank 92: upload successful (0.985845 MB/s, AWS default) [AWS SDK default behavior]
+Rank 13: upload successful (0.985075 MB/s, AWS default) [AWS SDK default behavior]
+Rank 17: upload successful (0.981164 MB/s, AWS default) [AWS SDK default behavior]
+Rank 89: upload successful (0.97901 MB/s, AWS default) [AWS SDK default behavior]
+Rank 104: upload successful (0.969857 MB/s, AWS default) [AWS SDK default behavior]
+Rank 43: upload successful (0.96509 MB/s, AWS default) [AWS SDK default behavior]
+Rank 99: upload successful (0.964899 MB/s, AWS default) [AWS SDK default behavior]
+Rank 48: upload successful (0.96384 MB/s, AWS default) [AWS SDK default behavior]
+Rank 106: upload successful (0.961745 MB/s, AWS default) [AWS SDK default behavior]
+Rank 93: upload successful (0.945049 MB/s, AWS default) [AWS SDK default behavior]
+Rank 119: upload successful (0.94156 MB/s, AWS default) [AWS SDK default behavior]
+Rank 64: upload successful (0.94153 MB/s, AWS default) [AWS SDK default behavior]
+Rank 108: upload successful (0.940733 MB/s, AWS default) [AWS SDK default behavior]
+Rank 3: upload successful (0.938882 MB/s, AWS default) [AWS SDK default behavior]
+Rank 1: upload successful (0.937117 MB/s, AWS default) [AWS SDK default behavior]
+Rank 72: upload successful (0.936506 MB/s, AWS default) [AWS SDK default behavior]
+Rank 100: upload successful (0.935421 MB/s, AWS default) [AWS SDK default behavior]
+Rank 117: upload successful (0.934426 MB/s, AWS default) [AWS SDK default behavior]
+Rank 53: upload successful (0.933293 MB/s, AWS default) [AWS SDK default behavior]
+Rank 112: upload successful (0.932324 MB/s, AWS default) [AWS SDK default behavior]
+Rank 74: upload successful (0.929774 MB/s, AWS default) [AWS SDK default behavior]
+Rank 90: upload successful (0.927897 MB/s, AWS default) [AWS SDK default behavior]
+Rank 88: upload successful (0.926373 MB/s, AWS default) [AWS SDK default behavior]
+Rank 80: upload successful (0.926268 MB/s, AWS default) [AWS SDK default behavior]
+Rank 86: upload successful (0.926015 MB/s, AWS default) [AWS SDK default behavior]
+Rank 94: upload successful (0.923678 MB/s, AWS default) [AWS SDK default behavior]
+Rank 58: upload successful (0.923161 MB/s, AWS default) [AWS SDK default behavior]
+Rank 63: upload successful (0.922852 MB/s, AWS default) [AWS SDK default behavior]
+Rank 103: upload successful (0.922336 MB/s, AWS default) [AWS SDK default behavior]
+Rank 18: upload successful (0.921752 MB/s, AWS default) [AWS SDK default behavior]
+Rank 22: upload successful (0.919404 MB/s, AWS default) [AWS SDK default behavior]
+Rank 24: upload successful (0.919213 MB/s, AWS default) [AWS SDK default behavior]
+Rank 105: upload successful (0.918738 MB/s, AWS default) [AWS SDK default behavior]
+Rank 109: upload successful (0.918687 MB/s, AWS default) [AWS SDK default behavior]
+Rank 12: upload successful (0.917039 MB/s, AWS default) [AWS SDK default behavior]
+Rank 91: upload successful (0.916374 MB/s, AWS default) [AWS SDK default behavior]
+Rank 107: upload successful (0.914288 MB/s, AWS default) [AWS SDK default behavior]
+Rank 71: upload successful (0.913998 MB/s, AWS default) [AWS SDK default behavior]
+Rank 54: upload successful (0.912741 MB/s, AWS default) [AWS SDK default behavior]
+Rank 20: upload successful (0.912168 MB/s, AWS default) [AWS SDK default behavior]
+Rank 69: upload successful (0.908557 MB/s, AWS default) [AWS SDK default behavior]
+Rank 67: upload successful (0.908126 MB/s, AWS default) [AWS SDK default behavior]
+Rank 59: upload successful (0.90799 MB/s, AWS default) [AWS SDK default behavior]
+Rank 95: upload successful (0.907454 MB/s, AWS default) [AWS SDK default behavior]
+Rank 0: upload successful (0.905582 MB/s, AWS default) [AWS SDK default behavior]
+Rank 31: upload successful (0.905505 MB/s, AWS default) [AWS SDK default behavior]
+Rank 26: upload successful (0.904805 MB/s, AWS default) [AWS SDK default behavior]
+Rank 32: upload successful (0.904644 MB/s, AWS default) [AWS SDK default behavior]
+Rank 124: upload successful (0.904233 MB/s, AWS default) [AWS SDK default behavior]
+Rank 30: upload successful (0.903899 MB/s, AWS default) [AWS SDK default behavior]
+Rank 81: upload successful (0.903586 MB/s, AWS default) [AWS SDK default behavior]
+Rank 27: upload successful (0.903433 MB/s, AWS default) [AWS SDK default behavior]
+Rank 75: upload successful (0.902997 MB/s, AWS default) [AWS SDK default behavior]
+Rank 23: upload successful (0.902441 MB/s, AWS default) [AWS SDK default behavior]
+Rank 47: upload successful (0.901901 MB/s, AWS default) [AWS SDK default behavior]
+Rank 21: upload successful (0.901763 MB/s, AWS default) [AWS SDK default behavior]
+Rank 51: upload successful (0.901178 MB/s, AWS default) [AWS SDK default behavior]
+Rank 96: upload successful (0.90024 MB/s, AWS default) [AWS SDK default behavior]
+Rank 79: upload successful (0.899774 MB/s, AWS default) [AWS SDK default behavior]
+Rank 55: upload successful (0.898785 MB/s, AWS default) [AWS SDK default behavior]
+Rank 114: upload successful (0.897671 MB/s, AWS default) [AWS SDK default behavior]
+Rank 97: upload successful (0.897533 MB/s, AWS default) [AWS SDK default behavior]
+Rank 84: upload successful (0.897267 MB/s, AWS default) [AWS SDK default behavior]
+Rank 70: upload successful (0.896809 MB/s, AWS default) [AWS SDK default behavior]
+Rank 113: upload successful (0.895774 MB/s, AWS default) [AWS SDK default behavior]
+Rank 76: upload successful (0.893982 MB/s, AWS default) [AWS SDK default behavior]
+Rank 41: upload successful (0.893743 MB/s, AWS default) [AWS SDK default behavior]
+Rank 85: upload successful (0.892953 MB/s, AWS default) [AWS SDK default behavior]
+Rank 111: upload successful (0.892792 MB/s, AWS default) [AWS SDK default behavior]
+Rank 98: upload successful (0.892735 MB/s, AWS default) [AWS SDK default behavior]
+Rank 102: upload successful (0.891719 MB/s, AWS default) [AWS SDK default behavior]
+Rank 28: upload successful (0.89166 MB/s, AWS default) [AWS SDK default behavior]
+Rank 33: upload successful (0.891235 MB/s, AWS default) [AWS SDK default behavior]
+Rank 110: upload successful (0.890873 MB/s, AWS default) [AWS SDK default behavior]
+Rank 7: upload successful (0.890423 MB/s, AWS default) [AWS SDK default behavior]
+Rank 101: upload successful (0.890232 MB/s, AWS default) [AWS SDK default behavior]
+Rank 19: upload successful (0.889436 MB/s, AWS default) [AWS SDK default behavior]
+Rank 25: upload successful (0.889163 MB/s, AWS default) [AWS SDK default behavior]
+Rank 120: upload successful (0.888644 MB/s, AWS default) [AWS SDK default behavior]
+Rank 62: upload successful (0.888322 MB/s, AWS default) [AWS SDK default behavior]
+Rank 126: upload successful (0.887954 MB/s, AWS default) [AWS SDK default behavior]
+Rank 39: upload successful (0.887268 MB/s, AWS default) [AWS SDK default behavior]
+Rank 36: upload successful (0.886784 MB/s, AWS default) [AWS SDK default behavior]
+Rank 46: upload successful (0.886504 MB/s, AWS default) [AWS SDK default behavior]
+Rank 29: upload successful (0.886429 MB/s, AWS default) [AWS SDK default behavior]
+Rank 87: upload successful (0.88601 MB/s, AWS default) [AWS SDK default behavior]
+Rank 125: upload successful (0.885891 MB/s, AWS default) [AWS SDK default behavior]
+Rank 116: upload successful (0.885769 MB/s, AWS default) [AWS SDK default behavior]
+Rank 37: upload successful (0.885709 MB/s, AWS default) [AWS SDK default behavior]
+Rank 14: upload successful (0.8848 MB/s, AWS default) [AWS SDK default behavior]
+Rank 115: upload successful (0.884677 MB/s, AWS default) [AWS SDK default behavior]
+Rank 73: upload successful (0.883466 MB/s, AWS default) [AWS SDK default behavior]
+Rank 61: upload successful (0.881558 MB/s, AWS default) [AWS SDK default behavior]
+Rank 68: upload successful (0.881294 MB/s, AWS default) [AWS SDK default behavior]
+Rank 10: upload successful (0.880997 MB/s, AWS default) [AWS SDK default behavior]
+Rank 78: upload successful (0.880953 MB/s, AWS default) [AWS SDK default behavior]
+Rank 122: upload successful (0.880443 MB/s, AWS default) [AWS SDK default behavior]
+Rank 40: upload successful (0.880075 MB/s, AWS default) [AWS SDK default behavior]
+Rank 56: upload successful (0.879624 MB/s, AWS default) [AWS SDK default behavior]
+Rank 52: upload successful (0.879506 MB/s, AWS default) [AWS SDK default behavior]
+Rank 57: upload successful (0.878941 MB/s, AWS default) [AWS SDK default behavior]
+Rank 2: upload successful (0.878729 MB/s, AWS default) [AWS SDK default behavior]
+Rank 5: upload successful (0.878097 MB/s, AWS default) [AWS SDK default behavior]
+Rank 44: upload successful (0.878086 MB/s, AWS default) [AWS SDK default behavior]
+Rank 82: upload successful (0.876808 MB/s, AWS default) [AWS SDK default behavior]
+Rank 9: upload successful (0.876438 MB/s, AWS default) [AWS SDK default behavior]
+Rank 11: upload successful (0.876361 MB/s, AWS default) [AWS SDK default behavior]
+Rank 60: upload successful (0.875855 MB/s, AWS default) [AWS SDK default behavior]
+Rank 127: upload successful (0.875427 MB/s, AWS default) [AWS SDK default behavior]
+Rank 83: upload successful (0.874929 MB/s, AWS default) [AWS SDK default behavior]
+Rank 50: upload successful (0.874932 MB/s, AWS default) [AWS SDK default behavior]
+Rank 34: upload successful (0.8739 MB/s, AWS default) [AWS SDK default behavior]
+Rank 66: upload successful (0.873466 MB/s, AWS default) [AWS SDK default behavior]
+Rank 6: upload successful (0.873315 MB/s, AWS default) [AWS SDK default behavior]
+Rank 49: upload successful (0.872585 MB/s, AWS default) [AWS SDK default behavior]
+Rank 16: upload successful (0.872378 MB/s, AWS default) [AWS SDK default behavior]
+Rank 15: upload successful (0.870901 MB/s, AWS default) [AWS SDK default behavior]
+Rank 38: upload successful (0.870901 MB/s, AWS default) [AWS SDK default behavior]
+Rank 118: upload successful (0.870761 MB/s, AWS default) [AWS SDK default behavior]
+Rank 123: upload successful (0.867979 MB/s, AWS default) [AWS SDK default behavior]
+Rank 77: upload successful (0.867319 MB/s, AWS default) [AWS SDK default behavior]
+Rank 35: upload successful (0.866971 MB/s, AWS default) [AWS SDK default behavior]
+Rank 121: upload successful (0.866371 MB/s, AWS default) [AWS SDK default behavior]
+
+--- Upload Trial 1 Summary ---
+Rank 0: 0.905582 MB/s (AWS default)
+Rank 1: 0.937117 MB/s (AWS default)
+Rank 2: 0.878729 MB/s (AWS default)
+Rank 3: 0.938882 MB/s (AWS default)
+Rank 4: 1.00242 MB/s (AWS default)
+Rank 5: 0.878097 MB/s (AWS default)
+Rank 6: 0.873315 MB/s (AWS default)
+Rank 7: 0.890423 MB/s (AWS default)
+Rank 8: 0.990211 MB/s (AWS default)
+Rank 9: 0.876438 MB/s (AWS default)
+Rank 10: 0.880997 MB/s (AWS default)
+Rank 11: 0.876361 MB/s (AWS default)
+Rank 12: 0.917039 MB/s (AWS default)
+Rank 13: 0.985075 MB/s (AWS default)
+Rank 14: 0.8848 MB/s (AWS default)
+Rank 15: 0.870901 MB/s (AWS default)
+Rank 16: 0.872378 MB/s (AWS default)
+Rank 17: 0.981164 MB/s (AWS default)
+Rank 18: 0.921752 MB/s (AWS default)
+Rank 19: 0.889436 MB/s (AWS default)
+Rank 20: 0.912168 MB/s (AWS default)
+Rank 21: 0.901763 MB/s (AWS default)
+Rank 22: 0.919404 MB/s (AWS default)
+Rank 23: 0.902441 MB/s (AWS default)
+Rank 24: 0.919213 MB/s (AWS default)
+Rank 25: 0.889163 MB/s (AWS default)
+Rank 26: 0.904805 MB/s (AWS default)
+Rank 27: 0.903433 MB/s (AWS default)
+Rank 28: 0.89166 MB/s (AWS default)
+Rank 29: 0.886429 MB/s (AWS default)
+Rank 30: 0.903899 MB/s (AWS default)
+Rank 31: 0.905505 MB/s (AWS default)
+Rank 32: 0.904644 MB/s (AWS default)
+Rank 33: 0.891235 MB/s (AWS default)
+Rank 34: 0.8739 MB/s (AWS default)
+Rank 35: 0.866971 MB/s (AWS default)
+Rank 36: 0.886784 MB/s (AWS default)
+Rank 37: 0.885709 MB/s (AWS default)
+Rank 38: 0.870901 MB/s (AWS default)
+Rank 39: 0.887268 MB/s (AWS default)
+Rank 40: 0.880075 MB/s (AWS default)
+Rank 41: 0.893743 MB/s (AWS default)
+Rank 42: 0.987895 MB/s (AWS default)
+Rank 43: 0.96509 MB/s (AWS default)
+Rank 44: 0.878086 MB/s (AWS default)
+Rank 45: 0.987119 MB/s (AWS default)
+Rank 46: 0.886504 MB/s (AWS default)
+Rank 47: 0.901901 MB/s (AWS default)
+Rank 48: 0.96384 MB/s (AWS default)
+Rank 49: 0.872585 MB/s (AWS default)
+Rank 50: 0.874932 MB/s (AWS default)
+Rank 51: 0.901178 MB/s (AWS default)
+Rank 52: 0.879506 MB/s (AWS default)
+Rank 53: 0.933293 MB/s (AWS default)
+Rank 54: 0.912741 MB/s (AWS default)
+Rank 55: 0.898785 MB/s (AWS default)
+Rank 56: 0.879624 MB/s (AWS default)
+Rank 57: 0.878941 MB/s (AWS default)
+Rank 58: 0.923161 MB/s (AWS default)
+Rank 59: 0.90799 MB/s (AWS default)
+Rank 60: 0.875855 MB/s (AWS default)
+Rank 61: 0.881558 MB/s (AWS default)
+Rank 62: 0.888322 MB/s (AWS default)
+Rank 63: 0.922852 MB/s (AWS default)
+Rank 64: 0.94153 MB/s (AWS default)
+Rank 65: 0.99713 MB/s (AWS default)
+Rank 66: 0.873466 MB/s (AWS default)
+Rank 67: 0.908126 MB/s (AWS default)
+Rank 68: 0.881294 MB/s (AWS default)
+Rank 69: 0.908557 MB/s (AWS default)
+Rank 70: 0.896809 MB/s (AWS default)
+Rank 71: 0.913998 MB/s (AWS default)
+Rank 72: 0.936506 MB/s (AWS default)
+Rank 73: 0.883466 MB/s (AWS default)
+Rank 74: 0.929774 MB/s (AWS default)
+Rank 75: 0.902997 MB/s (AWS default)
+Rank 76: 0.893982 MB/s (AWS default)
+Rank 77: 0.867319 MB/s (AWS default)
+Rank 78: 0.880953 MB/s (AWS default)
+Rank 79: 0.899774 MB/s (AWS default)
+Rank 80: 0.926268 MB/s (AWS default)
+Rank 81: 0.903586 MB/s (AWS default)
+Rank 82: 0.876808 MB/s (AWS default)
+Rank 83: 0.874929 MB/s (AWS default)
+Rank 84: 0.897267 MB/s (AWS default)
+Rank 85: 0.892953 MB/s (AWS default)
+Rank 86: 0.926015 MB/s (AWS default)
+Rank 87: 0.88601 MB/s (AWS default)
+Rank 88: 0.926373 MB/s (AWS default)
+Rank 89: 0.97901 MB/s (AWS default)
+Rank 90: 0.927897 MB/s (AWS default)
+Rank 91: 0.916374 MB/s (AWS default)
+Rank 92: 0.985845 MB/s (AWS default)
+Rank 93: 0.945049 MB/s (AWS default)
+Rank 94: 0.923678 MB/s (AWS default)
+Rank 95: 0.907454 MB/s (AWS default)
+Rank 96: 0.90024 MB/s (AWS default)
+Rank 97: 0.897533 MB/s (AWS default)
+Rank 98: 0.892735 MB/s (AWS default)
+Rank 99: 0.964899 MB/s (AWS default)
+Rank 100: 0.935421 MB/s (AWS default)
+Rank 101: 0.890232 MB/s (AWS default)
+Rank 102: 0.891719 MB/s (AWS default)
+Rank 103: 0.922336 MB/s (AWS default)
+Rank 104: 0.969857 MB/s (AWS default)
+Rank 105: 0.918738 MB/s (AWS default)
+Rank 106: 0.961745 MB/s (AWS default)
+Rank 107: 0.914288 MB/s (AWS default)
+Rank 108: 0.940733 MB/s (AWS default)
+Rank 109: 0.918687 MB/s (AWS default)
+Rank 110: 0.890873 MB/s (AWS default)
+Rank 111: 0.892792 MB/s (AWS default)
+Rank 112: 0.932324 MB/s (AWS default)
+Rank 113: 0.895774 MB/s (AWS default)
+Rank 114: 0.897671 MB/s (AWS default)
+Rank 115: 0.884677 MB/s (AWS default)
+Rank 116: 0.885769 MB/s (AWS default)
+Rank 117: 0.934426 MB/s (AWS default)
+Rank 118: 0.870761 MB/s (AWS default)
+Rank 119: 0.94156 MB/s (AWS default)
+Rank 120: 0.888644 MB/s (AWS default)
+Rank 121: 0.866371 MB/s (AWS default)
+Rank 122: 0.880443 MB/s (AWS default)
+Rank 123: 0.867979 MB/s (AWS default)
+Rank 124: 0.904233 MB/s (AWS default)
+Rank 125: 0.885891 MB/s (AWS default)
+Rank 126: 0.887954 MB/s (AWS default)
+Rank 127: 0.875427 MB/s (AWS default)
+Average upload bandwidth: 0.907406 MB/s
+Total upload throughput: 116.148 MB/s
+Upload trial duration: 110.426 seconds
+Successful upload ranks: 128/128
+Upload file size: 100 MB
+Rank 15: Starting AWS default upload
+Upload file size: 100 MB
+Rank 17: Starting AWS default upload
+Upload file size: 100 MB
+Rank 3: Starting AWS default upload
+Upload file size: 100 MB
+Rank 21: Starting AWS default upload
+Upload file size: 100 MB
+Rank 4: Starting AWS default upload
+Upload file size: 100 MB
+Rank 11: Starting AWS default upload
+Upload file size: 100 MB
+Rank 1: Starting AWS default upload
+Upload file size: 100 MB
+Rank 5: Starting AWS default upload
+Upload file size: 100 MB
+Rank 9: Starting AWS default upload
+Upload file size: 100 MB
+Rank 28: Starting AWS default upload
+Upload file size: 100 MB
+Rank 8: Starting AWS default upload
+Upload file size: 100 MB
+Rank 2: Starting AWS default upload
+Upload file size: 100 MB
+Rank 10: Starting AWS default upload
+Upload file size: 100 MB
+Rank 31: Starting AWS default upload
+Upload file size: 100 MB
+Rank 12: Starting AWS default upload
+Upload file size: 100 MB
+Rank 24: Starting AWS default upload
+Upload file size: 100 MB
+Rank 20: Starting AWS default upload
+Upload file size: 100 MB
+Rank 29: Starting AWS default upload
+Upload file size: 100 MB
+Rank 30: Starting AWS default upload
+Upload file size: 100 MB
+Rank 19: Starting AWS default upload
+Upload file size: 100 MB
+Rank 14: Starting AWS default upload
+Upload file size: 100 MB
+Rank 27: Starting AWS default upload
+Upload file size: 100 MB
+Rank 26: Starting AWS default upload
+Upload file size: 100 MB
+Rank 23: Starting AWS default upload
+Upload file size: 100 MB
+Rank 7: Starting AWS default upload
+Upload file size: 100 MB
+Rank 16: Starting AWS default upload
+Upload file size: 100 MB
+Rank 6: Starting AWS default upload
+Upload file size: 100 MB
+Rank 18: Starting AWS default upload
+Upload file size: 100 MB
+Rank 25: Starting AWS default upload
+Upload file size: 100 MB
+Rank 13: Starting AWS default upload
+Upload file size: 100 MB
+Rank 22: Starting AWS default upload
+
+========================================
+UPLOAD TRIAL 2/3
+========================================
+Upload file size: 100 MB
+Rank 0: Starting AWS default upload
+Upload file size: 100 MB
+Rank 95: Starting AWS default upload
+Upload file size: 100 MB
+Rank 44: Starting AWS default upload
+Upload file size: 100 MB
+Rank 97: Starting AWS default upload
+Upload file size: 100 MB
+Rank 67: Starting AWS default upload
+Upload file size: 100 MB
+Rank 53: Starting AWS default upload
+Upload file size: 100 MB
+Rank 114: Starting AWS default upload
+Upload file size: 100 MB
+Rank 92: Starting AWS default upload
+Upload file size: 100 MB
+Rank 58: Starting AWS default upload
+Upload file size: 100 MB
+Rank 96: Starting AWS default upload
+Upload file size: 100 MB
+Rank 68: Starting AWS default upload
+Upload file size: 100 MB
+Rank 59: Starting AWS default upload
+Upload file size: 100 MB
+Rank 126: Starting AWS default upload
+Upload file size: 100 MB
+Rank 69: Starting AWS default upload
+Upload file size: 100 MB
+Rank 49: Starting AWS default upload
+Upload file size: 100 MB
+Rank 103: Starting AWS default upload
+Upload file size: 100 MB
+Rank 93: Starting AWS default upload
+Upload file size: 100 MB
+Rank 57: Starting AWS default upload
+Upload file size: 100 MB
+Rank 118: Starting AWS default upload
+Upload file size: 100 MB
+Rank 90: Starting AWS default upload
+Upload file size: 100 MB
+Rank 37: Starting AWS default upload
+Upload file size: 100 MB
+Rank 105: Starting AWS default upload
+Upload file size: 100 MB
+Rank 72: Starting AWS default upload
+Upload file size: 100 MB
+Rank 61: Starting AWS default upload
+Upload file size: 100 MB
+Rank 107: Starting AWS default upload
+Upload file size: 100 MB
+Rank 71: Starting AWS default upload
+Upload file size: 100 MB
+Rank 33: Starting AWS default upload
+Upload file size: 100 MB
+Rank 110: Starting AWS default upload
+Upload file size: 100 MB
+Rank 73: Starting AWS default upload
+Upload file size: 100 MB
+Rank 32: Starting AWS default upload
+Upload file size: 100 MB
+Rank 116: Starting AWS default upload
+Upload file size: 100 MB
+Rank 88: Starting AWS default upload
+Upload file size: 100 MB
+Rank 43: Starting AWS default upload
+Upload file size: 100 MB
+Rank 100: Starting AWS default upload
+Upload file size: 100 MB
+Rank 84: Starting AWS default upload
+Upload file size: 100 MB
+Rank 50: Starting AWS default upload
+Upload file size: 100 MB
+Rank 108: Starting AWS default upload
+Upload file size: 100 MB
+Rank 70: Starting AWS default upload
+Upload file size: 100 MB
+Rank 39: Starting AWS default upload
+Upload file size: 100 MB
+Rank 109: Starting AWS default upload
+Upload file size: 100 MB
+Rank 91: Starting AWS default upload
+Upload file size: 100 MB
+Rank 36: Starting AWS default upload
+Upload file size: 100 MB
+Rank 124: Starting AWS default upload
+Upload file size: 100 MB
+Rank 76: Starting AWS default upload
+Upload file size: 100 MB
+Rank 52: Starting AWS default upload
+Upload file size: 100 MB
+Rank 102: Starting AWS default upload
+Upload file size: 100 MB
+Rank 75: Starting AWS default upload
+Upload file size: 100 MB
+Rank 55: Starting AWS default upload
+Upload file size: 100 MB
+Rank 113: Starting AWS default upload
+Upload file size: 100 MB
+Rank 83: Starting AWS default upload
+Upload file size: 100 MB
+Rank 41: Starting AWS default upload
+Upload file size: 100 MB
+Rank 115: Starting AWS default upload
+Upload file size: 100 MB
+Rank 78: Starting AWS default upload
+Upload file size: 100 MB
+Rank 45: Starting AWS default upload
+Upload file size: 100 MB
+Rank 119: Starting AWS default upload
+Upload file size: 100 MB
+Rank 82: Starting AWS default upload
+Upload file size: 100 MB
+Rank 46: Starting AWS default upload
+Upload file size: 100 MB
+Rank 111: Starting AWS default upload
+Upload file size: 100 MB
+Rank 65: Starting AWS default upload
+Upload file size: 100 MB
+Rank 34: Starting AWS default upload
+Upload file size: 100 MB
+Rank 98: Starting AWS default upload
+Upload file size: 100 MB
+Rank 66: Starting AWS default upload
+Upload file size: 100 MB
+Rank 40: Starting AWS default upload
+Upload file size: 100 MB
+Rank 127: Starting AWS default upload
+Upload file size: 100 MB
+Rank 81: Starting AWS default upload
+Upload file size: 100 MB
+Rank 54: Starting AWS default upload
+Upload file size: 100 MB
+Rank 99: Starting AWS default upload
+Upload file size: 100 MB
+Rank 80: Starting AWS default upload
+Upload file size: 100 MB
+Rank 56: Starting AWS default upload
+Upload file size: 100 MB
+Rank 112: Starting AWS default upload
+Upload file size: 100 MB
+Rank 87: Starting AWS default upload
+Upload file size: 100 MB
+Rank 48: Starting AWS default upload
+Upload file size: 100 MB
+Rank 117: Starting AWS default upload
+Upload file size: 100 MB
+Rank 79: Starting AWS default upload
+Upload file size: 100 MB
+Rank 62: Starting AWS default upload
+Upload file size: 100 MB
+Rank 101: Starting AWS default upload
+Upload file size: 100 MB
+Rank 89: Starting AWS default upload
+Upload file size: 100 MB
+Rank 42: Starting AWS default upload
+Upload file size: 100 MB
+Rank 120: Starting AWS default upload
+Upload file size: 100 MB
+Rank 74: Starting AWS default upload
+Upload file size: 100 MB
+Rank 63: Starting AWS default upload
+Upload file size: 100 MB
+Rank 106: Starting AWS default upload
+Upload file size: 100 MB
+Rank 85: Starting AWS default upload
+Upload file size: 100 MB
+Rank 51: Starting AWS default upload
+Upload file size: 100 MB
+Rank 122: Starting AWS default upload
+Upload file size: 100 MB
+Rank 94: Starting AWS default upload
+Upload file size: 100 MB
+Rank 60: Starting AWS default upload
+Upload file size: 100 MB
+Rank 123: Starting AWS default upload
+Upload file size: 100 MB
+Rank 86: Starting AWS default upload
+Upload file size: 100 MB
+Rank 47: Starting AWS default upload
+Upload file size: 100 MB
+Rank 125: Starting AWS default upload
+Upload file size: 100 MB
+Rank 77: Starting AWS default upload
+Upload file size: 100 MB
+Rank 38: Starting AWS default upload
+Upload file size: 100 MB
+Rank 104: Starting AWS default upload
+Upload file size: 100 MB
+Rank 64: Starting AWS default upload
+Upload file size: 100 MB
+Rank 35: Starting AWS default upload
+Upload file size: 100 MB
+Rank 121: Starting AWS default upload
+Rank 70: upload successful (0.994508 MB/s, AWS default) [AWS SDK default behavior]
+Rank 92: upload successful (0.993828 MB/s, AWS default) [AWS SDK default behavior]
+Rank 40: upload successful (0.98354 MB/s, AWS default) [AWS SDK default behavior]
+Rank 65: upload successful (0.981936 MB/s, AWS default) [AWS SDK default behavior]
+Rank 91: upload successful (0.970696 MB/s, AWS default) [AWS SDK default behavior]
+Rank 32: upload successful (0.969118 MB/s, AWS default) [AWS SDK default behavior]
+Rank 79: upload successful (0.965735 MB/s, AWS default) [AWS SDK default behavior]
+Rank 31: upload successful (0.9636 MB/s, AWS default) [AWS SDK default behavior]
+Rank 33: upload successful (0.959001 MB/s, AWS default) [AWS SDK default behavior]
+Rank 75: upload successful (0.958367 MB/s, AWS default) [AWS SDK default behavior]
+Rank 69: upload successful (0.955633 MB/s, AWS default) [AWS SDK default behavior]
+Rank 107: upload successful (0.949397 MB/s, AWS default) [AWS SDK default behavior]
+Rank 1: upload successful (0.948163 MB/s, AWS default) [AWS SDK default behavior]
+Rank 47: upload successful (0.946222 MB/s, AWS default) [AWS SDK default behavior]
+Rank 108: upload successful (0.944596 MB/s, AWS default) [AWS SDK default behavior]
+Rank 6: upload successful (0.943216 MB/s, AWS default) [AWS SDK default behavior]
+Rank 96: upload successful (0.942663 MB/s, AWS default) [AWS SDK default behavior]
+Rank 97: upload successful (0.942061 MB/s, AWS default) [AWS SDK default behavior]
+Rank 126: upload successful (0.941097 MB/s, AWS default) [AWS SDK default behavior]
+Rank 73: upload successful (0.939983 MB/s, AWS default) [AWS SDK default behavior]
+Rank 124: upload successful (0.938365 MB/s, AWS default) [AWS SDK default behavior]
+Rank 45: upload successful (0.938149 MB/s, AWS default) [AWS SDK default behavior]
+Rank 67: upload successful (0.937796 MB/s, AWS default) [AWS SDK default behavior]
+Rank 21: upload successful (0.937552 MB/s, AWS default) [AWS SDK default behavior]
+Rank 95: upload successful (0.936043 MB/s, AWS default) [AWS SDK default behavior]
+Rank 51: upload successful (0.935117 MB/s, AWS default) [AWS SDK default behavior]
+Rank 112: upload successful (0.934808 MB/s, AWS default) [AWS SDK default behavior]
+Rank 17: upload successful (0.934573 MB/s, AWS default) [AWS SDK default behavior]
+Rank 74: upload successful (0.932781 MB/s, AWS default) [AWS SDK default behavior]
+Rank 58: upload successful (0.932697 MB/s, AWS default) [AWS SDK default behavior]
+Rank 116: upload successful (0.931267 MB/s, AWS default) [AWS SDK default behavior]
+Rank 99: upload successful (0.92953 MB/s, AWS default) [AWS SDK default behavior]
+Rank 55: upload successful (0.92946 MB/s, AWS default) [AWS SDK default behavior]
+Rank 68: upload successful (0.928818 MB/s, AWS default) [AWS SDK default behavior]
+Rank 84: upload successful (0.926123 MB/s, AWS default) [AWS SDK default behavior]
+Rank 62: upload successful (0.9251 MB/s, AWS default) [AWS SDK default behavior]
+Rank 20: upload successful (0.924873 MB/s, AWS default) [AWS SDK default behavior]
+Rank 37: upload successful (0.924274 MB/s, AWS default) [AWS SDK default behavior]
+Rank 26: upload successful (0.921984 MB/s, AWS default) [AWS SDK default behavior]
+Rank 0: upload successful (0.919983 MB/s, AWS default) [AWS SDK default behavior]
+Rank 109: upload successful (0.919415 MB/s, AWS default) [AWS SDK default behavior]
+Rank 105: upload successful (0.918696 MB/s, AWS default) [AWS SDK default behavior]
+Rank 106: upload successful (0.918202 MB/s, AWS default) [AWS SDK default behavior]
+Rank 94: upload successful (0.917699 MB/s, AWS default) [AWS SDK default behavior]
+Rank 5: upload successful (0.917182 MB/s, AWS default) [AWS SDK default behavior]
+Rank 81: upload successful (0.915171 MB/s, AWS default) [AWS SDK default behavior]
+Rank 52: upload successful (0.914772 MB/s, AWS default) [AWS SDK default behavior]
+Rank 39: upload successful (0.913987 MB/s, AWS default) [AWS SDK default behavior]
+Rank 98: upload successful (0.912298 MB/s, AWS default) [AWS SDK default behavior]
+Rank 72: upload successful (0.912213 MB/s, AWS default) [AWS SDK default behavior]
+Rank 80: upload successful (0.910889 MB/s, AWS default) [AWS SDK default behavior]
+Rank 54: upload successful (0.910478 MB/s, AWS default) [AWS SDK default behavior]
+Rank 36: upload successful (0.909432 MB/s, AWS default) [AWS SDK default behavior]
+Rank 49: upload successful (0.908191 MB/s, AWS default) [AWS SDK default behavior]
+Rank 27: upload successful (0.907963 MB/s, AWS default) [AWS SDK default behavior]
+Rank 102: upload successful (0.907897 MB/s, AWS default) [AWS SDK default behavior]
+Rank 100: upload successful (0.905703 MB/s, AWS default) [AWS SDK default behavior]
+Rank 12: upload successful (0.904947 MB/s, AWS default) [AWS SDK default behavior]
+Rank 13: upload successful (0.90474 MB/s, AWS default) [AWS SDK default behavior]
+Rank 88: upload successful (0.903732 MB/s, AWS default) [AWS SDK default behavior]
+Rank 111: upload successful (0.90358 MB/s, AWS default) [AWS SDK default behavior]
+Rank 117: upload successful (0.90156 MB/s, AWS default) [AWS SDK default behavior]
+Rank 86: upload successful (0.90133 MB/s, AWS default) [AWS SDK default behavior]
+Rank 30: upload successful (0.900039 MB/s, AWS default) [AWS SDK default behavior]
+Rank 114: upload successful (0.899986 MB/s, AWS default) [AWS SDK default behavior]
+Rank 120: upload successful (0.899125 MB/s, AWS default) [AWS SDK default behavior]
+Rank 9: upload successful (0.89808 MB/s, AWS default) [AWS SDK default behavior]
+Rank 115: upload successful (0.898039 MB/s, AWS default) [AWS SDK default behavior]
+Rank 25: upload successful (0.896713 MB/s, AWS default) [AWS SDK default behavior]
+Rank 89: upload successful (0.8967 MB/s, AWS default) [AWS SDK default behavior]
+Rank 56: upload successful (0.896445 MB/s, AWS default) [AWS SDK default behavior]
+Rank 93: upload successful (0.895538 MB/s, AWS default) [AWS SDK default behavior]
+Rank 24: upload successful (0.895135 MB/s, AWS default) [AWS SDK default behavior]
+Rank 82: upload successful (0.894678 MB/s, AWS default) [AWS SDK default behavior]
+Rank 119: upload successful (0.892849 MB/s, AWS default) [AWS SDK default behavior]
+Rank 23: upload successful (0.891921 MB/s, AWS default) [AWS SDK default behavior]
+Rank 125: upload successful (0.891097 MB/s, AWS default) [AWS SDK default behavior]
+Rank 18: upload successful (0.890536 MB/s, AWS default) [AWS SDK default behavior]
+Rank 46: upload successful (0.89031 MB/s, AWS default) [AWS SDK default behavior]
+Rank 7: upload successful (0.889395 MB/s, AWS default) [AWS SDK default behavior]
+Rank 90: upload successful (0.889375 MB/s, AWS default) [AWS SDK default behavior]
+Rank 87: upload successful (0.888572 MB/s, AWS default) [AWS SDK default behavior]
+Rank 50: upload successful (0.887572 MB/s, AWS default) [AWS SDK default behavior]
+Rank 44: upload successful (0.886695 MB/s, AWS default) [AWS SDK default behavior]
+Rank 110: upload successful (0.886319 MB/s, AWS default) [AWS SDK default behavior]
+Rank 76: upload successful (0.88603 MB/s, AWS default) [AWS SDK default behavior]
+Rank 3: upload successful (0.885256 MB/s, AWS default) [AWS SDK default behavior]
+Rank 4: upload successful (0.885194 MB/s, AWS default) [AWS SDK default behavior]
+Rank 122: upload successful (0.884634 MB/s, AWS default) [AWS SDK default behavior]
+Rank 101: upload successful (0.884581 MB/s, AWS default) [AWS SDK default behavior]
+Rank 71: upload successful (0.883429 MB/s, AWS default) [AWS SDK default behavior]
+Rank 64: upload successful (0.883374 MB/s, AWS default) [AWS SDK default behavior]
+Rank 83: upload successful (0.882743 MB/s, AWS default) [AWS SDK default behavior]
+Rank 8: upload successful (0.882355 MB/s, AWS default) [AWS SDK default behavior]
+Rank 85: upload successful (0.882345 MB/s, AWS default) [AWS SDK default behavior]
+Rank 113: upload successful (0.882135 MB/s, AWS default) [AWS SDK default behavior]
+Rank 60: upload successful (0.881959 MB/s, AWS default) [AWS SDK default behavior]
+Rank 19: upload successful (0.881954 MB/s, AWS default) [AWS SDK default behavior]
+Rank 48: upload successful (0.881256 MB/s, AWS default) [AWS SDK default behavior]
+Rank 42: upload successful (0.880652 MB/s, AWS default) [AWS SDK default behavior]
+Rank 29: upload successful (0.880548 MB/s, AWS default) [AWS SDK default behavior]
+Rank 15: upload successful (0.880492 MB/s, AWS default) [AWS SDK default behavior]
+Rank 34: upload successful (0.880449 MB/s, AWS default) [AWS SDK default behavior]
+Rank 10: upload successful (0.880314 MB/s, AWS default) [AWS SDK default behavior]
+Rank 63: upload successful (0.880139 MB/s, AWS default) [AWS SDK default behavior]
+Rank 22: upload successful (0.88005 MB/s, AWS default) [AWS SDK default behavior]
+Rank 14: upload successful (0.880022 MB/s, AWS default) [AWS SDK default behavior]
+Rank 127: upload successful (0.879428 MB/s, AWS default) [AWS SDK default behavior]
+Rank 16: upload successful (0.878827 MB/s, AWS default) [AWS SDK default behavior]
+Rank 41: upload successful (0.878796 MB/s, AWS default) [AWS SDK default behavior]
+Rank 57: upload successful (0.878441 MB/s, AWS default) [AWS SDK default behavior]
+Rank 38: upload successful (0.878055 MB/s, AWS default) [AWS SDK default behavior]
+Rank 28: upload successful (0.87798 MB/s, AWS default) [AWS SDK default behavior]
+Rank 103: upload successful (0.877449 MB/s, AWS default) [AWS SDK default behavior]
+Rank 61: upload successful (0.87733 MB/s, AWS default) [AWS SDK default behavior]
+Rank 77: upload successful (0.877301 MB/s, AWS default) [AWS SDK default behavior]
+Rank 53: upload successful (0.876153 MB/s, AWS default) [AWS SDK default behavior]
+Rank 121: upload successful (0.875706 MB/s, AWS default) [AWS SDK default behavior]
+Rank 43: upload successful (0.87485 MB/s, AWS default) [AWS SDK default behavior]
+Rank 59: upload successful (0.873646 MB/s, AWS default) [AWS SDK default behavior]
+Rank 118: upload successful (0.873642 MB/s, AWS default) [AWS SDK default behavior]
+Rank 104: upload successful (0.873589 MB/s, AWS default) [AWS SDK default behavior]
+Rank 66: upload successful (0.87301 MB/s, AWS default) [AWS SDK default behavior]
+Rank 78: upload successful (0.87258 MB/s, AWS default) [AWS SDK default behavior]
+Rank 2: upload successful (0.870613 MB/s, AWS default) [AWS SDK default behavior]
+Rank 35: upload successful (0.870561 MB/s, AWS default) [AWS SDK default behavior]
+Rank 11: upload successful (0.870262 MB/s, AWS default) [AWS SDK default behavior]
+Rank 123: upload successful (0.866446 MB/s, AWS default) [AWS SDK default behavior]
+
+--- Upload Trial 2 Summary ---
+Rank 0: 0.919983 MB/s (AWS default)
+Rank 1: 0.948163 MB/s (AWS default)
+Rank 2: 0.870613 MB/s (AWS default)
+Rank 3: 0.885256 MB/s (AWS default)
+Rank 4: 0.885194 MB/s (AWS default)
+Rank 5: 0.917182 MB/s (AWS default)
+Rank 6: 0.943216 MB/s (AWS default)
+Rank 7: 0.889395 MB/s (AWS default)
+Rank 8: 0.882355 MB/s (AWS default)
+Rank 9: 0.89808 MB/s (AWS default)
+Rank 10: 0.880314 MB/s (AWS default)
+Rank 11: 0.870262 MB/s (AWS default)
+Rank 12: 0.904947 MB/s (AWS default)
+Rank 13: 0.90474 MB/s (AWS default)
+Rank 14: 0.880022 MB/s (AWS default)
+Rank 15: 0.880492 MB/s (AWS default)
+Rank 16: 0.878827 MB/s (AWS default)
+Rank 17: 0.934573 MB/s (AWS default)
+Rank 18: 0.890536 MB/s (AWS default)
+Rank 19: 0.881954 MB/s (AWS default)
+Rank 20: 0.924873 MB/s (AWS default)
+Rank 21: 0.937552 MB/s (AWS default)
+Rank 22: 0.88005 MB/s (AWS default)
+Rank 23: 0.891921 MB/s (AWS default)
+Rank 24: 0.895135 MB/s (AWS default)
+Rank 25: 0.896713 MB/s (AWS default)
+Rank 26: 0.921984 MB/s (AWS default)
+Rank 27: 0.907963 MB/s (AWS default)
+Rank 28: 0.87798 MB/s (AWS default)
+Rank 29: 0.880548 MB/s (AWS default)
+Rank 30: 0.900039 MB/s (AWS default)
+Rank 31: 0.9636 MB/s (AWS default)
+Rank 32: 0.969118 MB/s (AWS default)
+Rank 33: 0.959001 MB/s (AWS default)
+Rank 34: 0.880449 MB/s (AWS default)
+Rank 35: 0.870561 MB/s (AWS default)
+Rank 36: 0.909432 MB/s (AWS default)
+Rank 37: 0.924274 MB/s (AWS default)
+Rank 38: 0.878055 MB/s (AWS default)
+Rank 39: 0.913987 MB/s (AWS default)
+Rank 40: 0.98354 MB/s (AWS default)
+Rank 41: 0.878796 MB/s (AWS default)
+Rank 42: 0.880652 MB/s (AWS default)
+Rank 43: 0.87485 MB/s (AWS default)
+Rank 44: 0.886695 MB/s (AWS default)
+Rank 45: 0.938149 MB/s (AWS default)
+Rank 46: 0.89031 MB/s (AWS default)
+Rank 47: 0.946222 MB/s (AWS default)
+Rank 48: 0.881256 MB/s (AWS default)
+Rank 49: 0.908191 MB/s (AWS default)
+Rank 50: 0.887572 MB/s (AWS default)
+Rank 51: 0.935117 MB/s (AWS default)
+Rank 52: 0.914772 MB/s (AWS default)
+Rank 53: 0.876153 MB/s (AWS default)
+Rank 54: 0.910478 MB/s (AWS default)
+Rank 55: 0.92946 MB/s (AWS default)
+Rank 56: 0.896445 MB/s (AWS default)
+Rank 57: 0.878441 MB/s (AWS default)
+Rank 58: 0.932697 MB/s (AWS default)
+Rank 59: 0.873646 MB/s (AWS default)
+Rank 60: 0.881959 MB/s (AWS default)
+Rank 61: 0.87733 MB/s (AWS default)
+Rank 62: 0.9251 MB/s (AWS default)
+Rank 63: 0.880139 MB/s (AWS default)
+Rank 64: 0.883374 MB/s (AWS default)
+Rank 65: 0.981936 MB/s (AWS default)
+Rank 66: 0.87301 MB/s (AWS default)
+Rank 67: 0.937796 MB/s (AWS default)
+Rank 68: 0.928818 MB/s (AWS default)
+Rank 69: 0.955633 MB/s (AWS default)
+Rank 70: 0.994508 MB/s (AWS default)
+Rank 71: 0.883429 MB/s (AWS default)
+Rank 72: 0.912213 MB/s (AWS default)
+Rank 73: 0.939983 MB/s (AWS default)
+Rank 74: 0.932781 MB/s (AWS default)
+Rank 75: 0.958367 MB/s (AWS default)
+Rank 76: 0.88603 MB/s (AWS default)
+Rank 77: 0.877301 MB/s (AWS default)
+Rank 78: 0.87258 MB/s (AWS default)
+Rank 79: 0.965735 MB/s (AWS default)
+Rank 80: 0.910889 MB/s (AWS default)
+Rank 81: 0.915171 MB/s (AWS default)
+Rank 82: 0.894678 MB/s (AWS default)
+Rank 83: 0.882743 MB/s (AWS default)
+Rank 84: 0.926123 MB/s (AWS default)
+Rank 85: 0.882345 MB/s (AWS default)
+Rank 86: 0.90133 MB/s (AWS default)
+Rank 87: 0.888572 MB/s (AWS default)
+Rank 88: 0.903732 MB/s (AWS default)
+Rank 89: 0.8967 MB/s (AWS default)
+Rank 90: 0.889375 MB/s (AWS default)
+Rank 91: 0.970696 MB/s (AWS default)
+Rank 92: 0.993828 MB/s (AWS default)
+Rank 93: 0.895538 MB/s (AWS default)
+Rank 94: 0.917699 MB/s (AWS default)
+Rank 95: 0.936043 MB/s (AWS default)
+Rank 96: 0.942663 MB/s (AWS default)
+Rank 97: 0.942061 MB/s (AWS default)
+Rank 98: 0.912298 MB/s (AWS default)
+Rank 99: 0.92953 MB/s (AWS default)
+Rank 100: 0.905703 MB/s (AWS default)
+Rank 101: 0.884581 MB/s (AWS default)
+Rank 102: 0.907897 MB/s (AWS default)
+Rank 103: 0.877449 MB/s (AWS default)
+Rank 104: 0.873589 MB/s (AWS default)
+Rank 105: 0.918696 MB/s (AWS default)
+Rank 106: 0.918202 MB/s (AWS default)
+Rank 107: 0.949397 MB/s (AWS default)
+Rank 108: 0.944596 MB/s (AWS default)
+Rank 109: 0.919415 MB/s (AWS default)
+Rank 110: 0.886319 MB/s (AWS default)
+Rank 111: 0.90358 MB/s (AWS default)
+Rank 112: 0.934808 MB/s (AWS default)
+Rank 113: 0.882135 MB/s (AWS default)
+Rank 114: 0.899986 MB/s (AWS default)
+Rank 115: 0.898039 MB/s (AWS default)
+Rank 116: 0.931267 MB/s (AWS default)
+Rank 117: 0.90156 MB/s (AWS default)
+Rank 118: 0.873642 MB/s (AWS default)
+Rank 119: 0.892849 MB/s (AWS default)
+Rank 120: 0.899125 MB/s (AWS default)
+Rank 121: 0.875706 MB/s (AWS default)
+Rank 122: 0.884634 MB/s (AWS default)
+Rank 123: 0.866446 MB/s (AWS default)
+Rank 124: 0.938365 MB/s (AWS default)
+Rank 125: 0.891097 MB/s (AWS default)
+Rank 126: 0.941097 MB/s (AWS default)
+Rank 127: 0.879428 MB/s (AWS default)
+Average upload bandwidth: 0.907753 MB/s
+Total upload throughput: 116.192 MB/s
+Upload trial duration: 108.698 seconds
+Successful upload ranks: 128/128
+Upload file size: 100 MB
+Rank 10: Starting AWS default upload
+Upload file size: 100 MB
+Rank 29: Starting AWS default upload
+Upload file size: 100 MB
+Rank 21: Starting AWS default upload
+Upload file size: 100 MB
+Rank 7: Starting AWS default upload
+Upload file size: 100 MB
+Rank 6: Starting AWS default upload
+Upload file size: 100 MB
+Rank 3: Starting AWS default upload
+Upload file size: 100 MB
+Rank 2: Starting AWS default upload
+Upload file size: 100 MB
+Rank 31: Starting AWS default upload
+Upload file size: 100 MB
+Rank 11: Starting AWS default upload
+Upload file size: 100 MB
+Rank 30: Starting AWS default upload
+Upload file size: 100 MB
+Rank 16: Starting AWS default upload
+Upload file size: 100 MB
+Rank 4: Starting AWS default upload
+Upload file size: 100 MB
+Rank 28: Starting AWS default upload
+Upload file size: 100 MB
+Rank 15: Starting AWS default upload
+Upload file size: 100 MB
+Rank 26: Starting AWS default upload
+Upload file size: 100 MB
+Rank 27: Starting AWS default upload
+Upload file size: 100 MB
+Rank 25: Starting AWS default upload
+Upload file size: 100 MB
+Rank 17: Starting AWS default upload
+Upload file size: 100 MB
+Rank 19: Starting AWS default upload
+Upload file size: 100 MB
+Rank 13: Starting AWS default upload
+Upload file size: 100 MB
+Rank 8: Starting AWS default upload
+Upload file size: 100 MB
+Rank 22: Starting AWS default upload
+Upload file size: 100 MB
+Rank 5: Starting AWS default upload
+Upload file size: 100 MB
+Rank 20: Starting AWS default upload
+Upload file size: 100 MB
+Rank 24: Starting AWS default upload
+Upload file size: 100 MB
+Rank 18: Starting AWS default upload
+Upload file size: 100 MB
+Rank 14: Starting AWS default upload
+Upload file size: 100 MB
+Rank 1: Starting AWS default upload
+Upload file size: 100 MB
+Rank 23: Starting AWS default upload
+Upload file size: 100 MB
+Rank 9: Starting AWS default upload
+Upload file size: 100 MB
+Rank 12: Starting AWS default upload
+
+========================================
+UPLOAD TRIAL 3/3
+========================================
+Upload file size: 100 MB
+Rank 0: Starting AWS default upload
+Upload file size: 100 MB
+Rank 88: Starting AWS default upload
+Upload file size: 100 MB
+Rank 57: Starting AWS default upload
+Upload file size: 100 MB
+Rank 118: Starting AWS default upload
+Upload file size: 100 MB
+Rank 67: Starting AWS default upload
+Upload file size: 100 MB
+Rank 50: Starting AWS default upload
+Upload file size: 100 MB
+Rank 96: Starting AWS default upload
+Upload file size: 100 MB
+Rank 73: Starting AWS default upload
+Upload file size: 100 MB
+Rank 61: Starting AWS default upload
+Upload file size: 100 MB
+Rank 117: Starting AWS default upload
+Upload file size: 100 MB
+Rank 70: Starting AWS default upload
+Upload file size: 100 MB
+Rank 51: Starting AWS default upload
+Upload file size: 100 MB
+Rank 108: Starting AWS default upload
+Upload file size: 100 MB
+Rank 74: Starting AWS default upload
+Upload file size: 100 MB
+Rank 43: Starting AWS default upload
+Upload file size: 100 MB
+Rank 97: Starting AWS default upload
+Upload file size: 100 MB
+Rank 75: Starting AWS default upload
+Upload file size: 100 MB
+Rank 36: Starting AWS default upload
+Upload file size: 100 MB
+Rank 127: Starting AWS default upload
+Upload file size: 100 MB
+Rank 89: Starting AWS default upload
+Upload file size: 100 MB
+Rank 41: Starting AWS default upload
+Upload file size: 100 MB
+Rank 121: Starting AWS default upload
+Upload file size: 100 MB
+Rank 82: Starting AWS default upload
+Upload file size: 100 MB
+Rank 62: Starting AWS default upload
+Upload file size: 100 MB
+Rank 109: Starting AWS default upload
+Upload file size: 100 MB
+Rank 81: Starting AWS default upload
+Upload file size: 100 MB
+Rank 38: Starting AWS default upload
+Upload file size: 100 MB
+Rank 103: Starting AWS default upload
+Upload file size: 100 MB
+Rank 76: Starting AWS default upload
+Upload file size: 100 MB
+Rank 32: Starting AWS default upload
+Upload file size: 100 MB
+Rank 125: Starting AWS default upload
+Upload file size: 100 MB
+Rank 85: Starting AWS default upload
+Upload file size: 100 MB
+Rank 40: Starting AWS default upload
+Upload file size: 100 MB
+Rank 112: Starting AWS default upload
+Upload file size: 100 MB
+Rank 69: Starting AWS default upload
+Upload file size: 100 MB
+Rank 53: Starting AWS default upload
+Upload file size: 100 MB
+Rank 102: Starting AWS default upload
+Upload file size: 100 MB
+Rank 80: Starting AWS default upload
+Upload file size: 100 MB
+Rank 46: Starting AWS default upload
+Upload file size: 100 MB
+Rank 107: Starting AWS default upload
+Upload file size: 100 MB
+Rank 68: Starting AWS default upload
+Upload file size: 100 MB
+Rank 52: Starting AWS default upload
+Upload file size: 100 MB
+Rank 99: Starting AWS default upload
+Upload file size: 100 MB
+Rank 71: Starting AWS default upload
+Upload file size: 100 MB
+Rank 54: Starting AWS default upload
+Upload file size: 100 MB
+Rank 126: Starting AWS default upload
+Upload file size: 100 MB
+Rank 65: Starting AWS default upload
+Upload file size: 100 MB
+Rank 37: Starting AWS default upload
+Upload file size: 100 MB
+Rank 98: Starting AWS default upload
+Upload file size: 100 MB
+Rank 87: Starting AWS default upload
+Upload file size: 100 MB
+Rank 58: Starting AWS default upload
+Upload file size: 100 MB
+Rank 101: Starting AWS default upload
+Upload file size: 100 MB
+Rank 79: Starting AWS default upload
+Upload file size: 100 MB
+Rank 63: Starting AWS default upload
+Upload file size: 100 MB
+Rank 120: Starting AWS default upload
+Upload file size: 100 MB
+Rank 64: Starting AWS default upload
+Upload file size: 100 MB
+Rank 47: Starting AWS default upload
+Upload file size: 100 MB
+Rank 115: Starting AWS default upload
+Upload file size: 100 MB
+Rank 66: Starting AWS default upload
+Upload file size: 100 MB
+Rank 56: Starting AWS default upload
+Upload file size: 100 MB
+Rank 100: Starting AWS default upload
+Upload file size: 100 MB
+Rank 93: Starting AWS default upload
+Upload file size: 100 MB
+Rank 42: Starting AWS default upload
+Upload file size: 100 MB
+Rank 106: Starting AWS default upload
+Upload file size: 100 MB
+Rank 92: Starting AWS default upload
+Upload file size: 100 MB
+Rank 59: Starting AWS default upload
+Upload file size: 100 MB
+Rank 113: Starting AWS default upload
+Upload file size: 100 MB
+Rank 77: Starting AWS default upload
+Upload file size: 100 MB
+Rank 39: Starting AWS default upload
+Upload file size: 100 MB
+Rank 116: Starting AWS default upload
+Upload file size: 100 MB
+Rank 94: Starting AWS default upload
+Upload file size: 100 MB
+Rank 49: Starting AWS default upload
+Upload file size: 100 MB
+Rank 124: Starting AWS default upload
+Upload file size: 100 MB
+Rank 72: Starting AWS default upload
+Upload file size: 100 MB
+Rank 60: Starting AWS default upload
+Upload file size: 100 MB
+Rank 111: Starting AWS default upload
+Upload file size: 100 MB
+Rank 90: Starting AWS default upload
+Upload file size: 100 MB
+Rank 55: Starting AWS default upload
+Upload file size: 100 MB
+Rank 122: Starting AWS default upload
+Upload file size: 100 MB
+Rank 91: Starting AWS default upload
+Upload file size: 100 MB
+Rank 48: Starting AWS default upload
+Upload file size: 100 MB
+Rank 114: Starting AWS default upload
+Upload file size: 100 MB
+Rank 86: Starting AWS default upload
+Upload file size: 100 MB
+Rank 34: Starting AWS default upload
+Upload file size: 100 MB
+Rank 105: Starting AWS default upload
+Upload file size: 100 MB
+Rank 95: Starting AWS default upload
+Upload file size: 100 MB
+Rank 45: Starting AWS default upload
+Upload file size: 100 MB
+Rank 110: Starting AWS default upload
+Upload file size: 100 MB
+Rank 83: Starting AWS default upload
+Upload file size: 100 MB
+Rank 44: Starting AWS default upload
+Upload file size: 100 MB
+Rank 104: Starting AWS default upload
+Upload file size: 100 MB
+Rank 84: Starting AWS default upload
+Upload file size: 100 MB
+Rank 33: Starting AWS default upload
+Upload file size: 100 MB
+Rank 119: Starting AWS default upload
+Upload file size: 100 MB
+Rank 78: Starting AWS default upload
+Upload file size: 100 MB
+Rank 35: Starting AWS default upload
+Upload file size: 100 MB
+Rank 123: Starting AWS default upload
+Rank 26: upload successful (1.01538 MB/s, AWS default) [AWS SDK default behavior]
+Rank 76: upload successful (1.00239 MB/s, AWS default) [AWS SDK default behavior]
+Rank 120: upload successful (1.00216 MB/s, AWS default) [AWS SDK default behavior]
+Rank 88: upload successful (0.976281 MB/s, AWS default) [AWS SDK default behavior]
+Rank 37: upload successful (0.971373 MB/s, AWS default) [AWS SDK default behavior]
+Rank 43: upload successful (0.971245 MB/s, AWS default) [AWS SDK default behavior]
+Rank 98: upload successful (0.969566 MB/s, AWS default) [AWS SDK default behavior]
+Rank 27: upload successful (0.966363 MB/s, AWS default) [AWS SDK default behavior]
+Rank 75: upload successful (0.966295 MB/s, AWS default) [AWS SDK default behavior]
+Rank 11: upload successful (0.958892 MB/s, AWS default) [AWS SDK default behavior]
+Rank 95: upload successful (0.958375 MB/s, AWS default) [AWS SDK default behavior]
+Rank 111: upload successful (0.958337 MB/s, AWS default) [AWS SDK default behavior]
+Rank 2: upload successful (0.956074 MB/s, AWS default) [AWS SDK default behavior]
+Rank 109: upload successful (0.95308 MB/s, AWS default) [AWS SDK default behavior]
+Rank 32: upload successful (0.950324 MB/s, AWS default) [AWS SDK default behavior]
+Rank 123: upload successful (0.950185 MB/s, AWS default) [AWS SDK default behavior]
+Rank 31: upload successful (0.947678 MB/s, AWS default) [AWS SDK default behavior]
+Rank 115: upload successful (0.947526 MB/s, AWS default) [AWS SDK default behavior]
+Rank 12: upload successful (0.945082 MB/s, AWS default) [AWS SDK default behavior]
+Rank 104: upload successful (0.943283 MB/s, AWS default) [AWS SDK default behavior]
+Rank 96: upload successful (0.943211 MB/s, AWS default) [AWS SDK default behavior]
+Rank 57: upload successful (0.942192 MB/s, AWS default) [AWS SDK default behavior]
+Rank 13: upload successful (0.940536 MB/s, AWS default) [AWS SDK default behavior]
+Rank 47: upload successful (0.93807 MB/s, AWS default) [AWS SDK default behavior]
+Rank 64: upload successful (0.936727 MB/s, AWS default) [AWS SDK default behavior]
+Rank 116: upload successful (0.935801 MB/s, AWS default) [AWS SDK default behavior]
+Rank 119: upload successful (0.935634 MB/s, AWS default) [AWS SDK default behavior]
+Rank 71: upload successful (0.934573 MB/s, AWS default) [AWS SDK default behavior]
+Rank 5: upload successful (0.93117 MB/s, AWS default) [AWS SDK default behavior]
+Rank 48: upload successful (0.930924 MB/s, AWS default) [AWS SDK default behavior]
+Rank 121: upload successful (0.930864 MB/s, AWS default) [AWS SDK default behavior]
+Rank 39: upload successful (0.929975 MB/s, AWS default) [AWS SDK default behavior]
+Rank 62: upload successful (0.929758 MB/s, AWS default) [AWS SDK default behavior]
+Rank 58: upload successful (0.929434 MB/s, AWS default) [AWS SDK default behavior]
+Rank 72: upload successful (0.92707 MB/s, AWS default) [AWS SDK default behavior]
+Rank 42: upload successful (0.926304 MB/s, AWS default) [AWS SDK default behavior]
+Rank 1: upload successful (0.925013 MB/s, AWS default) [AWS SDK default behavior]
+Rank 99: upload successful (0.924217 MB/s, AWS default) [AWS SDK default behavior]
+Rank 38: upload successful (0.922705 MB/s, AWS default) [AWS SDK default behavior]
+Rank 21: upload successful (0.919862 MB/s, AWS default) [AWS SDK default behavior]
+Rank 23: upload successful (0.919551 MB/s, AWS default) [AWS SDK default behavior]
+Rank 114: upload successful (0.919366 MB/s, AWS default) [AWS SDK default behavior]
+Rank 83: upload successful (0.918776 MB/s, AWS default) [AWS SDK default behavior]
+Rank 28: upload successful (0.916066 MB/s, AWS default) [AWS SDK default behavior]
+Rank 61: upload successful (0.915749 MB/s, AWS default) [AWS SDK default behavior]
+Rank 117: upload successful (0.913556 MB/s, AWS default) [AWS SDK default behavior]
+Rank 93: upload successful (0.912875 MB/s, AWS default) [AWS SDK default behavior]
+Rank 101: upload successful (0.912558 MB/s, AWS default) [AWS SDK default behavior]
+Rank 9: upload successful (0.911718 MB/s, AWS default) [AWS SDK default behavior]
+Rank 118: upload successful (0.909735 MB/s, AWS default) [AWS SDK default behavior]
+Rank 112: upload successful (0.908466 MB/s, AWS default) [AWS SDK default behavior]
+Rank 127: upload successful (0.906864 MB/s, AWS default) [AWS SDK default behavior]
+Rank 29: upload successful (0.906788 MB/s, AWS default) [AWS SDK default behavior]
+Rank 66: upload successful (0.905983 MB/s, AWS default) [AWS SDK default behavior]
+Rank 65: upload successful (0.9059 MB/s, AWS default) [AWS SDK default behavior]
+Rank 18: upload successful (0.903996 MB/s, AWS default) [AWS SDK default behavior]
+Rank 25: upload successful (0.902987 MB/s, AWS default) [AWS SDK default behavior]
+Rank 41: upload successful (0.902989 MB/s, AWS default) [AWS SDK default behavior]
+Rank 55: upload successful (0.902811 MB/s, AWS default) [AWS SDK default behavior]
+Rank 46: upload successful (0.901584 MB/s, AWS default) [AWS SDK default behavior]
+Rank 24: upload successful (0.901133 MB/s, AWS default) [AWS SDK default behavior]
+Rank 15: upload successful (0.90052 MB/s, AWS default) [AWS SDK default behavior]
+Rank 51: upload successful (0.89977 MB/s, AWS default) [AWS SDK default behavior]
+Rank 49: upload successful (0.899533 MB/s, AWS default) [AWS SDK default behavior]
+Rank 74: upload successful (0.89907 MB/s, AWS default) [AWS SDK default behavior]
+Rank 54: upload successful (0.899027 MB/s, AWS default) [AWS SDK default behavior]
+Rank 22: upload successful (0.898141 MB/s, AWS default) [AWS SDK default behavior]
+Rank 92: upload successful (0.896925 MB/s, AWS default) [AWS SDK default behavior]
+Rank 50: upload successful (0.896804 MB/s, AWS default) [AWS SDK default behavior]
+Rank 113: upload successful (0.896366 MB/s, AWS default) [AWS SDK default behavior]
+Rank 67: upload successful (0.894881 MB/s, AWS default) [AWS SDK default behavior]
+Rank 125: upload successful (0.891927 MB/s, AWS default) [AWS SDK default behavior]
+Rank 84: upload successful (0.89189 MB/s, AWS default) [AWS SDK default behavior]
+Rank 110: upload successful (0.89134 MB/s, AWS default) [AWS SDK default behavior]
+Rank 7: upload successful (0.889282 MB/s, AWS default) [AWS SDK default behavior]
+Rank 91: upload successful (0.888349 MB/s, AWS default) [AWS SDK default behavior]
+Rank 40: upload successful (0.888336 MB/s, AWS default) [AWS SDK default behavior]
+Rank 8: upload successful (0.888012 MB/s, AWS default) [AWS SDK default behavior]
+Rank 107: upload successful (0.887999 MB/s, AWS default) [AWS SDK default behavior]
+Rank 102: upload successful (0.887813 MB/s, AWS default) [AWS SDK default behavior]
+Rank 124: upload successful (0.887714 MB/s, AWS default) [AWS SDK default behavior]
+Rank 80: upload successful (0.887622 MB/s, AWS default) [AWS SDK default behavior]
+Rank 81: upload successful (0.887498 MB/s, AWS default) [AWS SDK default behavior]
+Rank 45: upload successful (0.887464 MB/s, AWS default) [AWS SDK default behavior]
+Rank 77: upload successful (0.886971 MB/s, AWS default) [AWS SDK default behavior]
+Rank 60: upload successful (0.886327 MB/s, AWS default) [AWS SDK default behavior]
+Rank 126: upload successful (0.886309 MB/s, AWS default) [AWS SDK default behavior]
+Rank 68: upload successful (0.885746 MB/s, AWS default) [AWS SDK default behavior]
+Rank 10: upload successful (0.885705 MB/s, AWS default) [AWS SDK default behavior]
+Rank 78: upload successful (0.88534 MB/s, AWS default) [AWS SDK default behavior]
+Rank 59: upload successful (0.884923 MB/s, AWS default) [AWS SDK default behavior]
+Rank 70: upload successful (0.884869 MB/s, AWS default) [AWS SDK default behavior]
+Rank 19: upload successful (0.884789 MB/s, AWS default) [AWS SDK default behavior]
+Rank 90: upload successful (0.88446 MB/s, AWS default) [AWS SDK default behavior]
+Rank 17: upload successful (0.884057 MB/s, AWS default) [AWS SDK default behavior]
+Rank 33: upload successful (0.883616 MB/s, AWS default) [AWS SDK default behavior]
+Rank 69: upload successful (0.88342 MB/s, AWS default) [AWS SDK default behavior]
+Rank 106: upload successful (0.883335 MB/s, AWS default) [AWS SDK default behavior]
+Rank 56: upload successful (0.883091 MB/s, AWS default) [AWS SDK default behavior]
+Rank 108: upload successful (0.882909 MB/s, AWS default) [AWS SDK default behavior]
+Rank 36: upload successful (0.882711 MB/s, AWS default) [AWS SDK default behavior]
+Rank 100: upload successful (0.882051 MB/s, AWS default) [AWS SDK default behavior]
+Rank 97: upload successful (0.882049 MB/s, AWS default) [AWS SDK default behavior]
+Rank 30: upload successful (0.881226 MB/s, AWS default) [AWS SDK default behavior]
+Rank 53: upload successful (0.880519 MB/s, AWS default) [AWS SDK default behavior]
+Rank 14: upload successful (0.880197 MB/s, AWS default) [AWS SDK default behavior]
+Rank 63: upload successful (0.879571 MB/s, AWS default) [AWS SDK default behavior]
+Rank 103: upload successful (0.879056 MB/s, AWS default) [AWS SDK default behavior]
+Rank 82: upload successful (0.879054 MB/s, AWS default) [AWS SDK default behavior]
+Rank 44: upload successful (0.877996 MB/s, AWS default) [AWS SDK default behavior]
+Rank 0: upload successful (0.877936 MB/s, AWS default) [AWS SDK default behavior]
+Rank 20: upload successful (0.877876 MB/s, AWS default) [AWS SDK default behavior]
+Rank 94: upload successful (0.87778 MB/s, AWS default) [AWS SDK default behavior]
+Rank 79: upload successful (0.877603 MB/s, AWS default) [AWS SDK default behavior]
+Rank 87: upload successful (0.877338 MB/s, AWS default) [AWS SDK default behavior]
+Rank 122: upload successful (0.876928 MB/s, AWS default) [AWS SDK default behavior]
+Rank 105: upload successful (0.876915 MB/s, AWS default) [AWS SDK default behavior]
+Rank 4: upload successful (0.876097 MB/s, AWS default) [AWS SDK default behavior]
+Rank 3: upload successful (0.875208 MB/s, AWS default) [AWS SDK default behavior]
+Rank 73: upload successful (0.873971 MB/s, AWS default) [AWS SDK default behavior]
+Rank 86: upload successful (0.873884 MB/s, AWS default) [AWS SDK default behavior]
+Rank 16: upload successful (0.873602 MB/s, AWS default) [AWS SDK default behavior]
+Rank 34: upload successful (0.872969 MB/s, AWS default) [AWS SDK default behavior]
+Rank 85: upload successful (0.871656 MB/s, AWS default) [AWS SDK default behavior]
+Rank 89: upload successful (0.871166 MB/s, AWS default) [AWS SDK default behavior]
+Rank 6: upload successful (0.870256 MB/s, AWS default) [AWS SDK default behavior]
+Rank 52: upload successful (0.868938 MB/s, AWS default) [AWS SDK default behavior]
+
+--- Upload Trial 3 Summary ---
+Rank 0: 0.877936 MB/s (AWS default)
+Rank 1: 0.925013 MB/s (AWS default)
+Rank 2: 0.956074 MB/s (AWS default)
+Rank 3: 0.875208 MB/s (AWS default)
+Rank 4: 0.876097 MB/s (AWS default)
+Rank 5: 0.93117 MB/s (AWS default)
+Rank 6: 0.870256 MB/s (AWS default)
+Rank 7: 0.889282 MB/s (AWS default)
+Rank 8: 0.888012 MB/s (AWS default)
+Rank 9: 0.911718 MB/s (AWS default)
+Rank 10: 0.885705 MB/s (AWS default)
+Rank 11: 0.958892 MB/s (AWS default)
+Rank 12: 0.945082 MB/s (AWS default)
+Rank 13: 0.940536 MB/s (AWS default)
+Rank 14: 0.880197 MB/s (AWS default)
+Rank 15: 0.90052 MB/s (AWS default)
+Rank 16: 0.873602 MB/s (AWS default)
+Rank 17: 0.884057 MB/s (AWS default)
+Rank 18: 0.903996 MB/s (AWS default)
+Rank 19: 0.884789 MB/s (AWS default)
+Rank 35: upload successful (0.866789 MB/s, AWS default) [AWS SDK default behavior]
+Rank 20: 0.877876 MB/s (AWS default)
+Rank 21: 0.919862 MB/s (AWS default)
+Rank 22: 0.898141 MB/s (AWS default)
+Rank 23: 0.919551 MB/s (AWS default)
+Rank 24: 0.901133 MB/s (AWS default)
+Rank 25: 0.902987 MB/s (AWS default)
+Rank 26: 1.01538 MB/s (AWS default)
+Rank 27: 0.966363 MB/s (AWS default)
+Rank 28: 0.916066 MB/s (AWS default)
+Rank 29: 0.906788 MB/s (AWS default)
+Rank 30: 0.881226 MB/s (AWS default)
+Rank 31: 0.947678 MB/s (AWS default)
+Rank 32: 0.950324 MB/s (AWS default)
+Rank 33: 0.883616 MB/s (AWS default)
+Rank 34: 0.872969 MB/s (AWS default)
+Rank 35: 0.866789 MB/s (AWS default)
+Rank 36: 0.882711 MB/s (AWS default)
+Rank 37: 0.971373 MB/s (AWS default)
+Rank 38: 0.922705 MB/s (AWS default)
+Rank 39: 0.929975 MB/s (AWS default)
+Rank 40: 0.888336 MB/s (AWS default)
+Rank 41: 0.902989 MB/s (AWS default)
+Rank 42: 0.926304 MB/s (AWS default)
+Rank 43: 0.971245 MB/s (AWS default)
+Rank 44: 0.877996 MB/s (AWS default)
+Rank 45: 0.887464 MB/s (AWS default)
+Rank 46: 0.901584 MB/s (AWS default)
+Rank 47: 0.93807 MB/s (AWS default)
+Rank 48: 0.930924 MB/s (AWS default)
+Rank 49: 0.899533 MB/s (AWS default)
+Rank 50: 0.896804 MB/s (AWS default)
+Rank 51: 0.89977 MB/s (AWS default)
+Rank 52: 0.868938 MB/s (AWS default)
+Rank 53: 0.880519 MB/s (AWS default)
+Rank 54: 0.899027 MB/s (AWS default)
+Rank 55: 0.902811 MB/s (AWS default)
+Rank 56: 0.883091 MB/s (AWS default)
+Rank 57: 0.942192 MB/s (AWS default)
+Rank 58: 0.929434 MB/s (AWS default)
+Rank 59: 0.884923 MB/s (AWS default)
+Rank 60: 0.886327 MB/s (AWS default)
+Rank 61: 0.915749 MB/s (AWS default)
+Rank 62: 0.929758 MB/s (AWS default)
+Rank 63: 0.879571 MB/s (AWS default)
+Rank 64: 0.936727 MB/s (AWS default)
+Rank 65: 0.9059 MB/s (AWS default)
+Rank 66: 0.905983 MB/s (AWS default)
+Rank 67: 0.894881 MB/s (AWS default)
+Rank 68: 0.885746 MB/s (AWS default)
+Rank 69: 0.88342 MB/s (AWS default)
+Rank 70: 0.884869 MB/s (AWS default)
+Rank 71: 0.934573 MB/s (AWS default)
+Rank 72: 0.92707 MB/s (AWS default)
+Rank 73: 0.873971 MB/s (AWS default)
+Rank 74: 0.89907 MB/s (AWS default)
+Rank 75: 0.966295 MB/s (AWS default)
+Rank 76: 1.00239 MB/s (AWS default)
+Rank 77: 0.886971 MB/s (AWS default)
+Rank 78: 0.88534 MB/s (AWS default)
+Rank 79: 0.877603 MB/s (AWS default)
+Rank 80: 0.887622 MB/s (AWS default)
+Rank 81: 0.887498 MB/s (AWS default)
+Rank 82: 0.879054 MB/s (AWS default)
+Rank 83: 0.918776 MB/s (AWS default)
+Rank 84: 0.89189 MB/s (AWS default)
+Rank 85: 0.871656 MB/s (AWS default)
+Rank 86: 0.873884 MB/s (AWS default)
+Rank 87: 0.877338 MB/s (AWS default)
+Rank 88: 0.976281 MB/s (AWS default)
+Rank 89: 0.871166 MB/s (AWS default)
+Rank 90: 0.88446 MB/s (AWS default)
+Rank 91: 0.888349 MB/s (AWS default)
+Rank 92: 0.896925 MB/s (AWS default)
+Rank 93: 0.912875 MB/s (AWS default)
+Rank 94: 0.87778 MB/s (AWS default)
+Rank 95: 0.958375 MB/s (AWS default)
+Rank 96: 0.943211 MB/s (AWS default)
+Rank 97: 0.882049 MB/s (AWS default)
+Rank 98: 0.969566 MB/s (AWS default)
+Rank 99: 0.924217 MB/s (AWS default)
+Rank 100: 0.882051 MB/s (AWS default)
+Rank 101: 0.912558 MB/s (AWS default)
+Rank 102: 0.887813 MB/s (AWS default)
+Rank 103: 0.879056 MB/s (AWS default)
+Rank 104: 0.943283 MB/s (AWS default)
+Rank 105: 0.876915 MB/s (AWS default)
+Rank 106: 0.883335 MB/s (AWS default)
+Rank 107: 0.887999 MB/s (AWS default)
+Rank 108: 0.882909 MB/s (AWS default)
+Rank 109: 0.95308 MB/s (AWS default)
+Rank 110: 0.89134 MB/s (AWS default)
+Rank 111: 0.958337 MB/s (AWS default)
+Rank 112: 0.908466 MB/s (AWS default)
+Rank 113: 0.896366 MB/s (AWS default)
+Rank 114: 0.919366 MB/s (AWS default)
+Rank 115: 0.947526 MB/s (AWS default)
+Rank 116: 0.935801 MB/s (AWS default)
+Rank 117: 0.913556 MB/s (AWS default)
+Rank 118: 0.909735 MB/s (AWS default)
+Rank 119: 0.935634 MB/s (AWS default)
+Rank 120: 1.00216 MB/s (AWS default)
+Rank 121: 0.930864 MB/s (AWS default)
+Rank 122: 0.876928 MB/s (AWS default)
+Rank 123: 0.950185 MB/s (AWS default)
+Rank 124: 0.887714 MB/s (AWS default)
+Rank 125: 0.891927 MB/s (AWS default)
+Rank 126: 0.886309 MB/s (AWS default)
+Rank 127: 0.906864 MB/s (AWS default)
+Average upload bandwidth: 0.908413 MB/s
+Total upload throughput: 116.277 MB/s
+Upload trial duration: 113.904 seconds
+Successful upload ranks: 128/128
+
+========================================
+FINAL UPLOAD STATISTICS ACROSS ALL TRIALS
+========================================
+Successful upload trials: 3/3
+Upload bandwidth per rank:
+  Mean: 0.901167 MB/s
+  Std Dev: 0.0174472 MB/s
+  Values: 0.905582 0.919983 0.877936 
+Upload trial duration:
+  Mean: 111.009 seconds
+  Std Dev: 2.1649 seconds
+  Values: 110.426 108.698 113.904 
+Aggregate upload throughput: 115.349 MB/s
+Upload method: AWS SDK default
+
+============================================================
+STARTING DOWNLOAD TESTS FROM S3 TO BEEGFS
+============================================================
+BeeGFS download directory: /rcfs/projects/datamesh/tang584/ior_cp_data
+Created BeeGFS download directory
+
+========================================
+DOWNLOAD TRIAL 1/3
+========================================
+Rank 1: Starting S3 download of upload-test/rank_1_100MB.dat_trial1
+Rank 22: Starting S3 download of upload-test/rank_22_100MB.dat_trial1
+Rank 16: Starting S3 download of upload-test/rank_16_100MB.dat_trial1
+Rank 4: Starting S3 download of upload-test/rank_4_100MB.dat_trial1
+Rank 11: Starting S3 download of upload-test/rank_11_100MB.dat_trial1
+Rank 2: Starting S3 download of upload-test/rank_2_100MB.dat_trial1
+Rank 27: Starting S3 download of upload-test/rank_27_100MB.dat_trial1
+Rank 17: Starting S3 download of upload-test/rank_17_100MB.dat_trial1
+Rank 3: Starting S3 download of upload-test/rank_3_100MB.dat_trial1
+Rank 20: Starting S3 download of upload-test/rank_20_100MB.dat_trial1
+Rank 23: Starting S3 download of upload-test/rank_23_100MB.dat_trial1
+Rank 24: Starting S3 download of upload-test/rank_24_100MB.dat_trial1
+Rank 14: Starting S3 download of upload-test/rank_14_100MB.dat_trial1
+Rank 26: Starting S3 download of upload-test/rank_26_100MB.dat_trial1
+Rank 18: Starting S3 download of upload-test/rank_18_100MB.dat_trial1
+Rank 19: Starting S3 download of upload-test/rank_19_100MB.dat_trial1
+Rank 10: Starting S3 download of upload-test/rank_10_100MB.dat_trial1
+Rank 12: Starting S3 download of upload-test/rank_12_100MB.dat_trial1
+Rank 7: Starting S3 download of upload-test/rank_7_100MB.dat_trial1
+Rank 15: Starting S3 download of upload-test/rank_15_100MB.dat_trial1
+Rank 13: Starting S3 download of upload-test/rank_13_100MB.dat_trial1
+Rank 6: Starting S3 download of upload-test/rank_6_100MB.dat_trial1
+Rank 25: Starting S3 download of upload-test/rank_25_100MB.dat_trial1
+Rank 29: Starting S3 download of upload-test/rank_29_100MB.dat_trial1
+Rank 30: Starting S3 download of upload-test/rank_30_100MB.dat_trial1
+Rank 5: Starting S3 download of upload-test/rank_5_100MB.dat_trial1
+Rank 21: Starting S3 download of upload-test/rank_21_100MB.dat_trial1
+Rank 28: Starting S3 download of upload-test/rank_28_100MB.dat_trial1
+Rank 0: Starting S3 download of upload-test/rank_0_100MB.dat_trial1
+Rank 31: Starting S3 download of upload-test/rank_31_100MB.dat_trial1
+Rank 8: Starting S3 download of upload-test/rank_8_100MB.dat_trial1
+Rank 9: Starting S3 download of upload-test/rank_9_100MB.dat_trial1
+Rank 59: Starting S3 download of upload-test/rank_59_100MB.dat_trial1
+Rank 116: Starting S3 download of upload-test/rank_116_100MB.dat_trial1
+Rank 32: Starting S3 download of upload-test/rank_32_100MB.dat_trial1
+Rank 101: Starting S3 download of upload-test/rank_101_100MB.dat_trial1
+Rank 54: Starting S3 download of upload-test/rank_54_100MB.dat_trial1
+Rank 38: Starting S3 download of upload-test/rank_38_100MB.dat_trial1
+Rank 46: Starting S3 download of upload-test/rank_46_100MB.dat_trial1
+Rank 37: Starting S3 download of upload-test/rank_37_100MB.dat_trial1
+Rank 56: Starting S3 download of upload-test/rank_56_100MB.dat_trial1
+Rank 61: Starting S3 download of upload-test/rank_61_100MB.dat_trial1
+Rank 104: Starting S3 download of upload-test/rank_104_100MB.dat_trial1
+Rank 114: Starting S3 download of upload-test/rank_114_100MB.dat_trial1
+Rank 39: Starting S3 download of upload-test/rank_39_100MB.dat_trial1
+Rank 106: Starting S3 download of upload-test/rank_106_100MB.dat_trial1
+Rank 67: Starting S3 download of upload-test/rank_67_100MB.dat_trial1
+Rank 42: Starting S3 download of upload-test/rank_42_100MB.dat_trial1
+Rank 100: Starting S3 download of upload-test/rank_100_100MB.dat_trial1
+Rank 76: Starting S3 download of upload-test/rank_76_100MB.dat_trial1
+Rank 43: Starting S3 download of upload-test/rank_43_100MB.dat_trial1
+Rank 112: Starting S3 download of upload-test/rank_112_100MB.dat_trial1
+Rank 92: Starting S3 download of upload-test/rank_92_100MB.dat_trial1
+Rank 50: Starting S3 download of upload-test/rank_50_100MB.dat_trial1
+Rank 119: Starting S3 download of upload-test/rank_119_100MB.dat_trial1
+Rank 87: Starting S3 download of upload-test/rank_87_100MB.dat_trial1
+Rank 36: Starting S3 download of upload-test/rank_36_100MB.dat_trial1
+Rank 111: Starting S3 download of upload-test/rank_111_100MB.dat_trial1
+Rank 78: Starting S3 download of upload-test/rank_78_100MB.dat_trial1
+Rank 55: Starting S3 download of upload-test/rank_55_100MB.dat_trial1
+Rank 97: Starting S3 download of upload-test/rank_97_100MB.dat_trial1
+Rank 65: Starting S3 download of upload-test/rank_65_100MB.dat_trial1
+Rank 34: Starting S3 download of upload-test/rank_34_100MB.dat_trial1
+Rank 113: Starting S3 download of upload-test/rank_113_100MB.dat_trial1
+Rank 88: Starting S3 download of upload-test/rank_88_100MB.dat_trial1
+Rank 49: Starting S3 download of upload-test/rank_49_100MB.dat_trial1
+Rank 118: Starting S3 download of upload-test/rank_118_100MB.dat_trial1
+Rank 85: Starting S3 download of upload-test/rank_85_100MB.dat_trial1
+Rank 52: Starting S3 download of upload-test/rank_52_100MB.dat_trial1
+Rank 107: Starting S3 download of upload-test/rank_107_100MB.dat_trial1
+Rank 69: Starting S3 download of upload-test/rank_69_100MB.dat_trial1
+Rank 62: Starting S3 download of upload-test/rank_62_100MB.dat_trial1
+Rank 110: Starting S3 download of upload-test/rank_110_100MB.dat_trial1
+Rank 80: Starting S3 download of upload-test/rank_80_100MB.dat_trial1
+Rank 53: Starting S3 download of upload-test/rank_53_100MB.dat_trial1
+Rank 121: Starting S3 download of upload-test/rank_121_100MB.dat_trial1
+Rank 68: Starting S3 download of upload-test/rank_68_100MB.dat_trial1
+Rank 57: Starting S3 download of upload-test/rank_57_100MB.dat_trial1
+Rank 124: Starting S3 download of upload-test/rank_124_100MB.dat_trial1
+Rank 86: Starting S3 download of upload-test/rank_86_100MB.dat_trial1
+Rank 33: Starting S3 download of upload-test/rank_33_100MB.dat_trial1
+Rank 120: Starting S3 download of upload-test/rank_120_100MB.dat_trial1
+Rank 90: Starting S3 download of upload-test/rank_90_100MB.dat_trial1
+Rank 58: Starting S3 download of upload-test/rank_58_100MB.dat_trial1
+Rank 117: Starting S3 download of upload-test/rank_117_100MB.dat_trial1
+Rank 91: Starting S3 download of upload-test/rank_91_100MB.dat_trial1
+Rank 60: Starting S3 download of upload-test/rank_60_100MB.dat_trial1
+Rank 109: Starting S3 download of upload-test/rank_109_100MB.dat_trial1
+Rank 77: Starting S3 download of upload-test/rank_77_100MB.dat_trial1
+Rank 48: Starting S3 download of upload-test/rank_48_100MB.dat_trial1
+Rank 123: Starting S3 download of upload-test/rank_123_100MB.dat_trial1
+Rank 64: Starting S3 download of upload-test/rank_64_100MB.dat_trial1
+Rank 51: Starting S3 download of upload-test/rank_51_100MB.dat_trial1
+Rank 108: Starting S3 download of upload-test/rank_108_100MB.dat_trial1
+Rank 66: Starting S3 download of upload-test/rank_66_100MB.dat_trial1
+Rank 45: Starting S3 download of upload-test/rank_45_100MB.dat_trial1
+Rank 126: Starting S3 download of upload-test/rank_126_100MB.dat_trial1
+Rank 79: Starting S3 download of upload-test/rank_79_100MB.dat_trial1
+Rank 41: Starting S3 download of upload-test/rank_41_100MB.dat_trial1
+Rank 127: Starting S3 download of upload-test/rank_127_100MB.dat_trial1
+Rank 94: Starting S3 download of upload-test/rank_94_100MB.dat_trial1
+Rank 47: Starting S3 download of upload-test/rank_47_100MB.dat_trial1
+Rank 96: Starting S3 download of upload-test/rank_96_100MB.dat_trial1
+Rank 95: Starting S3 download of upload-test/rank_95_100MB.dat_trial1
+Rank 44: Starting S3 download of upload-test/rank_44_100MB.dat_trial1
+Rank 102: Starting S3 download of upload-test/rank_102_100MB.dat_trial1
+Rank 93: Starting S3 download of upload-test/rank_93_100MB.dat_trial1
+Rank 40: Starting S3 download of upload-test/rank_40_100MB.dat_trial1
+Rank 98: Starting S3 download of upload-test/rank_98_100MB.dat_trial1
+Rank 83: Starting S3 download of upload-test/rank_83_100MB.dat_trial1
+Rank 63: Starting S3 download of upload-test/rank_63_100MB.dat_trial1
+Rank 103: Starting S3 download of upload-test/rank_103_100MB.dat_trial1
+Rank 74: Starting S3 download of upload-test/rank_74_100MB.dat_trial1
+Rank 35: Starting S3 download of upload-test/rank_35_100MB.dat_trial1
+Rank 99: Starting S3 download of upload-test/rank_99_100MB.dat_trial1
+Rank 81: Starting S3 download of upload-test/rank_81_100MB.dat_trial1
+Rank 122: Starting S3 download of upload-test/rank_122_100MB.dat_trial1
+Rank 82: Starting S3 download of upload-test/rank_82_100MB.dat_trial1
+Rank 125: Starting S3 download of upload-test/rank_125_100MB.dat_trial1
+Rank 71: Starting S3 download of upload-test/rank_71_100MB.dat_trial1
+Rank 115: Starting S3 download of upload-test/rank_115_100MB.dat_trial1
+Rank 70: Starting S3 download of upload-test/rank_70_100MB.dat_trial1
+Rank 105: Starting S3 download of upload-test/rank_105_100MB.dat_trial1
+Rank 84: Starting S3 download of upload-test/rank_84_100MB.dat_trial1
+Rank 73: Starting S3 download of upload-test/rank_73_100MB.dat_trial1
+Rank 75: Starting S3 download of upload-test/rank_75_100MB.dat_trial1
+Rank 72: Starting S3 download of upload-test/rank_72_100MB.dat_trial1
+Rank 89: Starting S3 download of upload-test/rank_89_100MB.dat_trial1
+Rank 12: download successful (1.02325 MB/s, 100 MB)
+Rank 9: download successful (0.995225 MB/s, 100 MB)
+Rank 111: download successful (0.995039 MB/s, 100 MB)
+Rank 32: download successful (0.985518 MB/s, 100 MB)
+Rank 70: download successful (0.981237 MB/s, 100 MB)
+Rank 118: download successful (0.977453 MB/s, 100 MB)
+Rank 84: download successful (0.976326 MB/s, 100 MB)
+Rank 113: download successful (0.972542 MB/s, 100 MB)
+Rank 21: download successful (0.971416 MB/s, 100 MB)
+Rank 35: download successful (0.969823 MB/s, 100 MB)
+Rank 30: download successful (0.961224 MB/s, 100 MB)
+Rank 116: download successful (0.961111 MB/s, 100 MB)
+Rank 46: download successful (0.955968 MB/s, 100 MB)
+Rank 75: download successful (0.954423 MB/s, 100 MB)
+Rank 65: download successful (0.950294 MB/s, 100 MB)
+Rank 28: download successful (0.946419 MB/s, 100 MB)
+Rank 8: download successful (0.939397 MB/s, 100 MB)
+Rank 91: download successful (0.9383 MB/s, 100 MB)
+Rank 0: download successful (0.933875 MB/s, 100 MB)
+Rank 107: download successful (0.932794 MB/s, 100 MB)
+Rank 5: download successful (0.928673 MB/s, 100 MB)
+Rank 40: download successful (0.927863 MB/s, 100 MB)
+Rank 19: download successful (0.925679 MB/s, 100 MB)
+Rank 16: download successful (0.92243 MB/s, 100 MB)
+Rank 55: download successful (0.922163 MB/s, 100 MB)
+Rank 79: download successful (0.91829 MB/s, 100 MB)
+Rank 20: download successful (0.918076 MB/s, 100 MB)
+Rank 37: download successful (0.916215 MB/s, 100 MB)
+Rank 102: download successful (0.91605 MB/s, 100 MB)
+Rank 127: download successful (0.914843 MB/s, 100 MB)
+Rank 108: download successful (0.912628 MB/s, 100 MB)
+Rank 42: download successful (0.91143 MB/s, 100 MB)
+Rank 59: download successful (0.909785 MB/s, 100 MB)
+Rank 63: download successful (0.909229 MB/s, 100 MB)
+Rank 47: download successful (0.90917 MB/s, 100 MB)
+Rank 10: download successful (0.908594 MB/s, 100 MB)
+Rank 83: download successful (0.908456 MB/s, 100 MB)
+Rank 48: download successful (0.907919 MB/s, 100 MB)
+Rank 115: download successful (0.906736 MB/s, 100 MB)
+Rank 51: download successful (0.906646 MB/s, 100 MB)
+Rank 98: download successful (0.90494 MB/s, 100 MB)
+Rank 73: download successful (0.904338 MB/s, 100 MB)
+Rank 58: download successful (0.903722 MB/s, 100 MB)
+Rank 114: download successful (0.903551 MB/s, 100 MB)
+Rank 101: download successful (0.903212 MB/s, 100 MB)
+Rank 97: download successful (0.902999 MB/s, 100 MB)
+Rank 39: download successful (0.90167 MB/s, 100 MB)
+Rank 80: download successful (0.900444 MB/s, 100 MB)
+Rank 68: download successful (0.900298 MB/s, 100 MB)
+Rank 25: download successful (0.900039 MB/s, 100 MB)
+Rank 125: download successful (0.898189 MB/s, 100 MB)
+Rank 120: download successful (0.897417 MB/s, 100 MB)
+Rank 106: download successful (0.897008 MB/s, 100 MB)
+Rank 3: download successful (0.89623 MB/s, 100 MB)
+Rank 52: download successful (0.89574 MB/s, 100 MB)
+Rank 44: download successful (0.895286 MB/s, 100 MB)
+Rank 62: download successful (0.894795 MB/s, 100 MB)
+Rank 61: download successful (0.893935 MB/s, 100 MB)
+Rank 86: download successful (0.892525 MB/s, 100 MB)
+Rank 85: download successful (0.892396 MB/s, 100 MB)
+Rank 7: download successful (0.891098 MB/s, 100 MB)
+Rank 88: download successful (0.891039 MB/s, 100 MB)
+Rank 103: download successful (0.890837 MB/s, 100 MB)
+Rank 64: download successful (0.889597 MB/s, 100 MB)
+Rank 99: download successful (0.888458 MB/s, 100 MB)
+Rank 24: download successful (0.887007 MB/s, 100 MB)
+Rank 95: download successful (0.885775 MB/s, 100 MB)
+Rank 94: download successful (0.885349 MB/s, 100 MB)
+Rank 71: download successful (0.885031 MB/s, 100 MB)
+Rank 74: download successful (0.88499 MB/s, 100 MB)
+Rank 112: download successful (0.884866 MB/s, 100 MB)
+Rank 60: download successful (0.884597 MB/s, 100 MB)
+Rank 67: download successful (0.884515 MB/s, 100 MB)
+Rank 81: download successful (0.88436 MB/s, 100 MB)
+Rank 23: download successful (0.883633 MB/s, 100 MB)
+Rank 90: download successful (0.883544 MB/s, 100 MB)
+Rank 22: download successful (0.883355 MB/s, 100 MB)
+Rank 18: download successful (0.882673 MB/s, 100 MB)
+Rank 27: download successful (0.882423 MB/s, 100 MB)
+Rank 6: download successful (0.882247 MB/s, 100 MB)
+Rank 34: download successful (0.882171 MB/s, 100 MB)
+Rank 76: download successful (0.88185 MB/s, 100 MB)
+Rank 50: download successful (0.881777 MB/s, 100 MB)
+Rank 53: download successful (0.881641 MB/s, 100 MB)
+Rank 54: download successful (0.881376 MB/s, 100 MB)
+Rank 31: download successful (0.881293 MB/s, 100 MB)
+Rank 69: download successful (0.880981 MB/s, 100 MB)
+Rank 66: download successful (0.880977 MB/s, 100 MB)
+Rank 56: download successful (0.880861 MB/s, 100 MB)
+Rank 100: download successful (0.880048 MB/s, 100 MB)
+Rank 33: download successful (0.880023 MB/s, 100 MB)
+Rank 104: download successful (0.87952 MB/s, 100 MB)
+Rank 119: download successful (0.879278 MB/s, 100 MB)
+Rank 77: download successful (0.879225 MB/s, 100 MB)
+Rank 123: download successful (0.878996 MB/s, 100 MB)
+Rank 29: download successful (0.878713 MB/s, 100 MB)
+Rank 72: download successful (0.878648 MB/s, 100 MB)
+Rank 11: download successful (0.878234 MB/s, 100 MB)
+Rank 43: download successful (0.877191 MB/s, 100 MB)
+Rank 110: download successful (0.877094 MB/s, 100 MB)
+Rank 92: download successful (0.876967 MB/s, 100 MB)
+Rank 87: download successful (0.876905 MB/s, 100 MB)
+Rank 13: download successful (0.876551 MB/s, 100 MB)
+Rank 4: download successful (0.876113 MB/s, 100 MB)
+Rank 96: download successful (0.876058 MB/s, 100 MB)
+Rank 41: download successful (0.876028 MB/s, 100 MB)
+Rank 2: download successful (0.875925 MB/s, 100 MB)
+Rank 57: download successful (0.875741 MB/s, 100 MB)
+Rank 38: download successful (0.875714 MB/s, 100 MB)
+Rank 105: download successful (0.874963 MB/s, 100 MB)
+Rank 78: download successful (0.874795 MB/s, 100 MB)
+Rank 89: download successful (0.874736 MB/s, 100 MB)
+Rank 1: download successful (0.874732 MB/s, 100 MB)
+Rank 26: download successful (0.874505 MB/s, 100 MB)
+Rank 82: download successful (0.874493 MB/s, 100 MB)
+Rank 45: download successful (0.874231 MB/s, 100 MB)
+Rank 49: download successful (0.873774 MB/s, 100 MB)
+Rank 14: download successful (0.873494 MB/s, 100 MB)
+Rank 122: download successful (0.873276 MB/s, 100 MB)
+Rank 124: download successful (0.872976 MB/s, 100 MB)
+Rank 126: download successful (0.872907 MB/s, 100 MB)
+Rank 17: download successful (0.872145 MB/s, 100 MB)
+Rank 121: download successful (0.872001 MB/s, 100 MB)
+Rank 117: download successful (0.871646 MB/s, 100 MB)
+Rank 109: download successful (0.870949 MB/s, 100 MB)
+Rank 36: download successful (0.870226 MB/s, 100 MB)
+Rank 15: download successful (0.869598 MB/s, 100 MB)
+Rank 93: download successful (0.868254 MB/s, 100 MB)
+
+--- Download Trial 1 Summary ---
+Rank 0: 0.933875 MB/s (download)
+Rank 1: 0.874732 MB/s (download)
+Rank 2: 0.875925 MB/s (download)
+Rank 3: 0.89623 MB/s (download)
+Rank 4: 0.876113 MB/s (download)
+Rank 5: 0.928673 MB/s (download)
+Rank 6: 0.882247 MB/s (download)
+Rank 7: 0.891098 MB/s (download)
+Rank 8: 0.939397 MB/s (download)
+Rank 9: 0.995225 MB/s (download)
+Rank 10: 0.908594 MB/s (download)
+Rank 11: 0.878234 MB/s (download)
+Rank 12: 1.02325 MB/s (download)
+Rank 13: 0.876551 MB/s (download)
+Rank 14: 0.873494 MB/s (download)
+Rank 15: 0.869598 MB/s (download)
+Rank 16: 0.92243 MB/s (download)
+Rank 17: 0.872145 MB/s (download)
+Rank 18: 0.882673 MB/s (download)
+Rank 19: 0.925679 MB/s (download)
+Rank 20: 0.918076 MB/s (download)
+Rank 21: 0.971416 MB/s (download)
+Rank 22: 0.883355 MB/s (download)
+Rank 23: 0.883633 MB/s (download)
+Rank 24: 0.887007 MB/s (download)
+Rank 25: 0.900039 MB/s (download)
+Rank 26: 0.874505 MB/s (download)
+Rank 27: 0.882423 MB/s (download)
+Rank 28: 0.946419 MB/s (download)
+Rank 29: 0.878713 MB/s (download)
+Rank 30: 0.961224 MB/s (download)
+Rank 31: 0.881293 MB/s (download)
+Rank 32: 0.985518 MB/s (download)
+Rank 33: 0.880023 MB/s (download)
+Rank 34: 0.882171 MB/s (download)
+Rank 35: 0.969823 MB/s (download)
+Rank 36: 0.870226 MB/s (download)
+Rank 37: 0.916215 MB/s (download)
+Rank 38: 0.875714 MB/s (download)
+Rank 39: 0.90167 MB/s (download)
+Rank 40: 0.927863 MB/s (download)
+Rank 41: 0.876028 MB/s (download)
+Rank 42: 0.91143 MB/s (download)
+Rank 43: 0.877191 MB/s (download)
+Rank 44: 0.895286 MB/s (download)
+Rank 45: 0.874231 MB/s (download)
+Rank 46: 0.955968 MB/s (download)
+Rank 47: 0.90917 MB/s (download)
+Rank 48: 0.907919 MB/s (download)
+Rank 49: 0.873774 MB/s (download)
+Rank 50: 0.881777 MB/s (download)
+Rank 51: 0.906646 MB/s (download)
+Rank 52: 0.89574 MB/s (download)
+Rank 53: 0.881641 MB/s (download)
+Rank 54: 0.881376 MB/s (download)
+Rank 55: 0.922163 MB/s (download)
+Rank 56: 0.880861 MB/s (download)
+Rank 57: 0.875741 MB/s (download)
+Rank 58: 0.903722 MB/s (download)
+Rank 59: 0.909785 MB/s (download)
+Rank 60: 0.884597 MB/s (download)
+Rank 61: 0.893935 MB/s (download)
+Rank 62: 0.894795 MB/s (download)
+Rank 63: 0.909229 MB/s (download)
+Rank 64: 0.889597 MB/s (download)
+Rank 65: 0.950294 MB/s (download)
+Rank 66: 0.880977 MB/s (download)
+Rank 67: 0.884515 MB/s (download)
+Rank 68: 0.900298 MB/s (download)
+Rank 69: 0.880981 MB/s (download)
+Rank 70: 0.981237 MB/s (download)
+Rank 71: 0.885031 MB/s (download)
+Rank 72: 0.878648 MB/s (download)
+Rank 73: 0.904338 MB/s (download)
+Rank 74: 0.88499 MB/s (download)
+Rank 75: 0.954423 MB/s (download)
+Rank 76: 0.88185 MB/s (download)
+Rank 77: 0.879225 MB/s (download)
+Rank 78: 0.874795 MB/s (download)
+Rank 79: 0.91829 MB/s (download)
+Rank 80: 0.900444 MB/s (download)
+Rank 81: 0.88436 MB/s (download)
+Rank 82: 0.874493 MB/s (download)
+Rank 83: 0.908456 MB/s (download)
+Rank 84: 0.976326 MB/s (download)
+Rank 85: 0.892396 MB/s (download)
+Rank 86: 0.892525 MB/s (download)
+Rank 87: 0.876905 MB/s (download)
+Rank 88: 0.891039 MB/s (download)
+Rank 89: 0.874736 MB/s (download)
+Rank 90: 0.883544 MB/s (download)
+Rank 91: 0.9383 MB/s (download)
+Rank 92: 0.876967 MB/s (download)
+Rank 93: 0.868254 MB/s (download)
+Rank 94: 0.885349 MB/s (download)
+Rank 95: 0.885775 MB/s (download)
+Rank 96: 0.876058 MB/s (download)
+Rank 97: 0.902999 MB/s (download)
+Rank 98: 0.90494 MB/s (download)
+Rank 99: 0.888458 MB/s (download)
+Rank 100: 0.880048 MB/s (download)
+Rank 101: 0.903212 MB/s (download)
+Rank 102: 0.91605 MB/s (download)
+Rank 103: 0.890837 MB/s (download)
+Rank 104: 0.87952 MB/s (download)
+Rank 105: 0.874963 MB/s (download)
+Rank 106: 0.897008 MB/s (download)
+Rank 107: 0.932794 MB/s (download)
+Rank 108: 0.912628 MB/s (download)
+Rank 109: 0.870949 MB/s (download)
+Rank 110: 0.877094 MB/s (download)
+Rank 111: 0.995039 MB/s (download)
+Rank 112: 0.884866 MB/s (download)
+Rank 113: 0.972542 MB/s (download)
+Rank 114: 0.903551 MB/s (download)
+Rank 115: 0.906736 MB/s (download)
+Rank 116: 0.961111 MB/s (download)
+Rank 117: 0.871646 MB/s (download)
+Rank 118: 0.977453 MB/s (download)
+Rank 119: 0.879278 MB/s (download)
+Rank 120: 0.897417 MB/s (download)
+Rank 121: 0.872001 MB/s (download)
+Rank 122: 0.873276 MB/s (download)
+Rank 123: 0.878996 MB/s (download)
+Rank 124: 0.872976 MB/s (download)
+Rank 125: 0.898189 MB/s (download)
+Rank 126: 0.872907 MB/s (download)
+Rank 127: 0.914843 MB/s (download)
+Average download bandwidth: 0.901455 MB/s
+Total download throughput: 115.386 MB/s
+Download trial duration: 107.081 seconds
+Successful download ranks: 128/128
+Rank 89: Cleaned up downloaded file for next trial
+Rank 49: Cleaned up downloaded file for next trial
+Rank 109: Cleaned up downloaded file for next trial
+Rank 84: Cleaned up downloaded file for next trial
+Rank 57: Cleaned up downloaded file for next trial
+Rank 121: Cleaned up downloaded file for next trial
+Rank 77: Cleaned up downloaded file for next trial
+Rank 45: Cleaned up downloaded file for next trial
+Rank 122: Cleaned up downloaded file for next trial
+Rank 78: Cleaned up downloaded file for next trial
+Rank 47: Cleaned up downloaded file for next trial
+Rank 105: Cleaned up downloaded file for next trial
+Rank 94: Cleaned up downloaded file for next trial
+Rank 58: Cleaned up downloaded file for next trial
+Rank 126: Cleaned up downloaded file for next trial
+Rank 95: Cleaned up downloaded file for next trial
+Rank 46: Cleaned up downloaded file for next trial
+Rank 117: Cleaned up downloaded file for next trial
+Rank 66: Cleaned up downloaded file for next trial
+Rank 120: Cleaned up downloaded file for next trial
+Rank 93: Cleaned up downloaded file for next trial
+Rank 59: Cleaned up downloaded file for next trial
+Rank 123: Cleaned up downloaded file for next trial
+Rank 91: Cleaned up downloaded file for next trial
+Rank 54: Cleaned up downloaded file for next trial
+Rank 67: Cleaned up downloaded file for next trial
+Rank 114: Cleaned up downloaded file for next trial
+Rank 53: Cleaned up downloaded file for next trial
+Rank 127: Cleaned up downloaded file for next trial
+Rank 71: Cleaned up downloaded file for next trial
+Rank 33: Cleaned up downloaded file for next trial
+Rank 97: Cleaned up downloaded file for next trial
+Rank 75: Cleaned up downloaded file for next trial
+Rank 41: Cleaned up downloaded file for next trial
+Rank 124: Cleaned up downloaded file for next trial
+Rank 85: Cleaned up downloaded file for next trial
+Rank 26: Cleaned up downloaded file for next trial
+Rank 43: Cleaned up downloaded file for next trial
+Rank 125: Cleaned up downloaded file for next trial
+Rank 79: Cleaned up downloaded file for next trial
+Rank 11: Cleaned up downloaded file for next trial
+Rank 113: Cleaned up downloaded file for next trial
+Rank 76: Cleaned up downloaded file for next trial
+Rank 62: Cleaned up downloaded file for next trial
+Rank 6: Cleaned up downloaded file for next trial
+Rank 90: Cleaned up downloaded file for next trial
+Rank 112: Cleaned up downloaded file for next trial
+Rank 55: Cleaned up downloaded file for next trial
+Rank 81: Cleaned up downloaded file for next trial
+Rank 98: Cleaned up downloaded file for next trial
+Rank 19: Cleaned up downloaded file for next trial
+Rank 52: Cleaned up downloaded file for next trial
+Rank 80: Cleaned up downloaded file for next trial
+Rank 116: Cleaned up downloaded file for next trial
+Rank 32: Cleaned up downloaded file for next trial
+Rank 82: Cleaned up downloaded file for next trial
+Rank 96: Cleaned up downloaded file for next trial
+Rank 25: Cleaned up downloaded file for next trial
+Rank 35: Cleaned up downloaded file for next trial
+Rank 92: Cleaned up downloaded file for next trial
+Rank 106: Cleaned up downloaded file for next trial
+Rank 2: Cleaned up downloaded file for next trial
+Rank 42: Cleaned up downloaded file for next trial
+Rank 68: Cleaned up downloaded file for next trial
+Rank 20: Cleaned up downloaded file for next trial
+Rank 87: Cleaned up downloaded file for next trial
+Rank 100: Cleaned up downloaded file for next trial
+Rank 61: Cleaned up downloaded file for next trial
+Rank 8: Cleaned up downloaded file for next trial
+Rank 119: Cleaned up downloaded file for next trial
+Rank 83: Cleaned up downloaded file for next trial
+Rank 34: Cleaned up downloaded file for next trial
+Rank 23: Cleaned up downloaded file for next trial
+Rank 118: Cleaned up downloaded file for next trial
+Rank 44: Cleaned up downloaded file for next trial
+Rank 9: Cleaned up downloaded file for next trial
+Rank 74: Cleaned up downloaded file for next trial
+Rank 48: Cleaned up downloaded file for next trial
+Rank 99: Cleaned up downloaded file for next trial
+Rank 28: Cleaned up downloaded file for next trial
+Rank 64: Cleaned up downloaded file for next trial
+Rank 103: Cleaned up downloaded file for next trial
+Rank 39: Cleaned up downloaded file for next trial
+Rank 21: Cleaned up downloaded file for next trial
+Rank 70: Cleaned up downloaded file for next trial
+Rank 111: Cleaned up downloaded file for next trial
+Rank 10: Cleaned up downloaded file for next trial
+Rank 86: Cleaned up downloaded file for next trial
+Rank 38: Cleaned up downloaded file for next trial
+Rank 60: Cleaned up downloaded file for next trial
+Rank 110: Cleaned up downloaded file for next trial
+Rank 5: Cleaned up downloaded file for next trial
+Rank 72: Cleaned up downloaded file for next trial
+Rank 63: Cleaned up downloaded file for next trial
+Rank 107: Cleaned up downloaded file for next trial
+Rank 69: Cleaned up downloaded file for next trial
+Rank 30: Cleaned up downloaded file for next trial
+Rank 56: Cleaned up downloaded file for next trial
+Rank 104: Cleaned up downloaded file for next trial
+Rank 88: Cleaned up downloaded file for next trial
+Rank 4: Cleaned up downloaded file for next trial
+Rank 37: Cleaned up downloaded file for next trial
+Rank 115: Cleaned up downloaded file for next trial
+Rank 73: Cleaned up downloaded file for next trial
+Rank 40: Cleaned up downloaded file for next trial
+Rank 18: Cleaned up downloaded file for next trial
+Rank 108: Cleaned up downloaded file for next trial
+Rank 65: Cleaned up downloaded file for next trial
+Rank 36: Cleaned up downloaded file for next trial
+Rank 101: Cleaned up downloaded file for next trial
+Rank 16: Cleaned up downloaded file for next trial
+Rank 102: Cleaned up downloaded file for next trial
+Rank 50: Cleaned up downloaded file for next trial
+Rank 12: Cleaned up downloaded file for next trial
+Rank 51: Cleaned up downloaded file for next trial
+Rank 15: Cleaned up downloaded file for next trial
+Rank 14: Cleaned up downloaded file for next trial
+Rank 24: Cleaned up downloaded file for next trial
+Rank 17: Cleaned up downloaded file for next trial
+Rank 27: Cleaned up downloaded file for next trial
+Rank 0: Cleaned up downloaded file for next trial
+Rank 29: Cleaned up downloaded file for next trial
+Rank 7: Cleaned up downloaded file for next trial
+Rank 31: Cleaned up downloaded file for next trial
+Rank 3: Cleaned up downloaded file for next trial
+Rank 13: Cleaned up downloaded file for next trial
+Rank 1: Cleaned up downloaded file for next trial
+Rank 22: Cleaned up downloaded file for next trial
+
+========================================
+DOWNLOAD TRIAL 2/3
+========================================
+Rank 11: Starting S3 download of upload-test/rank_11_100MB.dat_trial1
+Rank 9: Starting S3 download of upload-test/rank_9_100MB.dat_trial1
+Rank 5: Starting S3 download of upload-test/rank_5_100MB.dat_trial1
+Rank 25: Starting S3 download of upload-test/rank_25_100MB.dat_trial1
+Rank 3: Starting S3 download of upload-test/rank_3_100MB.dat_trial1
+Rank 15: Starting S3 download of upload-test/rank_15_100MB.dat_trial1
+Rank 29: Starting S3 download of upload-test/rank_29_100MB.dat_trial1
+Rank 27: Starting S3 download of upload-test/rank_27_100MB.dat_trial1
+Rank 13: Starting S3 download of upload-test/rank_13_100MB.dat_trial1
+Rank 1: Starting S3 download of upload-test/rank_1_100MB.dat_trial1
+Rank 31: Starting S3 download of upload-test/rank_31_100MB.dat_trial1
+Rank 7: Starting S3 download of upload-test/rank_7_100MB.dat_trial1
+Rank 23: Starting S3 download of upload-test/rank_23_100MB.dat_trial1
+Rank 0: Starting S3 download of upload-test/rank_0_100MB.dat_trial1
+Rank 8: Starting S3 download of upload-test/rank_8_100MB.dat_trial1
+Rank 6: Starting S3 download of upload-test/rank_6_100MB.dat_trial1
+Rank 22: Starting S3 download of upload-test/rank_22_100MB.dat_trial1
+Rank 30: Starting S3 download of upload-test/rank_30_100MB.dat_trial1
+Rank 4: Starting S3 download of upload-test/rank_4_100MB.dat_trial1
+Rank 19: Starting S3 download of upload-test/rank_19_100MB.dat_trial1
+Rank 14: Starting S3 download of upload-test/rank_14_100MB.dat_trial1
+Rank 10: Starting S3 download of upload-test/rank_10_100MB.dat_trial1
+Rank 2: Starting S3 download of upload-test/rank_2_100MB.dat_trial1
+Rank 24: Starting S3 download of upload-test/rank_24_100MB.dat_trial1
+Rank 26: Starting S3 download of upload-test/rank_26_100MB.dat_trial1
+Rank 17: Starting S3 download of upload-test/rank_17_100MB.dat_trial1
+Rank 21: Starting S3 download of upload-test/rank_21_100MB.dat_trial1
+Rank 28: Starting S3 download of upload-test/rank_28_100MB.dat_trial1
+Rank 12: Starting S3 download of upload-test/rank_12_100MB.dat_trial1
+Rank 20: Starting S3 download of upload-test/rank_20_100MB.dat_trial1
+Rank 18: Starting S3 download of upload-test/rank_18_100MB.dat_trial1
+Rank 16: Starting S3 download of upload-test/rank_16_100MB.dat_trial1
+Rank 35: Starting S3 download of upload-test/rank_35_100MB.dat_trial1
+Rank 49: Starting S3 download of upload-test/rank_49_100MB.dat_trial1
+Rank 59: Starting S3 download of upload-test/rank_59_100MB.dat_trial1
+Rank 83: Starting S3 download of upload-test/rank_83_100MB.dat_trial1
+Rank 43: Starting S3 download of upload-test/rank_43_100MB.dat_trial1
+Rank 115: Starting S3 download of upload-test/rank_115_100MB.dat_trial1
+Rank 47: Starting S3 download of upload-test/rank_47_100MB.dat_trial1
+Rank 53: Starting S3 download of upload-test/rank_53_100MB.dat_trial1
+Rank 125: Starting S3 download of upload-test/rank_125_100MB.dat_trial1
+Rank 61: Starting S3 download of upload-test/rank_61_100MB.dat_trial1
+Rank 123: Starting S3 download of upload-test/rank_123_100MB.dat_trial1
+Rank 37: Starting S3 download of upload-test/rank_37_100MB.dat_trial1
+Rank 117: Starting S3 download of upload-test/rank_117_100MB.dat_trial1
+Rank 57: Starting S3 download of upload-test/rank_57_100MB.dat_trial1
+Rank 113: Starting S3 download of upload-test/rank_113_100MB.dat_trial1
+Rank 33: Starting S3 download of upload-test/rank_33_100MB.dat_trial1
+Rank 63: Starting S3 download of upload-test/rank_63_100MB.dat_trial1
+Rank 45: Starting S3 download of upload-test/rank_45_100MB.dat_trial1
+Rank 39: Starting S3 download of upload-test/rank_39_100MB.dat_trial1
+Rank 107: Starting S3 download of upload-test/rank_107_100MB.dat_trial1
+Rank 41: Starting S3 download of upload-test/rank_41_100MB.dat_trial1
+Rank 119: Starting S3 download of upload-test/rank_119_100MB.dat_trial1
+Rank 55: Starting S3 download of upload-test/rank_55_100MB.dat_trial1
+Rank 103: Starting S3 download of upload-test/rank_103_100MB.dat_trial1
+Rank 71: Starting S3 download of upload-test/rank_71_100MB.dat_trial1
+Rank 51: Starting S3 download of upload-test/rank_51_100MB.dat_trial1
+Rank 105: Starting S3 download of upload-test/rank_105_100MB.dat_trial1
+Rank 75: Starting S3 download of upload-test/rank_75_100MB.dat_trial1
+Rank 46: Starting S3 download of upload-test/rank_46_100MB.dat_trial1
+Rank 121: Starting S3 download of upload-test/rank_121_100MB.dat_trial1
+Rank 79: Starting S3 download of upload-test/rank_79_100MB.dat_trial1
+Rank 52: Starting S3 download of upload-test/rank_52_100MB.dat_trial1
+Rank 109: Starting S3 download of upload-test/rank_109_100MB.dat_trial1
+Rank 81: Starting S3 download of upload-test/rank_81_100MB.dat_trial1
+Rank 126: Starting S3 download of upload-test/rank_126_100MB.dat_trial1
+Rank 73: Starting S3 download of upload-test/rank_73_100MB.dat_trial1
+Rank 54: Starting S3 download of upload-test/rank_54_100MB.dat_trial1
+Rank 100: Starting S3 download of upload-test/rank_100_100MB.dat_trial1
+Rank 95: Starting S3 download of upload-test/rank_95_100MB.dat_trial1
+Rank 32: Starting S3 download of upload-test/rank_32_100MB.dat_trial1
+Rank 114: Starting S3 download of upload-test/rank_114_100MB.dat_trial1
+Rank 69: Starting S3 download of upload-test/rank_69_100MB.dat_trial1
+Rank 62: Starting S3 download of upload-test/rank_62_100MB.dat_trial1
+Rank 97: Starting S3 download of upload-test/rank_97_100MB.dat_trial1
+Rank 93: Starting S3 download of upload-test/rank_93_100MB.dat_trial1
+Rank 56: Starting S3 download of upload-test/rank_56_100MB.dat_trial1
+Rank 101: Starting S3 download of upload-test/rank_101_100MB.dat_trial1
+Rank 85: Starting S3 download of upload-test/rank_85_100MB.dat_trial1
+Rank 40: Starting S3 download of upload-test/rank_40_100MB.dat_trial1
+Rank 111: Starting S3 download of upload-test/rank_111_100MB.dat_trial1
+Rank 67: Starting S3 download of upload-test/rank_67_100MB.dat_trial1
+Rank 38: Starting S3 download of upload-test/rank_38_100MB.dat_trial1
+Rank 110: Starting S3 download of upload-test/rank_110_100MB.dat_trial1
+Rank 91: Starting S3 download of upload-test/rank_91_100MB.dat_trial1
+Rank 48: Starting S3 download of upload-test/rank_48_100MB.dat_trial1
+Rank 104: Starting S3 download of upload-test/rank_104_100MB.dat_trial1
+Rank 66: Starting S3 download of upload-test/rank_66_100MB.dat_trial1
+Rank 34: Starting S3 download of upload-test/rank_34_100MB.dat_trial1
+Rank 96: Starting S3 download of upload-test/rank_96_100MB.dat_trial1
+Rank 78: Starting S3 download of upload-test/rank_78_100MB.dat_trial1
+Rank 36: Starting S3 download of upload-test/rank_36_100MB.dat_trial1
+Rank 99: Starting S3 download of upload-test/rank_99_100MB.dat_trial1
+Rank 77: Starting S3 download of upload-test/rank_77_100MB.dat_trial1
+Rank 50: Starting S3 download of upload-test/rank_50_100MB.dat_trial1
+Rank 122: Starting S3 download of upload-test/rank_122_100MB.dat_trial1
+Rank 64: Starting S3 download of upload-test/rank_64_100MB.dat_trial1
+Rank 42: Starting S3 download of upload-test/rank_42_100MB.dat_trial1
+Rank 127: Starting S3 download of upload-test/rank_127_100MB.dat_trial1
+Rank 87: Starting S3 download of upload-test/rank_87_100MB.dat_trial1
+Rank 44: Starting S3 download of upload-test/rank_44_100MB.dat_trial1
+Rank 102: Starting S3 download of upload-test/rank_102_100MB.dat_trial1
+Rank 89: Starting S3 download of upload-test/rank_89_100MB.dat_trial1
+Rank 60: Starting S3 download of upload-test/rank_60_100MB.dat_trial1
+Rank 106: Starting S3 download of upload-test/rank_106_100MB.dat_trial1
+Rank 65: Starting S3 download of upload-test/rank_65_100MB.dat_trial1
+Rank 58: Starting S3 download of upload-test/rank_58_100MB.dat_trial1
+Rank 112: Starting S3 download of upload-test/rank_112_100MB.dat_trial1
+Rank 84: Starting S3 download of upload-test/rank_84_100MB.dat_trial1
+Rank 118: Starting S3 download of upload-test/rank_118_100MB.dat_trial1
+Rank 76: Starting S3 download of upload-test/rank_76_100MB.dat_trial1
+Rank 116: Starting S3 download of upload-test/rank_116_100MB.dat_trial1
+Rank 86: Starting S3 download of upload-test/rank_86_100MB.dat_trial1
+Rank 108: Starting S3 download of upload-test/rank_108_100MB.dat_trial1
+Rank 82: Starting S3 download of upload-test/rank_82_100MB.dat_trial1
+Rank 98: Starting S3 download of upload-test/rank_98_100MB.dat_trial1
+Rank 68: Starting S3 download of upload-test/rank_68_100MB.dat_trial1
+Rank 120: Starting S3 download of upload-test/rank_120_100MB.dat_trial1
+Rank 70: Starting S3 download of upload-test/rank_70_100MB.dat_trial1
+Rank 124: Starting S3 download of upload-test/rank_124_100MB.dat_trial1
+Rank 88: Starting S3 download of upload-test/rank_88_100MB.dat_trial1
+Rank 92: Starting S3 download of upload-test/rank_92_100MB.dat_trial1
+Rank 90: Starting S3 download of upload-test/rank_90_100MB.dat_trial1
+Rank 72: Starting S3 download of upload-test/rank_72_100MB.dat_trial1
+Rank 94: Starting S3 download of upload-test/rank_94_100MB.dat_trial1
+Rank 74: Starting S3 download of upload-test/rank_74_100MB.dat_trial1
+Rank 80: Starting S3 download of upload-test/rank_80_100MB.dat_trial1
+Rank 66: download successful (1.03653 MB/s, 100 MB)
+Rank 87: download successful (1.02009 MB/s, 100 MB)
+Rank 97: download successful (1.00583 MB/s, 100 MB)
+Rank 19: download successful (0.99522 MB/s, 100 MB)
+Rank 71: download successful (0.987877 MB/s, 100 MB)
+Rank 63: download successful (0.978001 MB/s, 100 MB)
+Rank 113: download successful (0.977053 MB/s, 100 MB)
+Rank 16: download successful (0.965976 MB/s, 100 MB)
+Rank 98: download successful (0.964643 MB/s, 100 MB)
+Rank 35: download successful (0.962918 MB/s, 100 MB)
+Rank 0: download successful (0.959286 MB/s, 100 MB)
+Rank 82: download successful (0.957516 MB/s, 100 MB)
+Rank 120: download successful (0.956107 MB/s, 100 MB)
+Rank 79: download successful (0.955663 MB/s, 100 MB)
+Rank 55: download successful (0.954803 MB/s, 100 MB)
+Rank 83: download successful (0.954124 MB/s, 100 MB)
+Rank 51: download successful (0.941549 MB/s, 100 MB)
+Rank 106: download successful (0.937295 MB/s, 100 MB)
+Rank 58: download successful (0.935829 MB/s, 100 MB)
+Rank 10: download successful (0.935749 MB/s, 100 MB)
+Rank 70: download successful (0.935369 MB/s, 100 MB)
+Rank 9: download successful (0.935033 MB/s, 100 MB)
+Rank 118: download successful (0.934891 MB/s, 100 MB)
+Rank 29: download successful (0.932825 MB/s, 100 MB)
+Rank 25: download successful (0.930063 MB/s, 100 MB)
+Rank 75: download successful (0.928334 MB/s, 100 MB)
+Rank 2: download successful (0.927204 MB/s, 100 MB)
+Rank 95: download successful (0.923996 MB/s, 100 MB)
+Rank 105: download successful (0.923315 MB/s, 100 MB)
+Rank 93: download successful (0.922333 MB/s, 100 MB)
+Rank 84: download successful (0.921784 MB/s, 100 MB)
+Rank 44: download successful (0.919813 MB/s, 100 MB)
+Rank 4: download successful (0.91876 MB/s, 100 MB)
+Rank 115: download successful (0.918042 MB/s, 100 MB)
+Rank 52: download successful (0.917881 MB/s, 100 MB)
+Rank 117: download successful (0.917636 MB/s, 100 MB)
+Rank 31: download successful (0.916698 MB/s, 100 MB)
+Rank 65: download successful (0.915505 MB/s, 100 MB)
+Rank 18: download successful (0.914952 MB/s, 100 MB)
+Rank 122: download successful (0.914658 MB/s, 100 MB)
+Rank 111: download successful (0.913949 MB/s, 100 MB)
+Rank 50: download successful (0.913456 MB/s, 100 MB)
+Rank 61: download successful (0.912804 MB/s, 100 MB)
+Rank 121: download successful (0.91272 MB/s, 100 MB)
+Rank 76: download successful (0.911951 MB/s, 100 MB)
+Rank 101: download successful (0.911471 MB/s, 100 MB)
+Rank 69: download successful (0.908735 MB/s, 100 MB)
+Rank 21: download successful (0.90856 MB/s, 100 MB)
+Rank 109: download successful (0.907108 MB/s, 100 MB)
+Rank 119: download successful (0.903937 MB/s, 100 MB)
+Rank 74: download successful (0.900548 MB/s, 100 MB)
+Rank 103: download successful (0.900416 MB/s, 100 MB)
+Rank 99: download successful (0.899703 MB/s, 100 MB)
+Rank 57: download successful (0.899472 MB/s, 100 MB)
+Rank 8: download successful (0.899252 MB/s, 100 MB)
+Rank 56: download successful (0.898695 MB/s, 100 MB)
+Rank 3: download successful (0.898618 MB/s, 100 MB)
+Rank 96: download successful (0.898618 MB/s, 100 MB)
+Rank 108: download successful (0.898515 MB/s, 100 MB)
+Rank 81: download successful (0.897816 MB/s, 100 MB)
+Rank 38: download successful (0.89704 MB/s, 100 MB)
+Rank 30: download successful (0.896815 MB/s, 100 MB)
+Rank 48: download successful (0.896412 MB/s, 100 MB)
+Rank 127: download successful (0.896315 MB/s, 100 MB)
+Rank 36: download successful (0.896272 MB/s, 100 MB)
+Rank 104: download successful (0.896223 MB/s, 100 MB)
+Rank 28: download successful (0.8954 MB/s, 100 MB)
+Rank 88: download successful (0.895049 MB/s, 100 MB)
+Rank 22: download successful (0.895023 MB/s, 100 MB)
+Rank 40: download successful (0.894806 MB/s, 100 MB)
+Rank 73: download successful (0.89415 MB/s, 100 MB)
+Rank 32: download successful (0.893933 MB/s, 100 MB)
+Rank 72: download successful (0.893689 MB/s, 100 MB)
+Rank 78: download successful (0.89276 MB/s, 100 MB)
+Rank 45: download successful (0.891923 MB/s, 100 MB)
+Rank 53: download successful (0.88902 MB/s, 100 MB)
+Rank 124: download successful (0.888427 MB/s, 100 MB)
+Rank 20: download successful (0.887856 MB/s, 100 MB)
+Rank 6: download successful (0.885743 MB/s, 100 MB)
+Rank 11: download successful (0.884971 MB/s, 100 MB)
+Rank 100: download successful (0.884236 MB/s, 100 MB)
+Rank 90: download successful (0.884162 MB/s, 100 MB)
+Rank 64: download successful (0.884142 MB/s, 100 MB)
+Rank 13: download successful (0.883985 MB/s, 100 MB)
+Rank 125: download successful (0.883468 MB/s, 100 MB)
+Rank 102: download successful (0.88305 MB/s, 100 MB)
+Rank 116: download successful (0.882568 MB/s, 100 MB)
+Rank 67: download successful (0.882557 MB/s, 100 MB)
+Rank 91: download successful (0.881295 MB/s, 100 MB)
+Rank 54: download successful (0.880817 MB/s, 100 MB)
+Rank 123: download successful (0.880624 MB/s, 100 MB)
+Rank 26: download successful (0.880308 MB/s, 100 MB)
+Rank 14: download successful (0.880295 MB/s, 100 MB)
+Rank 5: download successful (0.880118 MB/s, 100 MB)
+Rank 34: download successful (0.879537 MB/s, 100 MB)
+Rank 1: download successful (0.879476 MB/s, 100 MB)
+Rank 92: download successful (0.879065 MB/s, 100 MB)
+Rank 33: download successful (0.878989 MB/s, 100 MB)
+Rank 80: download successful (0.878641 MB/s, 100 MB)
+Rank 112: download successful (0.878165 MB/s, 100 MB)
+Rank 39: download successful (0.878161 MB/s, 100 MB)
+Rank 62: download successful (0.877721 MB/s, 100 MB)
+Rank 126: download successful (0.877277 MB/s, 100 MB)
+Rank 24: download successful (0.876904 MB/s, 100 MB)
+Rank 68: download successful (0.87679 MB/s, 100 MB)
+Rank 7: download successful (0.876786 MB/s, 100 MB)
+Rank 114: download successful (0.876694 MB/s, 100 MB)
+Rank 110: download successful (0.875854 MB/s, 100 MB)
+Rank 47: download successful (0.875825 MB/s, 100 MB)
+Rank 23: download successful (0.875789 MB/s, 100 MB)
+Rank 43: download successful (0.875238 MB/s, 100 MB)
+Rank 94: download successful (0.874755 MB/s, 100 MB)
+Rank 27: download successful (0.87475 MB/s, 100 MB)
+Rank 59: download successful (0.873841 MB/s, 100 MB)
+Rank 15: download successful (0.87367 MB/s, 100 MB)
+Rank 77: download successful (0.873562 MB/s, 100 MB)
+Rank 37: download successful (0.87319 MB/s, 100 MB)
+Rank 89: download successful (0.873162 MB/s, 100 MB)
+Rank 60: download successful (0.872504 MB/s, 100 MB)
+Rank 17: download successful (0.872468 MB/s, 100 MB)
+Rank 107: download successful (0.8723 MB/s, 100 MB)
+Rank 42: download successful (0.871842 MB/s, 100 MB)
+Rank 86: download successful (0.870709 MB/s, 100 MB)
+Rank 12: download successful (0.870666 MB/s, 100 MB)
+Rank 85: download successful (0.870594 MB/s, 100 MB)
+Rank 49: download successful (0.869736 MB/s, 100 MB)
+Rank 46: download successful (0.86828 MB/s, 100 MB)
+Rank 41: download successful (0.867059 MB/s, 100 MB)
+
+--- Download Trial 2 Summary ---
+Rank 0: 0.959286 MB/s (download)
+Rank 1: 0.879476 MB/s (download)
+Rank 2: 0.927204 MB/s (download)
+Rank 3: 0.898618 MB/s (download)
+Rank 4: 0.91876 MB/s (download)
+Rank 5: 0.880118 MB/s (download)
+Rank 6: 0.885743 MB/s (download)
+Rank 7: 0.876786 MB/s (download)
+Rank 8: 0.899252 MB/s (download)
+Rank 9: 0.935033 MB/s (download)
+Rank 10: 0.935749 MB/s (download)
+Rank 11: 0.884971 MB/s (download)
+Rank 12: 0.870666 MB/s (download)
+Rank 13: 0.883985 MB/s (download)
+Rank 14: 0.880295 MB/s (download)
+Rank 15: 0.87367 MB/s (download)
+Rank 16: 0.965976 MB/s (download)
+Rank 17: 0.872468 MB/s (download)
+Rank 18: 0.914952 MB/s (download)
+Rank 19: 0.99522 MB/s (download)
+Rank 20: 0.887856 MB/s (download)
+Rank 21: 0.90856 MB/s (download)
+Rank 22: 0.895023 MB/s (download)
+Rank 23: 0.875789 MB/s (download)
+Rank 24: 0.876904 MB/s (download)
+Rank 25: 0.930063 MB/s (download)
+Rank 26: 0.880308 MB/s (download)
+Rank 27: 0.87475 MB/s (download)
+Rank 28: 0.8954 MB/s (download)
+Rank 29: 0.932825 MB/s (download)
+Rank 30: 0.896815 MB/s (download)
+Rank 31: 0.916698 MB/s (download)
+Rank 32: 0.893933 MB/s (download)
+Rank 33: 0.878989 MB/s (download)
+Rank 34: 0.879537 MB/s (download)
+Rank 35: 0.962918 MB/s (download)
+Rank 36: 0.896272 MB/s (download)
+Rank 37: 0.87319 MB/s (download)
+Rank 38: 0.89704 MB/s (download)
+Rank 39: 0.878161 MB/s (download)
+Rank 40: 0.894806 MB/s (download)
+Rank 41: 0.867059 MB/s (download)
+Rank 42: 0.871842 MB/s (download)
+Rank 43: 0.875238 MB/s (download)
+Rank 44: 0.919813 MB/s (download)
+Rank 45: 0.891923 MB/s (download)
+Rank 46: 0.86828 MB/s (download)
+Rank 47: 0.875825 MB/s (download)
+Rank 48: 0.896412 MB/s (download)
+Rank 49: 0.869736 MB/s (download)
+Rank 50: 0.913456 MB/s (download)
+Rank 51: 0.941549 MB/s (download)
+Rank 52: 0.917881 MB/s (download)
+Rank 53: 0.88902 MB/s (download)
+Rank 54: 0.880817 MB/s (download)
+Rank 55: 0.954803 MB/s (download)
+Rank 56: 0.898695 MB/s (download)
+Rank 57: 0.899472 MB/s (download)
+Rank 58: 0.935829 MB/s (download)
+Rank 59: 0.873841 MB/s (download)
+Rank 60: 0.872504 MB/s (download)
+Rank 61: 0.912804 MB/s (download)
+Rank 62: 0.877721 MB/s (download)
+Rank 63: 0.978001 MB/s (download)
+Rank 64: 0.884142 MB/s (download)
+Rank 65: 0.915505 MB/s (download)
+Rank 66: 1.03653 MB/s (download)
+Rank 67: 0.882557 MB/s (download)
+Rank 68: 0.87679 MB/s (download)
+Rank 69: 0.908735 MB/s (download)
+Rank 70: 0.935369 MB/s (download)
+Rank 71: 0.987877 MB/s (download)
+Rank 72: 0.893689 MB/s (download)
+Rank 73: 0.89415 MB/s (download)
+Rank 74: 0.900548 MB/s (download)
+Rank 75: 0.928334 MB/s (download)
+Rank 76: 0.911951 MB/s (download)
+Rank 77: 0.873562 MB/s (download)
+Rank 78: 0.89276 MB/s (download)
+Rank 79: 0.955663 MB/s (download)
+Rank 80: 0.878641 MB/s (download)
+Rank 81: 0.897816 MB/s (download)
+Rank 82: 0.957516 MB/s (download)
+Rank 83: 0.954124 MB/s (download)
+Rank 84: 0.921784 MB/s (download)
+Rank 85: 0.870594 MB/s (download)
+Rank 86: 0.870709 MB/s (download)
+Rank 87: 1.02009 MB/s (download)
+Rank 88: 0.895049 MB/s (download)
+Rank 89: 0.873162 MB/s (download)
+Rank 90: 0.884162 MB/s (download)
+Rank 91: 0.881295 MB/s (download)
+Rank 92: 0.879065 MB/s (download)
+Rank 93: 0.922333 MB/s (download)
+Rank 94: 0.874755 MB/s (download)
+Rank 95: 0.923996 MB/s (download)
+Rank 96: 0.898618 MB/s (download)
+Rank 97: 1.00583 MB/s (download)
+Rank 98: 0.964643 MB/s (download)
+Rank 99: 0.899703 MB/s (download)
+Rank 100: 0.884236 MB/s (download)
+Rank 101: 0.911471 MB/s (download)
+Rank 102: 0.88305 MB/s (download)
+Rank 103: 0.900416 MB/s (download)
+Rank 104: 0.896223 MB/s (download)
+Rank 105: 0.923315 MB/s (download)
+Rank 106: 0.937295 MB/s (download)
+Rank 107: 0.8723 MB/s (download)
+Rank 108: 0.898515 MB/s (download)
+Rank 109: 0.907108 MB/s (download)
+Rank 110: 0.875854 MB/s (download)
+Rank 111: 0.913949 MB/s (download)
+Rank 112: 0.878165 MB/s (download)
+Rank 113: 0.977053 MB/s (download)
+Rank 114: 0.876694 MB/s (download)
+Rank 115: 0.918042 MB/s (download)
+Rank 116: 0.882568 MB/s (download)
+Rank 117: 0.917636 MB/s (download)
+Rank 118: 0.934891 MB/s (download)
+Rank 119: 0.903937 MB/s (download)
+Rank 120: 0.956107 MB/s (download)
+Rank 121: 0.91272 MB/s (download)
+Rank 122: 0.914658 MB/s (download)
+Rank 123: 0.880624 MB/s (download)
+Rank 124: 0.888427 MB/s (download)
+Rank 125: 0.883468 MB/s (download)
+Rank 126: 0.877277 MB/s (download)
+Rank 127: 0.896315 MB/s (download)
+Average download bandwidth: 0.905476 MB/s
+Total download throughput: 115.901 MB/s
+Download trial duration: 104.245 seconds
+Successful download ranks: 128/128
+Rank 49: Cleaned up downloaded file for next trial
+Rank 17: Cleaned up downloaded file for next trial
+Rank 59: Cleaned up downloaded file for next trial
+Rank 18: Cleaned up downloaded file for next trial
+Rank 58: Cleaned up downloaded file for next trial
+Rank 29: Cleaned up downloaded file for next trial
+Rank 54: Cleaned up downloaded file for next trial
+Rank 28: Cleaned up downloaded file for next trial
+Rank 61: Cleaned up downloaded file for next trial
+Rank 1: Cleaned up downloaded file for next trial
+Rank 56: Cleaned up downloaded file for next trial
+Rank 24: Cleaned up downloaded file for next trial
+Rank 60: Cleaned up downloaded file for next trial
+Rank 23: Cleaned up downloaded file for next trial
+Rank 52: Cleaned up downloaded file for next trial
+Rank 22: Cleaned up downloaded file for next trial
+Rank 41: Cleaned up downloaded file for next trial
+Rank 10: Cleaned up downloaded file for next trial
+Rank 62: Cleaned up downloaded file for next trial
+Rank 4: Cleaned up downloaded file for next trial
+Rank 46: Cleaned up downloaded file for next trial
+Rank 16: Cleaned up downloaded file for next trial
+Rank 48: Cleaned up downloaded file for next trial
+Rank 30: Cleaned up downloaded file for next trial
+Rank 86: Cleaned up downloaded file for next trial
+Rank 39: Cleaned up downloaded file for next trial
+Rank 20: Cleaned up downloaded file for next trial
+Rank 73: Cleaned up downloaded file for next trial
+Rank 57: Cleaned up downloaded file for next trial
+Rank 124: Cleaned up downloaded file for next trial
+Rank 5: Cleaned up downloaded file for next trial
+Rank 35: Cleaned up downloaded file for next trial
+Rank 80: Cleaned up downloaded file for next trial
+Rank 50: Cleaned up downloaded file for next trial
+Rank 7: Cleaned up downloaded file for next trial
+Rank 103: Cleaned up downloaded file for next trial
+Rank 75: Cleaned up downloaded file for next trial
+Rank 47: Cleaned up downloaded file for next trial
+Rank 25: Cleaned up downloaded file for next trial
+Rank 90: Cleaned up downloaded file for next trial
+Rank 40: Cleaned up downloaded file for next trial
+Rank 111: Cleaned up downloaded file for next trial
+Rank 11: Cleaned up downloaded file for next trial
+Rank 64: Cleaned up downloaded file for next trial
+Rank 107: Cleaned up downloaded file for next trial
+Rank 37: Cleaned up downloaded file for next trial
+Rank 6: Cleaned up downloaded file for next trial
+Rank 78: Cleaned up downloaded file for next trial
+Rank 126: Cleaned up downloaded file for next trial
+Rank 55: Cleaned up downloaded file for next trial
+Rank 3: Cleaned up downloaded file for next trial
+Rank 68: Cleaned up downloaded file for next trial
+Rank 42: Cleaned up downloaded file for next trial
+Rank 101: Cleaned up downloaded file for next trial
+Rank 31: Cleaned up downloaded file for next trial
+Rank 96: Cleaned up downloaded file for next trial
+Rank 83: Cleaned up downloaded file for next trial
+Rank 36: Cleaned up downloaded file for next trial
+Rank 8: Cleaned up downloaded file for next trial
+Rank 65: Cleaned up downloaded file for next trial
+Rank 117: Cleaned up downloaded file for next trial
+Rank 38: Cleaned up downloaded file for next trial
+Rank 114: Cleaned up downloaded file for next trial
+Rank 26: Cleaned up downloaded file for next trial
+Rank 69: Cleaned up downloaded file for next trial
+Rank 33: Cleaned up downloaded file for next trial
+Rank 102: Cleaned up downloaded file for next trial
+Rank 2: Cleaned up downloaded file for next trial
+Rank 82: Cleaned up downloaded file for next trial
+Rank 45: Cleaned up downloaded file for next trial
+Rank 112: Cleaned up downloaded file for next trial
+Rank 27: Cleaned up downloaded file for next trial
+Rank 77: Cleaned up downloaded file for next trial
+Rank 32: Cleaned up downloaded file for next trial
+Rank 106: Cleaned up downloaded file for next trial
+Rank 15: Cleaned up downloaded file for next trial
+Rank 76: Cleaned up downloaded file for next trial
+Rank 44: Cleaned up downloaded file for next trial
+Rank 14: Cleaned up downloaded file for next trial
+Rank 113: Cleaned up downloaded file for next trial
+Rank 81: Cleaned up downloaded file for next trial
+Rank 51: Cleaned up downloaded file for next trial
+Rank 104: Cleaned up downloaded file for next trial
+Rank 21: Cleaned up downloaded file for next trial
+Rank 67: Cleaned up downloaded file for next trial
+Rank 53: Cleaned up downloaded file for next trial
+Rank 123: Cleaned up downloaded file for next trial
+Rank 12: Cleaned up downloaded file for next trial
+Rank 85: Cleaned up downloaded file for next trial
+Rank 13: Cleaned up downloaded file for next trial
+Rank 115: Cleaned up downloaded file for next trial
+Rank 63: Cleaned up downloaded file for next trial
+Rank 89: Cleaned up downloaded file for next trial
+Rank 34: Cleaned up downloaded file for next trial
+Rank 100: Cleaned up downloaded file for next trial
+Rank 9: Cleaned up downloaded file for next trial
+Rank 88: Cleaned up downloaded file for next trial
+Rank 43: Cleaned up downloaded file for next trial
+Rank 116: Cleaned up downloaded file for next trial
+Rank 19: Cleaned up downloaded file for next trial
+Rank 93: Cleaned up downloaded file for next trial
+Rank 120: Cleaned up downloaded file for next trial
+Rank 0: Cleaned up downloaded file for next trial
+Rank 122: Cleaned up downloaded file for next trial
+Rank 72: Cleaned up downloaded file for next trial
+Rank 121: Cleaned up downloaded file for next trial
+Rank 92: Cleaned up downloaded file for next trial
+Rank 119: Cleaned up downloaded file for next trial
+Rank 74: Cleaned up downloaded file for next trial
+Rank 127: Cleaned up downloaded file for next trial
+Rank 70: Cleaned up downloaded file for next trial
+Rank 99: Cleaned up downloaded file for next trial
+Rank 66: Cleaned up downloaded file for next trial
+Rank 108: Cleaned up downloaded file for next trial
+Rank 94: Cleaned up downloaded file for next trial
+Rank 118: Cleaned up downloaded file for next trial
+Rank 84: Cleaned up downloaded file for next trial
+Rank 105: Cleaned up downloaded file for next trial
+Rank 71: Cleaned up downloaded file for next trial
+Rank 125: Cleaned up downloaded file for next trial
+Rank 87: Cleaned up downloaded file for next trial
+Rank 109: Cleaned up downloaded file for next trial
+Rank 79: Cleaned up downloaded file for next trial
+Rank 98: Cleaned up downloaded file for next trial
+Rank 95: Cleaned up downloaded file for next trial
+Rank 97: Cleaned up downloaded file for next trial
+Rank 91: Cleaned up downloaded file for next trial
+Rank 110: Cleaned up downloaded file for next trial
+
+========================================
+DOWNLOAD TRIAL 3/3
+========================================
+Rank 19: Starting S3 download of upload-test/rank_19_100MB.dat_trial1
+Rank 5: Starting S3 download of upload-test/rank_5_100MB.dat_trial1
+Rank 11: Starting S3 download of upload-test/rank_11_100MB.dat_trial1
+Rank 22: Starting S3 download of upload-test/rank_22_100MB.dat_trial1
+Rank 15: Starting S3 download of upload-test/rank_15_100MB.dat_trial1
+Rank 4: Starting S3 download of upload-test/rank_4_100MB.dat_trial1
+Rank 14: Starting S3 download of upload-test/rank_14_100MB.dat_trial1
+Rank 18: Starting S3 download of upload-test/rank_18_100MB.dat_trial1
+Rank 30: Starting S3 download of upload-test/rank_30_100MB.dat_trial1
+Rank 29: Starting S3 download of upload-test/rank_29_100MB.dat_trial1
+Rank 6: Starting S3 download of upload-test/rank_6_100MB.dat_trial1
+Rank 31: Starting S3 download of upload-test/rank_31_100MB.dat_trial1
+Rank 26: Starting S3 download of upload-test/rank_26_100MB.dat_trial1
+Rank 23: Starting S3 download of upload-test/rank_23_100MB.dat_trial1
+Rank 9: Starting S3 download of upload-test/rank_9_100MB.dat_trial1
+Rank 2: Starting S3 download of upload-test/rank_2_100MB.dat_trial1
+Rank 13: Starting S3 download of upload-test/rank_13_100MB.dat_trial1
+Rank 24: Starting S3 download of upload-test/rank_24_100MB.dat_trial1
+Rank 25: Starting S3 download of upload-test/rank_25_100MB.dat_trial1
+Rank 8: Starting S3 download of upload-test/rank_8_100MB.dat_trial1
+Rank 21: Starting S3 download of upload-test/rank_21_100MB.dat_trial1
+Rank 3: Starting S3 download of upload-test/rank_3_100MB.dat_trial1
+Rank 20: Starting S3 download of upload-test/rank_20_100MB.dat_trial1
+Rank 7: Starting S3 download of upload-test/rank_7_100MB.dat_trial1
+Rank 28: Starting S3 download of upload-test/rank_28_100MB.dat_trial1
+Rank 12: Starting S3 download of upload-test/rank_12_100MB.dat_trial1
+Rank 27: Starting S3 download of upload-test/rank_27_100MB.dat_trial1
+Rank 10: Starting S3 download of upload-test/rank_10_100MB.dat_trial1
+Rank 17: Starting S3 download of upload-test/rank_17_100MB.dat_trial1
+Rank 16: Starting S3 download of upload-test/rank_16_100MB.dat_trial1
+Rank 1: Starting S3 download of upload-test/rank_1_100MB.dat_trial1
+Rank 0: Starting S3 download of upload-test/rank_0_100MB.dat_trial1
+Rank 94: Starting S3 download of upload-test/rank_94_100MB.dat_trial1
+Rank 99: Starting S3 download of upload-test/rank_99_100MB.dat_trial1
+Rank 82: Starting S3 download of upload-test/rank_82_100MB.dat_trial1
+Rank 118: Starting S3 download of upload-test/rank_118_100MB.dat_trial1
+Rank 88: Starting S3 download of upload-test/rank_88_100MB.dat_trial1
+Rank 115: Starting S3 download of upload-test/rank_115_100MB.dat_trial1
+Rank 83: Starting S3 download of upload-test/rank_83_100MB.dat_trial1
+Rank 105: Starting S3 download of upload-test/rank_105_100MB.dat_trial1
+Rank 85: Starting S3 download of upload-test/rank_85_100MB.dat_trial1
+Rank 116: Starting S3 download of upload-test/rank_116_100MB.dat_trial1
+Rank 84: Starting S3 download of upload-test/rank_84_100MB.dat_trial1
+Rank 100: Starting S3 download of upload-test/rank_100_100MB.dat_trial1
+Rank 87: Starting S3 download of upload-test/rank_87_100MB.dat_trial1
+Rank 71: Starting S3 download of upload-test/rank_71_100MB.dat_trial1
+Rank 37: Starting S3 download of upload-test/rank_37_100MB.dat_trial1
+Rank 123: Starting S3 download of upload-test/rank_123_100MB.dat_trial1
+Rank 73: Starting S3 download of upload-test/rank_73_100MB.dat_trial1
+Rank 57: Starting S3 download of upload-test/rank_57_100MB.dat_trial1
+Rank 104: Starting S3 download of upload-test/rank_104_100MB.dat_trial1
+Rank 74: Starting S3 download of upload-test/rank_74_100MB.dat_trial1
+Rank 52: Starting S3 download of upload-test/rank_52_100MB.dat_trial1
+Rank 98: Starting S3 download of upload-test/rank_98_100MB.dat_trial1
+Rank 68: Starting S3 download of upload-test/rank_68_100MB.dat_trial1
+Rank 32: Starting S3 download of upload-test/rank_32_100MB.dat_trial1
+Rank 112: Starting S3 download of upload-test/rank_112_100MB.dat_trial1
+Rank 69: Starting S3 download of upload-test/rank_69_100MB.dat_trial1
+Rank 53: Starting S3 download of upload-test/rank_53_100MB.dat_trial1
+Rank 114: Starting S3 download of upload-test/rank_114_100MB.dat_trial1
+Rank 76: Starting S3 download of upload-test/rank_76_100MB.dat_trial1
+Rank 51: Starting S3 download of upload-test/rank_51_100MB.dat_trial1
+Rank 97: Starting S3 download of upload-test/rank_97_100MB.dat_trial1
+Rank 95: Starting S3 download of upload-test/rank_95_100MB.dat_trial1
+Rank 47: Starting S3 download of upload-test/rank_47_100MB.dat_trial1
+Rank 125: Starting S3 download of upload-test/rank_125_100MB.dat_trial1
+Rank 92: Starting S3 download of upload-test/rank_92_100MB.dat_trial1
+Rank 55: Starting S3 download of upload-test/rank_55_100MB.dat_trial1
+Rank 101: Starting S3 download of upload-test/rank_101_100MB.dat_trial1
+Rank 89: Starting S3 download of upload-test/rank_89_100MB.dat_trial1
+Rank 34: Starting S3 download of upload-test/rank_34_100MB.dat_trial1
+Rank 106: Starting S3 download of upload-test/rank_106_100MB.dat_trial1
+Rank 80: Starting S3 download of upload-test/rank_80_100MB.dat_trial1
+Rank 50: Starting S3 download of upload-test/rank_50_100MB.dat_trial1
+Rank 121: Starting S3 download of upload-test/rank_121_100MB.dat_trial1
+Rank 64: Starting S3 download of upload-test/rank_64_100MB.dat_trial1
+Rank 48: Starting S3 download of upload-test/rank_48_100MB.dat_trial1
+Rank 108: Starting S3 download of upload-test/rank_108_100MB.dat_trial1
+Rank 77: Starting S3 download of upload-test/rank_77_100MB.dat_trial1
+Rank 41: Starting S3 download of upload-test/rank_41_100MB.dat_trial1
+Rank 109: Starting S3 download of upload-test/rank_109_100MB.dat_trial1
+Rank 86: Starting S3 download of upload-test/rank_86_100MB.dat_trial1
+Rank 33: Starting S3 download of upload-test/rank_33_100MB.dat_trial1
+Rank 103: Starting S3 download of upload-test/rank_103_100MB.dat_trial1
+Rank 78: Starting S3 download of upload-test/rank_78_100MB.dat_trial1
+Rank 39: Starting S3 download of upload-test/rank_39_100MB.dat_trial1
+Rank 126: Starting S3 download of upload-test/rank_126_100MB.dat_trial1
+Rank 65: Starting S3 download of upload-test/rank_65_100MB.dat_trial1
+Rank 35: Starting S3 download of upload-test/rank_35_100MB.dat_trial1
+Rank 102: Starting S3 download of upload-test/rank_102_100MB.dat_trial1
+Rank 79: Starting S3 download of upload-test/rank_79_100MB.dat_trial1
+Rank 42: Starting S3 download of upload-test/rank_42_100MB.dat_trial1
+Rank 111: Starting S3 download of upload-test/rank_111_100MB.dat_trial1
+Rank 67: Starting S3 download of upload-test/rank_67_100MB.dat_trial1
+Rank 49: Starting S3 download of upload-test/rank_49_100MB.dat_trial1
+Rank 107: Starting S3 download of upload-test/rank_107_100MB.dat_trial1
+Rank 90: Starting S3 download of upload-test/rank_90_100MB.dat_trial1
+Rank 61: Starting S3 download of upload-test/rank_61_100MB.dat_trial1
+Rank 113: Starting S3 download of upload-test/rank_113_100MB.dat_trial1
+Rank 81: Starting S3 download of upload-test/rank_81_100MB.dat_trial1
+Rank 36: Starting S3 download of upload-test/rank_36_100MB.dat_trial1
+Rank 122: Starting S3 download of upload-test/rank_122_100MB.dat_trial1
+Rank 72: Starting S3 download of upload-test/rank_72_100MB.dat_trial1
+Rank 58: Starting S3 download of upload-test/rank_58_100MB.dat_trial1
+Rank 120: Starting S3 download of upload-test/rank_120_100MB.dat_trial1
+Rank 93: Starting S3 download of upload-test/rank_93_100MB.dat_trial1
+Rank 54: Starting S3 download of upload-test/rank_54_100MB.dat_trial1
+Rank 117: Starting S3 download of upload-test/rank_117_100MB.dat_trial1
+Rank 66: Starting S3 download of upload-test/rank_66_100MB.dat_trial1
+Rank 63: Starting S3 download of upload-test/rank_63_100MB.dat_trial1
+Rank 119: Starting S3 download of upload-test/rank_119_100MB.dat_trial1
+Rank 75: Starting S3 download of upload-test/rank_75_100MB.dat_trial1
+Rank 46: Starting S3 download of upload-test/rank_46_100MB.dat_trial1
+Rank 127: Starting S3 download of upload-test/rank_127_100MB.dat_trial1
+Rank 70: Starting S3 download of upload-test/rank_70_100MB.dat_trial1
+Rank 60: Starting S3 download of upload-test/rank_60_100MB.dat_trial1
+Rank 124: Starting S3 download of upload-test/rank_124_100MB.dat_trial1
+Rank 91: Starting S3 download of upload-test/rank_91_100MB.dat_trial1
+Rank 44: Starting S3 download of upload-test/rank_44_100MB.dat_trial1
+Rank 96: Starting S3 download of upload-test/rank_96_100MB.dat_trial1
+Rank 56: Starting S3 download of upload-test/rank_56_100MB.dat_trial1
+Rank 110: Starting S3 download of upload-test/rank_110_100MB.dat_trial1
+Rank 45: Starting S3 download of upload-test/rank_45_100MB.dat_trial1
+Rank 38: Starting S3 download of upload-test/rank_38_100MB.dat_trial1
+Rank 59: Starting S3 download of upload-test/rank_59_100MB.dat_trial1
+Rank 62: Starting S3 download of upload-test/rank_62_100MB.dat_trial1
+Rank 40: Starting S3 download of upload-test/rank_40_100MB.dat_trial1
+Rank 43: Starting S3 download of upload-test/rank_43_100MB.dat_trial1
+Rank 47: download successful (0.988569 MB/s, 100 MB)
+Rank 119: download successful (0.98392 MB/s, 100 MB)
+Rank 83: download successful (0.976162 MB/s, 100 MB)
+Rank 123: download successful (0.967974 MB/s, 100 MB)
+Rank 14: download successful (0.966264 MB/s, 100 MB)
+Rank 43: download successful (0.964969 MB/s, 100 MB)
+Rank 116: download successful (0.959482 MB/s, 100 MB)
+Rank 112: download successful (0.955421 MB/s, 100 MB)
+Rank 95: download successful (0.950391 MB/s, 100 MB)
+Rank 13: download successful (0.947884 MB/s, 100 MB)
+Rank 17: download successful (0.947793 MB/s, 100 MB)
+Rank 19: download successful (0.943231 MB/s, 100 MB)
+Rank 25: download successful (0.933638 MB/s, 100 MB)
+Rank 81: download successful (0.932686 MB/s, 100 MB)
+Rank 2: download successful (0.930648 MB/s, 100 MB)
+Rank 53: download successful (0.928622 MB/s, 100 MB)
+Rank 71: download successful (0.925751 MB/s, 100 MB)
+Rank 91: download successful (0.923901 MB/s, 100 MB)
+Rank 86: download successful (0.923778 MB/s, 100 MB)
+Rank 27: download successful (0.923592 MB/s, 100 MB)
+Rank 42: download successful (0.922044 MB/s, 100 MB)
+Rank 55: download successful (0.921984 MB/s, 100 MB)
+Rank 24: download successful (0.921345 MB/s, 100 MB)
+Rank 94: download successful (0.920528 MB/s, 100 MB)
+Rank 48: download successful (0.919878 MB/s, 100 MB)
+Rank 1: download successful (0.919731 MB/s, 100 MB)
+Rank 40: download successful (0.919145 MB/s, 100 MB)
+Rank 87: download successful (0.917565 MB/s, 100 MB)
+Rank 77: download successful (0.917053 MB/s, 100 MB)
+Rank 89: download successful (0.915172 MB/s, 100 MB)
+Rank 16: download successful (0.911874 MB/s, 100 MB)
+Rank 80: download successful (0.910234 MB/s, 100 MB)
+Rank 6: download successful (0.909353 MB/s, 100 MB)
+Rank 32: download successful (0.909172 MB/s, 100 MB)
+Rank 125: download successful (0.907621 MB/s, 100 MB)
+Rank 15: download successful (0.905549 MB/s, 100 MB)
+Rank 0: download successful (0.904339 MB/s, 100 MB)
+Rank 97: download successful (0.90373 MB/s, 100 MB)
+Rank 90: download successful (0.903528 MB/s, 100 MB)
+Rank 82: download successful (0.903358 MB/s, 100 MB)
+Rank 26: download successful (0.903001 MB/s, 100 MB)
+Rank 56: download successful (0.902746 MB/s, 100 MB)
+Rank 78: download successful (0.902705 MB/s, 100 MB)
+Rank 76: download successful (0.902318 MB/s, 100 MB)
+Rank 101: download successful (0.900323 MB/s, 100 MB)
+Rank 84: download successful (0.899787 MB/s, 100 MB)
+Rank 73: download successful (0.89889 MB/s, 100 MB)
+Rank 107: download successful (0.898408 MB/s, 100 MB)
+Rank 12: download successful (0.89783 MB/s, 100 MB)
+Rank 50: download successful (0.897495 MB/s, 100 MB)
+Rank 57: download successful (0.897157 MB/s, 100 MB)
+Rank 44: download successful (0.896515 MB/s, 100 MB)
+Rank 51: download successful (0.895914 MB/s, 100 MB)
+Rank 4: download successful (0.895816 MB/s, 100 MB)
+Rank 88: download successful (0.895813 MB/s, 100 MB)
+Rank 35: download successful (0.895357 MB/s, 100 MB)
+Rank 62: download successful (0.89446 MB/s, 100 MB)
+Rank 118: download successful (0.89431 MB/s, 100 MB)
+Rank 72: download successful (0.893404 MB/s, 100 MB)
+Rank 64: download successful (0.893363 MB/s, 100 MB)
+Rank 59: download successful (0.893301 MB/s, 100 MB)
+Rank 11: download successful (0.892658 MB/s, 100 MB)
+Rank 8: download successful (0.89195 MB/s, 100 MB)
+Rank 22: download successful (0.891903 MB/s, 100 MB)
+Rank 38: download successful (0.891483 MB/s, 100 MB)
+Rank 21: download successful (0.891472 MB/s, 100 MB)
+Rank 121: download successful (0.890836 MB/s, 100 MB)
+Rank 3: download successful (0.890728 MB/s, 100 MB)
+Rank 37: download successful (0.889585 MB/s, 100 MB)
+Rank 100: download successful (0.889122 MB/s, 100 MB)
+Rank 93: download successful (0.888773 MB/s, 100 MB)
+Rank 66: download successful (0.887997 MB/s, 100 MB)
+Rank 45: download successful (0.887594 MB/s, 100 MB)
+Rank 61: download successful (0.887507 MB/s, 100 MB)
+Rank 39: download successful (0.886905 MB/s, 100 MB)
+Rank 46: download successful (0.886646 MB/s, 100 MB)
+Rank 54: download successful (0.885956 MB/s, 100 MB)
+Rank 103: download successful (0.885394 MB/s, 100 MB)
+Rank 74: download successful (0.885139 MB/s, 100 MB)
+Rank 79: download successful (0.88501 MB/s, 100 MB)
+Rank 104: download successful (0.88478 MB/s, 100 MB)
+Rank 69: download successful (0.883569 MB/s, 100 MB)
+Rank 20: download successful (0.883545 MB/s, 100 MB)
+Rank 92: download successful (0.883528 MB/s, 100 MB)
+Rank 41: download successful (0.883246 MB/s, 100 MB)
+Rank 124: download successful (0.882906 MB/s, 100 MB)
+Rank 114: download successful (0.882163 MB/s, 100 MB)
+Rank 106: download successful (0.882079 MB/s, 100 MB)
+Rank 36: download successful (0.881759 MB/s, 100 MB)
+Rank 120: download successful (0.881195 MB/s, 100 MB)
+Rank 34: download successful (0.880869 MB/s, 100 MB)
+Rank 110: download successful (0.880258 MB/s, 100 MB)
+Rank 102: download successful (0.879474 MB/s, 100 MB)
+Rank 127: download successful (0.87881 MB/s, 100 MB)
+Rank 7: download successful (0.878741 MB/s, 100 MB)
+Rank 30: download successful (0.87858 MB/s, 100 MB)
+Rank 31: download successful (0.878366 MB/s, 100 MB)
+Rank 63: download successful (0.877919 MB/s, 100 MB)
+Rank 5: download successful (0.877149 MB/s, 100 MB)
+Rank 33: download successful (0.876583 MB/s, 100 MB)
+Rank 111: download successful (0.875966 MB/s, 100 MB)
+Rank 29: download successful (0.875494 MB/s, 100 MB)
+Rank 58: download successful (0.875449 MB/s, 100 MB)
+Rank 23: download successful (0.875204 MB/s, 100 MB)
+Rank 9: download successful (0.874379 MB/s, 100 MB)
+Rank 117: download successful (0.874292 MB/s, 100 MB)
+Rank 60: download successful (0.874227 MB/s, 100 MB)
+Rank 98: download successful (0.874172 MB/s, 100 MB)
+Rank 122: download successful (0.873831 MB/s, 100 MB)
+Rank 70: download successful (0.873625 MB/s, 100 MB)
+Rank 67: download successful (0.873617 MB/s, 100 MB)
+Rank 18: download successful (0.873028 MB/s, 100 MB)
+Rank 52: download successful (0.872979 MB/s, 100 MB)
+Rank 65: download successful (0.872947 MB/s, 100 MB)
+Rank 68: download successful (0.872318 MB/s, 100 MB)
+Rank 126: download successful (0.872063 MB/s, 100 MB)
+Rank 109: download successful (0.870619 MB/s, 100 MB)
+Rank 105: download successful (0.870195 MB/s, 100 MB)
+Rank 113: download successful (0.869423 MB/s, 100 MB)
+Rank 28: download successful (0.868937 MB/s, 100 MB)
+Rank 49: download successful (0.868805 MB/s, 100 MB)
+Rank 99: download successful (0.868444 MB/s, 100 MB)
+Rank 10: download successful (0.867204 MB/s, 100 MB)
+Rank 85: download successful (0.867124 MB/s, 100 MB)
+Rank 115: download successful (0.866408 MB/s, 100 MB)
+Rank 96: download successful (0.866147 MB/s, 100 MB)
+Rank 75: download successful (0.865606 MB/s, 100 MB)
+Rank 108: download successful (0.865138 MB/s, 100 MB)
+
+--- Download Trial 3 Summary ---
+Rank 0: 0.904339 MB/s (download)
+Rank 1: 0.919731 MB/s (download)
+Rank 2: 0.930648 MB/s (download)
+Rank 3: 0.890728 MB/s (download)
+Rank 4: 0.895816 MB/s (download)
+Rank 5: 0.877149 MB/s (download)
+Rank 6: 0.909353 MB/s (download)
+Rank 7: 0.878741 MB/s (download)
+Rank 8: 0.89195 MB/s (download)
+Rank 9: 0.874379 MB/s (download)
+Rank 10: 0.867204 MB/s (download)
+Rank 11: 0.892658 MB/s (download)
+Rank 12: 0.89783 MB/s (download)
+Rank 13: 0.947884 MB/s (download)
+Rank 14: 0.966264 MB/s (download)
+Rank 15: 0.905549 MB/s (download)
+Rank 16: 0.911874 MB/s (download)
+Rank 17: 0.947793 MB/s (download)
+Rank 18: 0.873028 MB/s (download)
+Rank 19: 0.943231 MB/s (download)
+Rank 20: 0.883545 MB/s (download)
+Rank 21: 0.891472 MB/s (download)
+Rank 22: 0.891903 MB/s (download)
+Rank 23: 0.875204 MB/s (download)
+Rank 24: 0.921345 MB/s (download)
+Rank 25: 0.933638 MB/s (download)
+Rank 26: 0.903001 MB/s (download)
+Rank 27: 0.923592 MB/s (download)
+Rank 28: 0.868937 MB/s (download)
+Rank 29: 0.875494 MB/s (download)
+Rank 30: 0.87858 MB/s (download)
+Rank 31: 0.878366 MB/s (download)
+Rank 32: 0.909172 MB/s (download)
+Rank 33: 0.876583 MB/s (download)
+Rank 34: 0.880869 MB/s (download)
+Rank 35: 0.895357 MB/s (download)
+Rank 36: 0.881759 MB/s (download)
+Rank 37: 0.889585 MB/s (download)
+Rank 38: 0.891483 MB/s (download)
+Rank 39: 0.886905 MB/s (download)
+Rank 40: 0.919145 MB/s (download)
+Rank 41: 0.883246 MB/s (download)
+Rank 42: 0.922044 MB/s (download)
+Rank 43: 0.964969 MB/s (download)
+Rank 44: 0.896515 MB/s (download)
+Rank 45: 0.887594 MB/s (download)
+Rank 46: 0.886646 MB/s (download)
+Rank 47: 0.988569 MB/s (download)
+Rank 48: 0.919878 MB/s (download)
+Rank 49: 0.868805 MB/s (download)
+Rank 50: 0.897495 MB/s (download)
+Rank 51: 0.895914 MB/s (download)
+Rank 52: 0.872979 MB/s (download)
+Rank 53: 0.928622 MB/s (download)
+Rank 54: 0.885956 MB/s (download)
+Rank 55: 0.921984 MB/s (download)
+Rank 56: 0.902746 MB/s (download)
+Rank 57: 0.897157 MB/s (download)
+Rank 58: 0.875449 MB/s (download)
+Rank 59: 0.893301 MB/s (download)
+Rank 60: 0.874227 MB/s (download)
+Rank 61: 0.887507 MB/s (download)
+Rank 62: 0.89446 MB/s (download)
+Rank 63: 0.877919 MB/s (download)
+Rank 64: 0.893363 MB/s (download)
+Rank 65: 0.872947 MB/s (download)
+Rank 66: 0.887997 MB/s (download)
+Rank 67: 0.873617 MB/s (download)
+Rank 68: 0.872318 MB/s (download)
+Rank 69: 0.883569 MB/s (download)
+Rank 70: 0.873625 MB/s (download)
+Rank 71: 0.925751 MB/s (download)
+Rank 72: 0.893404 MB/s (download)
+Rank 73: 0.89889 MB/s (download)
+Rank 74: 0.885139 MB/s (download)
+Rank 75: 0.865606 MB/s (download)
+Rank 76: 0.902318 MB/s (download)
+Rank 77: 0.917053 MB/s (download)
+Rank 78: 0.902705 MB/s (download)
+Rank 79: 0.88501 MB/s (download)
+Rank 80: 0.910234 MB/s (download)
+Rank 81: 0.932686 MB/s (download)
+Rank 82: 0.903358 MB/s (download)
+Rank 83: 0.976162 MB/s (download)
+Rank 84: 0.899787 MB/s (download)
+Rank 85: 0.867124 MB/s (download)
+Rank 86: 0.923778 MB/s (download)
+Rank 87: 0.917565 MB/s (download)
+Rank 88: 0.895813 MB/s (download)
+Rank 89: 0.915172 MB/s (download)
+Rank 90: 0.903528 MB/s (download)
+Rank 91: 0.923901 MB/s (download)
+Rank 92: 0.883528 MB/s (download)
+Rank 93: 0.888773 MB/s (download)
+Rank 94: 0.920528 MB/s (download)
+Rank 95: 0.950391 MB/s (download)
+Rank 96: 0.866147 MB/s (download)
+Rank 97: 0.90373 MB/s (download)
+Rank 98: 0.874172 MB/s (download)
+Rank 99: 0.868444 MB/s (download)
+Rank 100: 0.889122 MB/s (download)
+Rank 101: 0.900323 MB/s (download)
+Rank 102: 0.879474 MB/s (download)
+Rank 103: 0.885394 MB/s (download)
+Rank 104: 0.88478 MB/s (download)
+Rank 105: 0.870195 MB/s (download)
+Rank 106: 0.882079 MB/s (download)
+Rank 107: 0.898408 MB/s (download)
+Rank 108: 0.865138 MB/s (download)
+Rank 109: 0.870619 MB/s (download)
+Rank 110: 0.880258 MB/s (download)
+Rank 111: 0.875966 MB/s (download)
+Rank 112: 0.955421 MB/s (download)
+Rank 113: 0.869423 MB/s (download)
+Rank 114: 0.882163 MB/s (download)
+Rank 115: 0.866408 MB/s (download)
+Rank 116: 0.959482 MB/s (download)
+Rank 117: 0.874292 MB/s (download)
+Rank 118: 0.89431 MB/s (download)
+Rank 119: 0.98392 MB/s (download)
+Rank 120: 0.881195 MB/s (download)
+Rank 121: 0.890836 MB/s (download)
+Rank 122: 0.873831 MB/s (download)
+Rank 123: 0.967974 MB/s (download)
+Rank 124: 0.882906 MB/s (download)
+Rank 125: 0.907621 MB/s (download)
+Rank 126: 0.872063 MB/s (download)
+Rank 127: 0.87881 MB/s (download)
+Average download bandwidth: 0.898333 MB/s
+Total download throughput: 114.987 MB/s
+Download trial duration: 110.579 seconds
+Successful download ranks: 128/128
+
+========================================
+FINAL DOWNLOAD STATISTICS ACROSS ALL TRIALS
+========================================
+Successful download trials: 3/3
+Download bandwidth per rank:
+  Mean: 0.9325 MB/s
+  Std Dev: 0.0224534 MB/s
+  Values: 0.933875 0.959286 0.904339 
+Download trial duration:
+  Mean: 107.302 seconds
+  Std Dev: 2.59045 seconds
+  Values: 107.081 104.245 110.579 
+Aggregate download throughput: 119.36 MB/s
+
+Cleaned up BeeGFS download directory
+
+=== OVERALL BENCHMARK SUMMARY ===
+Configuration: 4 nodes, 32 tasks/node, DEFAULT
+Total tasks: 128
+File size: 100 MB
+Transfer size: DEFAULT (-1 KB)
+Number of trials: 3
+Total duration: 714 seconds
+Exit code: 0
+Completed at: Wed Jul 30 15:21:34 PDT 2025

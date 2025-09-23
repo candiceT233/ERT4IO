@@ -1,0 +1,974 @@
+=== S3 MPI BENCHMARK LOG ===
+Configuration: 10 nodes, 4 tasks/node, 50M transfer size
+Total tasks: 40
+File size: 100 MB
+Transfer size: 50M (51200 KB)
+Number of trials: 3
+Started at: Wed Jul 30 22:23:35 PDT 2025
+
+Using region: us-west-2
+Transfer chunk size: 51200 KB
+Temp directory: /tmp/s3_benchmark_$
+Number of trials: 3
+Using multipart upload (chunk size >= 5MB)
+Generating test files (100 MB each)...
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+File size per process: 100 MB
+Operations per process: 2
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+Generated file size: 100 MB
+
+============================================================
+STARTING UPLOAD TESTS TO S3
+============================================================
+
+========================================
+UPLOAD TRIAL 1/3
+========================================
+Rank 18: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 2: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 34: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 28: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 12: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 20: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 4: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 36: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 22: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 6: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 38: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 30: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 14: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 29: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 13: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 19: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 10: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 3: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 35: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 26: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 27: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 11: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 21: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 5: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 37: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 23: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 7: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 39: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 15: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 31: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 16: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 0: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 24: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 32: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 8: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 17: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 1: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 33: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 9: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 25: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 39: multipart upload successful (3.32887 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 36: multipart upload successful (3.27547 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 38: multipart upload successful (3.24971 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 10: multipart upload successful (3.15443 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 11: multipart upload successful (3.15146 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 15: multipart upload successful (3.0976 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 16: multipart upload successful (3.09778 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 17: multipart upload successful (3.096 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 34: multipart upload successful (3.05703 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 19: multipart upload successful (3.01899 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 24: multipart upload successful (3.01843 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 29: multipart upload successful (3.00788 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 35: multipart upload successful (2.99639 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 13: multipart upload successful (2.9947 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 26: multipart upload successful (2.97255 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 37: multipart upload successful (2.95875 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 4: multipart upload successful (2.95678 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 33: multipart upload successful (2.95747 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 22: multipart upload successful (2.94759 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 28: multipart upload successful (2.94696 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 31: multipart upload successful (2.93962 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 8: multipart upload successful (2.93102 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 25: multipart upload successful (2.92755 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 3: multipart upload successful (2.90713 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 1: multipart upload successful (2.89877 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 12: multipart upload successful (2.8855 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 5: multipart upload successful (2.8814 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 21: multipart upload successful (2.8796 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 7: multipart upload successful (2.8764 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 27: multipart upload successful (2.87453 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 2: multipart upload successful (2.81134 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 14: multipart upload successful (2.80748 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 32: multipart upload successful (2.79116 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 9: multipart upload successful (2.75986 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 20: multipart upload successful (2.75454 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 18: multipart upload successful (2.7396 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 6: multipart upload successful (2.71622 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 30: multipart upload successful (2.69542 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 23: multipart upload successful (2.67518 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 0: multipart upload successful (2.60009 MB/s, 2 ops) [2 parts × 51200KB]
+
+--- Upload Trial 1 Summary ---
+Rank 0: 2.60009 MB/s (2 ops)
+Rank 1: 2.89877 MB/s (2 ops)
+Rank 2: 2.81134 MB/s (2 ops)
+Rank 3: 2.90713 MB/s (2 ops)
+Rank 4: 2.95678 MB/s (2 ops)
+Rank 5: 2.8814 MB/s (2 ops)
+Rank 6: 2.71622 MB/s (2 ops)
+Rank 7: 2.8764 MB/s (2 ops)
+Rank 8: 2.93102 MB/s (2 ops)
+Rank 9: 2.75986 MB/s (2 ops)
+Rank 10: 3.15443 MB/s (2 ops)
+Rank 11: 3.15146 MB/s (2 ops)
+Rank 12: 2.8855 MB/s (2 ops)
+Rank 13: 2.9947 MB/s (2 ops)
+Rank 14: 2.80748 MB/s (2 ops)
+Rank 15: 3.0976 MB/s (2 ops)
+Rank 16: 3.09778 MB/s (2 ops)
+Rank 17: 3.096 MB/s (2 ops)
+Rank 18: 2.7396 MB/s (2 ops)
+Rank 19: 3.01899 MB/s (2 ops)
+Rank 20: 2.75454 MB/s (2 ops)
+Rank 21: 2.8796 MB/s (2 ops)
+Rank 22: 2.94759 MB/s (2 ops)
+Rank 23: 2.67518 MB/s (2 ops)
+Rank 24: 3.01843 MB/s (2 ops)
+Rank 25: 2.92755 MB/s (2 ops)
+Rank 26: 2.97255 MB/s (2 ops)
+Rank 27: 2.87453 MB/s (2 ops)
+Rank 28: 2.94696 MB/s (2 ops)
+Rank 29: 3.00788 MB/s (2 ops)
+Rank 30: 2.69542 MB/s (2 ops)
+Rank 31: 2.93962 MB/s (2 ops)
+Rank 32: 2.79116 MB/s (2 ops)
+Rank 33: 2.95747 MB/s (2 ops)
+Rank 34: 3.05703 MB/s (2 ops)
+Rank 35: 2.99639 MB/s (2 ops)
+Rank 36: 3.27547 MB/s (2 ops)
+Rank 37: 2.95875 MB/s (2 ops)
+Rank 38: 3.24971 MB/s (2 ops)
+Rank 39: 3.32887 MB/s (2 ops)
+Average upload bandwidth: 2.94093 MB/s
+Total upload throughput: 117.637 MB/s
+Upload trial duration: 38.4606 seconds
+Successful upload ranks: 40/40
+Total operations: 80 ops
+Operations per process: 2 ops
+
+========================================
+UPLOAD TRIAL 2/3
+========================================
+Rank 0: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 1: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 2: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 3: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 17: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 34: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 13: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 8: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 4: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 16: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 33: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 22: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 15: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 10: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 28: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 5: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 19: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 24: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 32: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 21: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 12: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 11: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 31: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 7: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 18: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 36: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 25: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 35: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 20: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 14: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 9: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 30: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 6: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 39: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 26: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 23: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 29: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 38: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 27: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 37: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 37: multipart upload successful (3.63329 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 22: multipart upload successful (3.54814 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 28: multipart upload successful (3.53343 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 26: multipart upload successful (3.52328 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 19: multipart upload successful (3.36768 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 35: multipart upload successful (3.26649 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 36: multipart upload successful (3.18383 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 39: multipart upload successful (3.17859 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 25: multipart upload successful (3.16804 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 18: multipart upload successful (3.14818 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 4: multipart upload successful (3.08374 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 17: multipart upload successful (3.07024 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 16: multipart upload successful (3.05838 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 27: multipart upload successful (3.03501 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 3: multipart upload successful (3.03059 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 5: multipart upload successful (2.98814 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 32: multipart upload successful (2.97737 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 38: multipart upload successful (2.96328 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 9: multipart upload successful (2.95973 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 7: multipart upload successful (2.95415 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 34: multipart upload successful (2.94399 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 21: multipart upload successful (2.937 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 1: multipart upload successful (2.91633 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 29: multipart upload successful (2.87649 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 12: multipart upload successful (2.87331 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 2: multipart upload successful (2.87166 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 31: multipart upload successful (2.85091 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 14: multipart upload successful (2.83128 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 24: multipart upload successful (2.82405 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 15: multipart upload successful (2.80788 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 20: multipart upload successful (2.80692 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 10: multipart upload successful (2.79838 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 8: multipart upload successful (2.78786 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 6: multipart upload successful (2.76877 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 23: multipart upload successful (2.76591 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 30: multipart upload successful (2.75407 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 13: multipart upload successful (2.74554 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 0: multipart upload successful (2.74428 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 33: multipart upload successful (2.72464 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 11: multipart upload successful (2.71113 MB/s, 2 ops) [2 parts × 51200KB]
+
+--- Upload Trial 2 Summary ---
+Rank 0: 2.74428 MB/s (2 ops)
+Rank 1: 2.91633 MB/s (2 ops)
+Rank 2: 2.87166 MB/s (2 ops)
+Rank 3: 3.03059 MB/s (2 ops)
+Rank 4: 3.08374 MB/s (2 ops)
+Rank 5: 2.98814 MB/s (2 ops)
+Rank 6: 2.76877 MB/s (2 ops)
+Rank 7: 2.95415 MB/s (2 ops)
+Rank 8: 2.78786 MB/s (2 ops)
+Rank 9: 2.95973 MB/s (2 ops)
+Rank 10: 2.79838 MB/s (2 ops)
+Rank 11: 2.71113 MB/s (2 ops)
+Rank 12: 2.87331 MB/s (2 ops)
+Rank 13: 2.74554 MB/s (2 ops)
+Rank 14: 2.83128 MB/s (2 ops)
+Rank 15: 2.80788 MB/s (2 ops)
+Rank 16: 3.05838 MB/s (2 ops)
+Rank 17: 3.07024 MB/s (2 ops)
+Rank 18: 3.14818 MB/s (2 ops)
+Rank 19: 3.36768 MB/s (2 ops)
+Rank 20: 2.80692 MB/s (2 ops)
+Rank 21: 2.937 MB/s (2 ops)
+Rank 22: 3.54814 MB/s (2 ops)
+Rank 23: 2.76591 MB/s (2 ops)
+Rank 24: 2.82405 MB/s (2 ops)
+Rank 25: 3.16804 MB/s (2 ops)
+Rank 26: 3.52328 MB/s (2 ops)
+Rank 27: 3.03501 MB/s (2 ops)
+Rank 28: 3.53343 MB/s (2 ops)
+Rank 29: 2.87649 MB/s (2 ops)
+Rank 30: 2.75407 MB/s (2 ops)
+Rank 31: 2.85091 MB/s (2 ops)
+Rank 32: 2.97737 MB/s (2 ops)
+Rank 33: 2.72464 MB/s (2 ops)
+Rank 34: 2.94399 MB/s (2 ops)
+Rank 35: 3.26649 MB/s (2 ops)
+Rank 36: 3.18383 MB/s (2 ops)
+Rank 37: 3.63329 MB/s (2 ops)
+Rank 38: 2.96328 MB/s (2 ops)
+Rank 39: 3.17859 MB/s (2 ops)
+Average upload bandwidth: 3.0003 MB/s
+Total upload throughput: 120.012 MB/s
+Upload trial duration: 36.4398 seconds
+Successful upload ranks: 40/40
+Total operations: 80 ops
+Operations per process: 2 ops
+Rank 2: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 3: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 1: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+
+========================================
+UPLOAD TRIAL 3/3
+========================================
+Rank 0: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 35: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 21: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 12: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 8: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 31: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 5: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 19: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 39: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 25: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 34: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 20: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 15: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 10: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 29: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 7: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 18: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 36: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 27: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 32: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 22: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 14: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 9: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 28: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 4: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 17: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 38: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 26: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 33: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 23: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 13: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 11: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 30: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 6: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 16: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 37: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 24: Starting multipart upload - 2 parts of 51200KB each (2 operations)
+Rank 38: multipart upload successful (3.45905 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 28: multipart upload successful (3.37419 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 8: multipart upload successful (3.29146 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 17: multipart upload successful (3.28455 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 1: multipart upload successful (3.19833 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 16: multipart upload successful (3.07245 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 19: multipart upload successful (3.06465 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 39: multipart upload successful (3.05402 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 34: multipart upload successful (3.0428 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 9: multipart upload successful (3.0327 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 26: multipart upload successful (3.03087 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 3: multipart upload successful (3.01715 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 27: multipart upload successful (2.99595 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 5: multipart upload successful (2.97493 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 37: multipart upload successful (2.9609 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 7: multipart upload successful (2.95053 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 11: multipart upload successful (2.92627 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 25: multipart upload successful (2.91577 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 29: multipart upload successful (2.85964 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 6: multipart upload successful (2.85744 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 21: multipart upload successful (2.85172 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 12: multipart upload successful (2.84692 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 24: multipart upload successful (2.83787 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 10: multipart upload successful (2.83617 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 4: multipart upload successful (2.83611 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 14: multipart upload successful (2.83539 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 22: multipart upload successful (2.83333 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 32: multipart upload successful (2.8205 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 31: multipart upload successful (2.82035 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 15: multipart upload successful (2.81257 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 18: multipart upload successful (2.8093 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 36: multipart upload successful (2.8055 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 2: multipart upload successful (2.80369 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 13: multipart upload successful (2.80102 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 35: multipart upload successful (2.74664 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 30: multipart upload successful (2.73093 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 33: multipart upload successful (2.72914 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 20: multipart upload successful (2.71999 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 23: multipart upload successful (2.65986 MB/s, 2 ops) [2 parts × 51200KB]
+Rank 0: multipart upload successful (2.64362 MB/s, 2 ops) [2 parts × 51200KB]
+
+--- Upload Trial 3 Summary ---
+Rank 0: 2.64362 MB/s (2 ops)
+Rank 1: 3.19833 MB/s (2 ops)
+Rank 2: 2.80369 MB/s (2 ops)
+Rank 3: 3.01715 MB/s (2 ops)
+Rank 4: 2.83611 MB/s (2 ops)
+Rank 5: 2.97493 MB/s (2 ops)
+Rank 6: 2.85744 MB/s (2 ops)
+Rank 7: 2.95053 MB/s (2 ops)
+Rank 8: 3.29146 MB/s (2 ops)
+Rank 9: 3.0327 MB/s (2 ops)
+Rank 10: 2.83617 MB/s (2 ops)
+Rank 11: 2.92627 MB/s (2 ops)
+Rank 12: 2.84692 MB/s (2 ops)
+Rank 13: 2.80102 MB/s (2 ops)
+Rank 14: 2.83539 MB/s (2 ops)
+Rank 15: 2.81257 MB/s (2 ops)
+Rank 16: 3.07245 MB/s (2 ops)
+Rank 17: 3.28455 MB/s (2 ops)
+Rank 18: 2.8093 MB/s (2 ops)
+Rank 19: 3.06465 MB/s (2 ops)
+Rank 20: 2.71999 MB/s (2 ops)
+Rank 21: 2.85172 MB/s (2 ops)
+Rank 22: 2.83333 MB/s (2 ops)
+Rank 23: 2.65986 MB/s (2 ops)
+Rank 24: 2.83787 MB/s (2 ops)
+Rank 25: 2.91577 MB/s (2 ops)
+Rank 26: 3.03087 MB/s (2 ops)
+Rank 27: 2.99595 MB/s (2 ops)
+Rank 28: 3.37419 MB/s (2 ops)
+Rank 29: 2.85964 MB/s (2 ops)
+Rank 30: 2.73093 MB/s (2 ops)
+Rank 31: 2.82035 MB/s (2 ops)
+Rank 32: 2.8205 MB/s (2 ops)
+Rank 33: 2.72914 MB/s (2 ops)
+Rank 34: 3.0428 MB/s (2 ops)
+Rank 35: 2.74664 MB/s (2 ops)
+Rank 36: 2.8055 MB/s (2 ops)
+Rank 37: 2.9609 MB/s (2 ops)
+Rank 38: 3.45905 MB/s (2 ops)
+Rank 39: 3.05402 MB/s (2 ops)
+Average upload bandwidth: 2.92861 MB/s
+Total upload throughput: 117.144 MB/s
+Upload trial duration: 37.8272 seconds
+Successful upload ranks: 40/40
+Total operations: 80 ops
+Operations per process: 2 ops
+
+========================================
+FINAL UPLOAD STATISTICS ACROSS ALL TRIALS
+========================================
+Successful upload trials: 3/3
+Upload bandwidth per rank:
+  Mean: 2.66266 MB/s
+  Std Dev: 0.0603848 MB/s
+  Values: 2.60009 2.74428 2.64362 
+Upload trial duration:
+  Mean: 37.5759 seconds
+  Std Dev: 0.84391 seconds
+  Values: 38.4606 36.4398 37.8272 
+Aggregate upload throughput: 106.506 MB/s
+Operations per process: 2 ops
+Total operations: 80 ops
+
+============================================================
+STARTING DOWNLOAD TESTS FROM S3 TO BEEGFS
+============================================================
+BeeGFS download directory: /rcfs/projects/datamesh/tang584/ior_cp_data
+Created BeeGFS download directory
+
+========================================
+DOWNLOAD TRIAL 1/3
+========================================
+Rank 0: Starting S3 download of upload-test/rank_0_100MB.dat_trial1
+Rank 2: Starting S3 download of upload-test/rank_2_100MB.dat_trial1
+Rank 3: Starting S3 download of upload-test/rank_3_100MB.dat_trial1
+Rank 1: Starting S3 download of upload-test/rank_1_100MB.dat_trial1
+Rank 34: Starting S3 download of upload-test/rank_34_100MB.dat_trial1
+Rank 6: Starting S3 download of upload-test/rank_6_100MB.dat_trial1
+Rank 17: Starting S3 download of upload-test/rank_17_100MB.dat_trial1
+Rank 37: Starting S3 download of upload-test/rank_37_100MB.dat_trial1
+Rank 25: Starting S3 download of upload-test/rank_25_100MB.dat_trial1
+Rank 32: Starting S3 download of upload-test/rank_32_100MB.dat_trial1
+Rank 21: Starting S3 download of upload-test/rank_21_100MB.dat_trial1
+Rank 8: Starting S3 download of upload-test/rank_8_100MB.dat_trial1
+Rank 31: Starting S3 download of upload-test/rank_31_100MB.dat_trial1
+Rank 7: Starting S3 download of upload-test/rank_7_100MB.dat_trial1
+Rank 16: Starting S3 download of upload-test/rank_16_100MB.dat_trial1
+Rank 39: Starting S3 download of upload-test/rank_39_100MB.dat_trial1
+Rank 27: Starting S3 download of upload-test/rank_27_100MB.dat_trial1
+Rank 35: Starting S3 download of upload-test/rank_35_100MB.dat_trial1
+Rank 20: Starting S3 download of upload-test/rank_20_100MB.dat_trial1
+Rank 12: Starting S3 download of upload-test/rank_12_100MB.dat_trial1
+Rank 9: Starting S3 download of upload-test/rank_9_100MB.dat_trial1
+Rank 29: Starting S3 download of upload-test/rank_29_100MB.dat_trial1
+Rank 5: Starting S3 download of upload-test/rank_5_100MB.dat_trial1
+Rank 19: Starting S3 download of upload-test/rank_19_100MB.dat_trial1
+Rank 38: Starting S3 download of upload-test/rank_38_100MB.dat_trial1
+Rank 26: Starting S3 download of upload-test/rank_26_100MB.dat_trial1
+Rank 33: Starting S3 download of upload-test/rank_33_100MB.dat_trial1
+Rank 22: Starting S3 download of upload-test/rank_22_100MB.dat_trial1
+Rank 15: Starting S3 download of upload-test/rank_15_100MB.dat_trial1
+Rank 11: Starting S3 download of upload-test/rank_11_100MB.dat_trial1
+Rank 28: Starting S3 download of upload-test/rank_28_100MB.dat_trial1
+Rank 4: Starting S3 download of upload-test/rank_4_100MB.dat_trial1
+Rank 18: Starting S3 download of upload-test/rank_18_100MB.dat_trial1
+Rank 36: Starting S3 download of upload-test/rank_36_100MB.dat_trial1
+Rank 24: Starting S3 download of upload-test/rank_24_100MB.dat_trial1
+Rank 23: Starting S3 download of upload-test/rank_23_100MB.dat_trial1
+Rank 14: Starting S3 download of upload-test/rank_14_100MB.dat_trial1
+Rank 10: Starting S3 download of upload-test/rank_10_100MB.dat_trial1
+Rank 30: Starting S3 download of upload-test/rank_30_100MB.dat_trial1
+Rank 13: Starting S3 download of upload-test/rank_13_100MB.dat_trial1
+Rank 23: download successful (13.2253 MB/s, 100 MB)
+Rank 35: download successful (4.33903 MB/s, 100 MB)
+Rank 30: download successful (4.31729 MB/s, 100 MB)
+Rank 32: download successful (3.82701 MB/s, 100 MB)
+Rank 9: download successful (3.64837 MB/s, 100 MB)
+Rank 26: download successful (3.52863 MB/s, 100 MB)
+Rank 36: download successful (3.51558 MB/s, 100 MB)
+Rank 12: download successful (3.50112 MB/s, 100 MB)
+Rank 2: download successful (3.32765 MB/s, 100 MB)
+Rank 6: download successful (3.30145 MB/s, 100 MB)
+Rank 20: download successful (3.28933 MB/s, 100 MB)
+Rank 19: download successful (3.18464 MB/s, 100 MB)
+Rank 25: download successful (3.16726 MB/s, 100 MB)
+Rank 1: download successful (3.13154 MB/s, 100 MB)
+Rank 21: download successful (3.09701 MB/s, 100 MB)
+Rank 15: download successful (3.07468 MB/s, 100 MB)
+Rank 8: download successful (3.03478 MB/s, 100 MB)
+Rank 11: download successful (3.02101 MB/s, 100 MB)
+Rank 27: download successful (3.00886 MB/s, 100 MB)
+Rank 33: download successful (2.94853 MB/s, 100 MB)
+Rank 39: download successful (2.9479 MB/s, 100 MB)
+Rank 7: download successful (2.92177 MB/s, 100 MB)
+Rank 0: download successful (2.9168 MB/s, 100 MB)
+Rank 22: download successful (2.90957 MB/s, 100 MB)
+Rank 10: download successful (2.90536 MB/s, 100 MB)
+Rank 4: download successful (2.8776 MB/s, 100 MB)
+Rank 34: download successful (2.87269 MB/s, 100 MB)
+Rank 5: download successful (2.86709 MB/s, 100 MB)
+Rank 3: download successful (2.86626 MB/s, 100 MB)
+Rank 13: download successful (2.84981 MB/s, 100 MB)
+Rank 37: download successful (2.84048 MB/s, 100 MB)
+Rank 28: download successful (2.82788 MB/s, 100 MB)
+Rank 38: download successful (2.8216 MB/s, 100 MB)
+Rank 29: download successful (2.8199 MB/s, 100 MB)
+Rank 31: download successful (2.80484 MB/s, 100 MB)
+Rank 17: download successful (2.80238 MB/s, 100 MB)
+Rank 18: download successful (2.78719 MB/s, 100 MB)
+Rank 24: download successful (2.7804 MB/s, 100 MB)
+Rank 14: download successful (2.74701 MB/s, 100 MB)
+Rank 16: download successful (2.74622 MB/s, 100 MB)
+
+--- Download Trial 1 Summary ---
+Rank 0: 2.9168 MB/s (download)
+Rank 1: 3.13154 MB/s (download)
+Rank 2: 3.32765 MB/s (download)
+Rank 3: 2.86626 MB/s (download)
+Rank 4: 2.8776 MB/s (download)
+Rank 5: 2.86709 MB/s (download)
+Rank 6: 3.30145 MB/s (download)
+Rank 7: 2.92177 MB/s (download)
+Rank 8: 3.03478 MB/s (download)
+Rank 9: 3.64837 MB/s (download)
+Rank 10: 2.90536 MB/s (download)
+Rank 11: 3.02101 MB/s (download)
+Rank 12: 3.50112 MB/s (download)
+Rank 13: 2.84981 MB/s (download)
+Rank 14: 2.74701 MB/s (download)
+Rank 15: 3.07468 MB/s (download)
+Rank 16: 2.74622 MB/s (download)
+Rank 17: 2.80238 MB/s (download)
+Rank 18: 2.78719 MB/s (download)
+Rank 19: 3.18464 MB/s (download)
+Rank 20: 3.28933 MB/s (download)
+Rank 21: 3.09701 MB/s (download)
+Rank 22: 2.90957 MB/s (download)
+Rank 23: 13.2253 MB/s (download)
+Rank 24: 2.7804 MB/s (download)
+Rank 25: 3.16726 MB/s (download)
+Rank 26: 3.52863 MB/s (download)
+Rank 27: 3.00886 MB/s (download)
+Rank 28: 2.82788 MB/s (download)
+Rank 29: 2.8199 MB/s (download)
+Rank 30: 4.31729 MB/s (download)
+Rank 31: 2.80484 MB/s (download)
+Rank 32: 3.82701 MB/s (download)
+Rank 33: 2.94853 MB/s (download)
+Rank 34: 2.87269 MB/s (download)
+Rank 35: 4.33903 MB/s (download)
+Rank 36: 3.51558 MB/s (download)
+Rank 37: 2.84048 MB/s (download)
+Rank 38: 2.8216 MB/s (download)
+Rank 39: 2.9479 MB/s (download)
+Average download bandwidth: 3.36005 MB/s
+Total download throughput: 134.402 MB/s
+Download trial duration: 34.2848 seconds
+Successful download ranks: 40/40
+Rank 16: Cleaned up downloaded file for next trial
+Rank 24: Cleaned up downloaded file for next trial
+Rank 14: Cleaned up downloaded file for next trial
+Rank 8: Cleaned up downloaded file for next trial
+Rank 21: Cleaned up downloaded file for next trial
+Rank 38: Cleaned up downloaded file for next trial
+Rank 4: Cleaned up downloaded file for next trial
+Rank 2: Cleaned up downloaded file for next trial
+Rank 28: Cleaned up downloaded file for next trial
+Rank 33: Cleaned up downloaded file for next trial
+Rank 13: Cleaned up downloaded file for next trial
+Rank 15: Cleaned up downloaded file for next trial
+Rank 12: Cleaned up downloaded file for next trial
+Rank 25: Cleaned up downloaded file for next trial
+Rank 9: Cleaned up downloaded file for next trial
+Rank 27: Cleaned up downloaded file for next trial
+Rank 3: Cleaned up downloaded file for next trial
+Rank 10: Cleaned up downloaded file for next trial
+Rank 39: Cleaned up downloaded file for next trial
+Rank 20: Cleaned up downloaded file for next trial
+Rank 29: Cleaned up downloaded file for next trial
+Rank 7: Cleaned up downloaded file for next trial
+Rank 32: Cleaned up downloaded file for next trial
+Rank 26: Cleaned up downloaded file for next trial
+Rank 31: Cleaned up downloaded file for next trial
+Rank 5: Cleaned up downloaded file for next trial
+Rank 17: Cleaned up downloaded file for next trial
+Rank 34: Cleaned up downloaded file for next trial
+Rank 11: Cleaned up downloaded file for next trial
+Rank 36: Cleaned up downloaded file for next trial
+Rank 23: Cleaned up downloaded file for next trial
+Rank 0: Cleaned up downloaded file for next trial
+Rank 6: Cleaned up downloaded file for next trial
+Rank 18: Cleaned up downloaded file for next trial
+Rank 37: Cleaned up downloaded file for next trial
+Rank 35: Cleaned up downloaded file for next trial
+Rank 30: Cleaned up downloaded file for next trial
+Rank 1: Cleaned up downloaded file for next trial
+Rank 22: Cleaned up downloaded file for next trial
+Rank 19: Cleaned up downloaded file for next trial
+
+========================================
+DOWNLOAD TRIAL 2/3
+========================================
+Rank 1: Starting S3 download of upload-test/rank_1_100MB.dat_trial1
+Rank 3: Starting S3 download of upload-test/rank_3_100MB.dat_trial1
+Rank 2: Starting S3 download of upload-test/rank_2_100MB.dat_trial1
+Rank 0: Starting S3 download of upload-test/rank_0_100MB.dat_trial1
+Rank 23: Starting S3 download of upload-test/rank_23_100MB.dat_trial1
+Rank 14: Starting S3 download of upload-test/rank_14_100MB.dat_trial1
+Rank 9: Starting S3 download of upload-test/rank_9_100MB.dat_trial1
+Rank 31: Starting S3 download of upload-test/rank_31_100MB.dat_trial1
+Rank 7: Starting S3 download of upload-test/rank_7_100MB.dat_trial1
+Rank 16: Starting S3 download of upload-test/rank_16_100MB.dat_trial1
+Rank 33: Starting S3 download of upload-test/rank_33_100MB.dat_trial1
+Rank 21: Starting S3 download of upload-test/rank_21_100MB.dat_trial1
+Rank 13: Starting S3 download of upload-test/rank_13_100MB.dat_trial1
+Rank 8: Starting S3 download of upload-test/rank_8_100MB.dat_trial1
+Rank 28: Starting S3 download of upload-test/rank_28_100MB.dat_trial1
+Rank 4: Starting S3 download of upload-test/rank_4_100MB.dat_trial1
+Rank 18: Starting S3 download of upload-test/rank_18_100MB.dat_trial1
+Rank 36: Starting S3 download of upload-test/rank_36_100MB.dat_trial1
+Rank 25: Starting S3 download of upload-test/rank_25_100MB.dat_trial1
+Rank 32: Starting S3 download of upload-test/rank_32_100MB.dat_trial1
+Rank 20: Starting S3 download of upload-test/rank_20_100MB.dat_trial1
+Rank 15: Starting S3 download of upload-test/rank_15_100MB.dat_trial1
+Rank 10: Starting S3 download of upload-test/rank_10_100MB.dat_trial1
+Rank 29: Starting S3 download of upload-test/rank_29_100MB.dat_trial1
+Rank 5: Starting S3 download of upload-test/rank_5_100MB.dat_trial1
+Rank 17: Starting S3 download of upload-test/rank_17_100MB.dat_trial1
+Rank 38: Starting S3 download of upload-test/rank_38_100MB.dat_trial1
+Rank 27: Starting S3 download of upload-test/rank_27_100MB.dat_trial1
+Rank 34: Starting S3 download of upload-test/rank_34_100MB.dat_trial1
+Rank 22: Starting S3 download of upload-test/rank_22_100MB.dat_trial1
+Rank 12: Starting S3 download of upload-test/rank_12_100MB.dat_trial1
+Rank 11: Starting S3 download of upload-test/rank_11_100MB.dat_trial1
+Rank 30: Starting S3 download of upload-test/rank_30_100MB.dat_trial1
+Rank 6: Starting S3 download of upload-test/rank_6_100MB.dat_trial1
+Rank 19: Starting S3 download of upload-test/rank_19_100MB.dat_trial1
+Rank 39: Starting S3 download of upload-test/rank_39_100MB.dat_trial1
+Rank 24: Starting S3 download of upload-test/rank_24_100MB.dat_trial1
+Rank 35: Starting S3 download of upload-test/rank_35_100MB.dat_trial1
+Rank 37: Starting S3 download of upload-test/rank_37_100MB.dat_trial1
+Rank 26: Starting S3 download of upload-test/rank_26_100MB.dat_trial1
+Rank 6: download successful (8.45492 MB/s, 100 MB)
+Rank 9: download successful (3.96994 MB/s, 100 MB)
+Rank 15: download successful (3.92351 MB/s, 100 MB)
+Rank 33: download successful (3.89287 MB/s, 100 MB)
+Rank 32: download successful (3.68687 MB/s, 100 MB)
+Rank 11: download successful (3.66752 MB/s, 100 MB)
+Rank 4: download successful (3.64794 MB/s, 100 MB)
+Rank 13: download successful (3.50333 MB/s, 100 MB)
+Rank 8: download successful (3.46597 MB/s, 100 MB)
+Rank 35: download successful (3.43425 MB/s, 100 MB)
+Rank 5: download successful (3.232 MB/s, 100 MB)
+Rank 18: download successful (3.17881 MB/s, 100 MB)
+Rank 17: download successful (3.09542 MB/s, 100 MB)
+Rank 21: download successful (3.06263 MB/s, 100 MB)
+Rank 7: download successful (3.06022 MB/s, 100 MB)
+Rank 36: download successful (3.04769 MB/s, 100 MB)
+Rank 30: download successful (3.04438 MB/s, 100 MB)
+Rank 37: download successful (3.03182 MB/s, 100 MB)
+Rank 25: download successful (3.02832 MB/s, 100 MB)
+Rank 14: download successful (3.02395 MB/s, 100 MB)
+Rank 22: download successful (3.02371 MB/s, 100 MB)
+Rank 10: download successful (3.02172 MB/s, 100 MB)
+Rank 28: download successful (2.99823 MB/s, 100 MB)
+Rank 38: download successful (2.98238 MB/s, 100 MB)
+Rank 16: download successful (2.94279 MB/s, 100 MB)
+Rank 23: download successful (2.93952 MB/s, 100 MB)
+Rank 1: download successful (2.90116 MB/s, 100 MB)
+Rank 20: download successful (2.88934 MB/s, 100 MB)
+Rank 27: download successful (2.87706 MB/s, 100 MB)
+Rank 34: download successful (2.85984 MB/s, 100 MB)
+Rank 31: download successful (2.85954 MB/s, 100 MB)
+Rank 29: download successful (2.85842 MB/s, 100 MB)
+Rank 12: download successful (2.85138 MB/s, 100 MB)
+Rank 19: download successful (2.83661 MB/s, 100 MB)
+Rank 0: download successful (2.82023 MB/s, 100 MB)
+Rank 39: download successful (2.80921 MB/s, 100 MB)
+Rank 3: download successful (2.80294 MB/s, 100 MB)
+Rank 26: download successful (2.78461 MB/s, 100 MB)
+Rank 2: download successful (2.73587 MB/s, 100 MB)
+Rank 24: download successful (2.71443 MB/s, 100 MB)
+
+--- Download Trial 2 Summary ---
+Rank 0: 2.82023 MB/s (download)
+Rank 1: 2.90116 MB/s (download)
+Rank 2: 2.73587 MB/s (download)
+Rank 3: 2.80294 MB/s (download)
+Rank 4: 3.64794 MB/s (download)
+Rank 5: 3.232 MB/s (download)
+Rank 6: 8.45492 MB/s (download)
+Rank 7: 3.06022 MB/s (download)
+Rank 8: 3.46597 MB/s (download)
+Rank 9: 3.96994 MB/s (download)
+Rank 10: 3.02172 MB/s (download)
+Rank 11: 3.66752 MB/s (download)
+Rank 12: 2.85138 MB/s (download)
+Rank 13: 3.50333 MB/s (download)
+Rank 14: 3.02395 MB/s (download)
+Rank 15: 3.92351 MB/s (download)
+Rank 16: 2.94279 MB/s (download)
+Rank 17: 3.09542 MB/s (download)
+Rank 18: 3.17881 MB/s (download)
+Rank 19: 2.83661 MB/s (download)
+Rank 20: 2.88934 MB/s (download)
+Rank 21: 3.06263 MB/s (download)
+Rank 22: 3.02371 MB/s (download)
+Rank 23: 2.93952 MB/s (download)
+Rank 24: 2.71443 MB/s (download)
+Rank 25: 3.02832 MB/s (download)
+Rank 26: 2.78461 MB/s (download)
+Rank 27: 2.87706 MB/s (download)
+Rank 28: 2.99823 MB/s (download)
+Rank 29: 2.85842 MB/s (download)
+Rank 30: 3.04438 MB/s (download)
+Rank 31: 2.85954 MB/s (download)
+Rank 32: 3.68687 MB/s (download)
+Rank 33: 3.89287 MB/s (download)
+Rank 34: 2.85984 MB/s (download)
+Rank 35: 3.43425 MB/s (download)
+Rank 36: 3.04769 MB/s (download)
+Rank 37: 3.03182 MB/s (download)
+Rank 38: 2.98238 MB/s (download)
+Rank 39: 2.80921 MB/s (download)
+Average download bandwidth: 3.24903 MB/s
+Total download throughput: 129.961 MB/s
+Download trial duration: 35.4592 seconds
+Successful download ranks: 40/40
+Rank 3: Cleaned up downloaded file for next trial
+Rank 26: Cleaned up downloaded file for next trial
+Rank 2: Cleaned up downloaded file for next trial
+Rank 25: Cleaned up downloaded file for next trial
+Rank 1: Cleaned up downloaded file for next trial
+Rank 24: Cleaned up downloaded file for next trial
+Rank 0: Cleaned up downloaded file for next trial
+Rank 27: Cleaned up downloaded file for next trial
+Rank 5: Cleaned up downloaded file for next trial
+Rank 20: Cleaned up downloaded file for next trial
+Rank 31: Cleaned up downloaded file for next trial
+Rank 10: Cleaned up downloaded file for next trial
+Rank 39: Cleaned up downloaded file for next trial
+Rank 35: Cleaned up downloaded file for next trial
+Rank 19: Cleaned up downloaded file for next trial
+Rank 15: Cleaned up downloaded file for next trial
+Rank 23: Cleaned up downloaded file for next trial
+Rank 4: Cleaned up downloaded file for next trial
+Rank 33: Cleaned up downloaded file for next trial
+Rank 8: Cleaned up downloaded file for next trial
+Rank 38: Cleaned up downloaded file for next trial
+Rank 30: Cleaned up downloaded file for next trial
+Rank 12: Cleaned up downloaded file for next trial
+Rank 6: Cleaned up downloaded file for next trial
+Rank 18: Cleaned up downloaded file for next trial
+Rank 22: Cleaned up downloaded file for next trial
+Rank 34: Cleaned up downloaded file for next trial
+Rank 37: Cleaned up downloaded file for next trial
+Rank 9: Cleaned up downloaded file for next trial
+Rank 28: Cleaned up downloaded file for next trial
+Rank 14: Cleaned up downloaded file for next trial
+Rank 16: Cleaned up downloaded file for next trial
+Rank 21: Cleaned up downloaded file for next trial
+Rank 7: Cleaned up downloaded file for next trial
+Rank 32: Cleaned up downloaded file for next trial
+Rank 11: Cleaned up downloaded file for next trial
+Rank 29: Cleaned up downloaded file for next trial
+Rank 17: Cleaned up downloaded file for next trial
+Rank 13: Cleaned up downloaded file for next trial
+Rank 36: Cleaned up downloaded file for next trial
+
+========================================
+DOWNLOAD TRIAL 3/3
+========================================
+Rank 3: Starting S3 download of upload-test/rank_3_100MB.dat_trial1
+Rank 35: Starting S3 download of upload-test/rank_35_100MB.dat_trial1
+Rank 15: Starting S3 download of upload-test/rank_15_100MB.dat_trial1
+Rank 5: Starting S3 download of upload-test/rank_5_100MB.dat_trial1
+Rank 19: Starting S3 download of upload-test/rank_19_100MB.dat_trial1
+Rank 23: Starting S3 download of upload-test/rank_23_100MB.dat_trial1
+Rank 13: Starting S3 download of upload-test/rank_13_100MB.dat_trial1
+Rank 9: Starting S3 download of upload-test/rank_9_100MB.dat_trial1
+Rank 31: Starting S3 download of upload-test/rank_31_100MB.dat_trial1
+Rank 7: Starting S3 download of upload-test/rank_7_100MB.dat_trial1
+Rank 17: Starting S3 download of upload-test/rank_17_100MB.dat_trial1
+Rank 39: Starting S3 download of upload-test/rank_39_100MB.dat_trial1
+Rank 25: Starting S3 download of upload-test/rank_25_100MB.dat_trial1
+Rank 21: Starting S3 download of upload-test/rank_21_100MB.dat_trial1
+Rank 11: Starting S3 download of upload-test/rank_11_100MB.dat_trial1
+Rank 29: Starting S3 download of upload-test/rank_29_100MB.dat_trial1
+Rank 37: Starting S3 download of upload-test/rank_37_100MB.dat_trial1
+Rank 27: Starting S3 download of upload-test/rank_27_100MB.dat_trial1
+Rank 1: Starting S3 download of upload-test/rank_1_100MB.dat_trial1
+Rank 33: Starting S3 download of upload-test/rank_33_100MB.dat_trial1
+Rank 2: Starting S3 download of upload-test/rank_2_100MB.dat_trial1
+Rank 0: Starting S3 download of upload-test/rank_0_100MB.dat_trial1
+Rank 20: Starting S3 download of upload-test/rank_20_100MB.dat_trial1
+Rank 10: Starting S3 download of upload-test/rank_10_100MB.dat_trial1
+Rank 28: Starting S3 download of upload-test/rank_28_100MB.dat_trial1
+Rank 16: Starting S3 download of upload-test/rank_16_100MB.dat_trial1
+Rank 34: Starting S3 download of upload-test/rank_34_100MB.dat_trial1
+Rank 12: Starting S3 download of upload-test/rank_12_100MB.dat_trial1
+Rank 8: Starting S3 download of upload-test/rank_8_100MB.dat_trial1
+Rank 30: Starting S3 download of upload-test/rank_30_100MB.dat_trial1
+Rank 6: Starting S3 download of upload-test/rank_6_100MB.dat_trial1
+Rank 18: Starting S3 download of upload-test/rank_18_100MB.dat_trial1
+Rank 24: Starting S3 download of upload-test/rank_24_100MB.dat_trial1
+Rank 32: Starting S3 download of upload-test/rank_32_100MB.dat_trial1
+Rank 22: Starting S3 download of upload-test/rank_22_100MB.dat_trial1
+Rank 14: Starting S3 download of upload-test/rank_14_100MB.dat_trial1
+Rank 4: Starting S3 download of upload-test/rank_4_100MB.dat_trial1
+Rank 36: Starting S3 download of upload-test/rank_36_100MB.dat_trial1
+Rank 26: Starting S3 download of upload-test/rank_26_100MB.dat_trial1
+Rank 38: Starting S3 download of upload-test/rank_38_100MB.dat_trial1
+Rank 10: download successful (5.19919 MB/s, 100 MB)
+Rank 26: download successful (4.45993 MB/s, 100 MB)
+Rank 12: download successful (4.14702 MB/s, 100 MB)
+Rank 25: download successful (3.80292 MB/s, 100 MB)
+Rank 35: download successful (3.63494 MB/s, 100 MB)
+Rank 18: download successful (3.58495 MB/s, 100 MB)
+Rank 14: download successful (3.49827 MB/s, 100 MB)
+Rank 20: download successful (3.48784 MB/s, 100 MB)
+Rank 21: download successful (3.45207 MB/s, 100 MB)
+Rank 19: download successful (3.41085 MB/s, 100 MB)
+Rank 23: download successful (3.36876 MB/s, 100 MB)
+Rank 6: download successful (3.31881 MB/s, 100 MB)
+Rank 0: download successful (3.3027 MB/s, 100 MB)
+Rank 22: download successful (3.2397 MB/s, 100 MB)
+Rank 39: download successful (3.20566 MB/s, 100 MB)
+Rank 28: download successful (3.13857 MB/s, 100 MB)
+Rank 17: download successful (3.12655 MB/s, 100 MB)
+Rank 38: download successful (3.0951 MB/s, 100 MB)
+Rank 3: download successful (3.08937 MB/s, 100 MB)
+Rank 32: download successful (3.04683 MB/s, 100 MB)
+Rank 16: download successful (2.97566 MB/s, 100 MB)
+Rank 1: download successful (2.97 MB/s, 100 MB)
+Rank 30: download successful (2.96936 MB/s, 100 MB)
+Rank 36: download successful (2.95495 MB/s, 100 MB)
+Rank 7: download successful (2.92461 MB/s, 100 MB)
+Rank 29: download successful (2.91786 MB/s, 100 MB)
+Rank 4: download successful (2.91264 MB/s, 100 MB)
+Rank 11: download successful (2.90111 MB/s, 100 MB)
+Rank 15: download successful (2.87674 MB/s, 100 MB)
+Rank 8: download successful (2.86767 MB/s, 100 MB)
+Rank 33: download successful (2.8561 MB/s, 100 MB)
+Rank 24: download successful (2.83749 MB/s, 100 MB)
+Rank 31: download successful (2.8169 MB/s, 100 MB)
+Rank 2: download successful (2.81649 MB/s, 100 MB)
+Rank 5: download successful (2.81494 MB/s, 100 MB)
+Rank 9: download successful (2.81007 MB/s, 100 MB)
+Rank 13: download successful (2.80733 MB/s, 100 MB)
+Rank 27: download successful (2.79213 MB/s, 100 MB)
+Rank 34: download successful (2.7678 MB/s, 100 MB)
+Rank 37: download successful (2.74142 MB/s, 100 MB)
+
+--- Download Trial 3 Summary ---
+Rank 0: 3.3027 MB/s (download)
+Rank 1: 2.97 MB/s (download)
+Rank 2: 2.81649 MB/s (download)
+Rank 3: 3.08937 MB/s (download)
+Rank 4: 2.91264 MB/s (download)
+Rank 5: 2.81494 MB/s (download)
+Rank 6: 3.31881 MB/s (download)
+Rank 7: 2.92461 MB/s (download)
+Rank 8: 2.86767 MB/s (download)
+Rank 9: 2.81007 MB/s (download)
+Rank 10: 5.19919 MB/s (download)
+Rank 11: 2.90111 MB/s (download)
+Rank 12: 4.14702 MB/s (download)
+Rank 13: 2.80733 MB/s (download)
+Rank 14: 3.49827 MB/s (download)
+Rank 15: 2.87674 MB/s (download)
+Rank 16: 2.97566 MB/s (download)
+Rank 17: 3.12655 MB/s (download)
+Rank 18: 3.58495 MB/s (download)
+Rank 19: 3.41085 MB/s (download)
+Rank 20: 3.48784 MB/s (download)
+Rank 21: 3.45207 MB/s (download)
+Rank 22: 3.2397 MB/s (download)
+Rank 23: 3.36876 MB/s (download)
+Rank 24: 2.83749 MB/s (download)
+Rank 25: 3.80292 MB/s (download)
+Rank 26: 4.45993 MB/s (download)
+Rank 27: 2.79213 MB/s (download)
+Rank 28: 3.13857 MB/s (download)
+Rank 29: 2.91786 MB/s (download)
+Rank 30: 2.96936 MB/s (download)
+Rank 31: 2.8169 MB/s (download)
+Rank 32: 3.04683 MB/s (download)
+Rank 33: 2.8561 MB/s (download)
+Rank 34: 2.7678 MB/s (download)
+Rank 35: 3.63494 MB/s (download)
+Rank 36: 2.95495 MB/s (download)
+Rank 37: 2.74142 MB/s (download)
+Rank 38: 3.0951 MB/s (download)
+Rank 39: 3.20566 MB/s (download)
+Average download bandwidth: 3.19853 MB/s
+Total download throughput: 127.941 MB/s
+Download trial duration: 30.2789 seconds
+Successful download ranks: 40/40
+
+========================================
+FINAL DOWNLOAD STATISTICS ACROSS ALL TRIALS
+========================================
+Successful download trials: 3/3
+Download bandwidth per rank:
+  Mean: 3.01324 MB/s
+  Std Dev: 0.208437 MB/s
+  Values: 2.9168 2.82023 3.3027 
+Download trial duration:
+  Mean: 33.341 seconds
+  Std Dev: 2.21767 seconds
+  Values: 34.2848 35.4592 30.2789 
+Aggregate download throughput: 120.53 MB/s
+
+Cleaned up BeeGFS download directory
+
+=== OVERALL BENCHMARK SUMMARY ===
+Configuration: 10 nodes, 4 tasks/node, 50M
+Total tasks: 40
+File size: 100 MB
+Transfer size: 50M (51200 KB)
+Number of trials: 3
+Total duration: 242 seconds
+Exit code: 0
+Completed at: Wed Jul 30 22:27:37 PDT 2025

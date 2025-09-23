@@ -1,0 +1,151 @@
+=== S3 MPI BENCHMARK LOG ===
+Configuration: 1 nodes, 1 tasks/node, DEFAULT transfer size
+Total tasks: 1
+File size: 100 MB
+Transfer size: DEFAULT (-1 KB)
+Number of trials: 3
+Started at: Tue Jul 29 22:35:55 PDT 2025
+
+Using region: us-west-2
+Transfer method: AWS default upload (part size: -1)
+Temp directory: /tmp/s3_benchmark_$
+Number of trials: 3
+Using AWS SDK default upload behavior
+Generating test files (100 MB each)...
+Generated file size: 100 MB
+File size per process: 100 MB
+Operations per process: AWS SDK managed (unknown)
+
+============================================================
+STARTING UPLOAD TESTS TO S3
+============================================================
+
+========================================
+UPLOAD TRIAL 1/3
+========================================
+Upload file size: 100 MB
+Rank 0: Starting AWS default upload
+Rank 0: upload successful (71.5588 MB/s, AWS default) [AWS SDK default behavior]
+
+--- Upload Trial 1 Summary ---
+Rank 0: 71.5588 MB/s (AWS default)
+Average upload bandwidth: 71.5588 MB/s
+Total upload throughput: 71.5588 MB/s
+Upload trial duration: 1.39753 seconds
+Successful upload ranks: 1/1
+
+========================================
+UPLOAD TRIAL 2/3
+========================================
+Upload file size: 100 MB
+Rank 0: Starting AWS default upload
+Rank 0: upload successful (82.7416 MB/s, AWS default) [AWS SDK default behavior]
+
+--- Upload Trial 2 Summary ---
+Rank 0: 82.7416 MB/s (AWS default)
+Average upload bandwidth: 82.7416 MB/s
+Total upload throughput: 82.7416 MB/s
+Upload trial duration: 1.20867 seconds
+Successful upload ranks: 1/1
+
+========================================
+UPLOAD TRIAL 3/3
+========================================
+Upload file size: 100 MB
+Rank 0: Starting AWS default upload
+Rank 0: upload successful (82.0593 MB/s, AWS default) [AWS SDK default behavior]
+
+--- Upload Trial 3 Summary ---
+Rank 0: 82.0593 MB/s (AWS default)
+Average upload bandwidth: 82.0593 MB/s
+Total upload throughput: 82.0593 MB/s
+Upload trial duration: 1.21871 seconds
+Successful upload ranks: 1/1
+
+========================================
+FINAL UPLOAD STATISTICS ACROSS ALL TRIALS
+========================================
+Successful upload trials: 3/3
+Upload bandwidth per rank:
+  Mean: 78.7866 MB/s
+  Std Dev: 5.11838 MB/s
+  Values: 71.5588 82.7416 82.0593 
+Upload trial duration:
+  Mean: 1.27497 seconds
+  Std Dev: 0.0867585 seconds
+  Values: 1.39753 1.20867 1.21871 
+Aggregate upload throughput: 78.7866 MB/s
+Upload method: AWS SDK default
+
+============================================================
+STARTING DOWNLOAD TESTS FROM S3 TO BEEGFS
+============================================================
+BeeGFS download directory: /rcfs/projects/datamesh/tang584/ior_cp_data
+Created BeeGFS download directory
+
+========================================
+DOWNLOAD TRIAL 1/3
+========================================
+Rank 0: Starting S3 download of upload-test/rank_0_100MB.dat_trial1
+Rank 0: download successful (88.2713 MB/s, 100 MB)
+
+--- Download Trial 1 Summary ---
+Rank 0: 88.2713 MB/s (download)
+Average download bandwidth: 88.2713 MB/s
+Total download throughput: 88.2713 MB/s
+Download trial duration: 1.13336 seconds
+Successful download ranks: 1/1
+Rank 0: Cleaned up downloaded file for next trial
+
+========================================
+DOWNLOAD TRIAL 2/3
+========================================
+Rank 0: Starting S3 download of upload-test/rank_0_100MB.dat_trial1
+Rank 0: download successful (87.3758 MB/s, 100 MB)
+
+--- Download Trial 2 Summary ---
+Rank 0: 87.3758 MB/s (download)
+Average download bandwidth: 87.3758 MB/s
+Total download throughput: 87.3758 MB/s
+Download trial duration: 1.14501 seconds
+Successful download ranks: 1/1
+Rank 0: Cleaned up downloaded file for next trial
+
+========================================
+DOWNLOAD TRIAL 3/3
+========================================
+Rank 0: Starting S3 download of upload-test/rank_0_100MB.dat_trial1
+Rank 0: download successful (88.8245 MB/s, 100 MB)
+
+--- Download Trial 3 Summary ---
+Rank 0: 88.8245 MB/s (download)
+Average download bandwidth: 88.8245 MB/s
+Total download throughput: 88.8245 MB/s
+Download trial duration: 1.12624 seconds
+Successful download ranks: 1/1
+
+========================================
+FINAL DOWNLOAD STATISTICS ACROSS ALL TRIALS
+========================================
+Successful download trials: 3/3
+Download bandwidth per rank:
+  Mean: 88.1572 MB/s
+  Std Dev: 0.596892 MB/s
+  Values: 88.2713 87.3758 88.8245 
+Download trial duration:
+  Mean: 1.13487 seconds
+  Std Dev: 0.00773653 seconds
+  Values: 1.13336 1.14501 1.12624 
+Aggregate download throughput: 88.1572 MB/s
+
+Cleaned up BeeGFS download directory
+
+=== OVERALL BENCHMARK SUMMARY ===
+Configuration: 1 nodes, 1 tasks/node, DEFAULT
+Total tasks: 1
+File size: 100 MB
+Transfer size: DEFAULT (-1 KB)
+Number of trials: 3
+Total duration: 24 seconds
+Exit code: 0
+Completed at: Tue Jul 29 22:36:19 PDT 2025
